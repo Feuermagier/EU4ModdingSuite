@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Main" />
+        <module name="Model" />
+        <module name="UI" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EU4ModdingSuite" target="10" />
+      <module name="Main" target="10" />
+      <module name="Model" target="10" />
+      <module name="UI" target="10" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="--add-exports javafx.graphics/com.sun.javafx.sg.prism=firemage.moddingsuite.ui" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="UI" options="" />
+    </option>
+  </component>
+</project>

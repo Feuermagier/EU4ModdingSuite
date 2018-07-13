@@ -19,7 +19,18 @@
 	<build>
 		<sourceDirectory>src/main/java/firemage.moddingsuite.ui</sourceDirectory>
 		<testSourceDirectory>src/test/java/firemage.moddingsuite.ui</testSourceDirectory>
+		<resources>
+			<resource>
+				<directory>src/main/java/firemage.moddingsuite.ui</directory>
+			</resource>
+		</resources>
 	</build>
 	<dependencies>
+		<dependency>
+			<groupId>firemage.moddingsuite</groupId>
+			<artifactId>Model</artifactId>
+			<version>0.1</version>
+			<scope>compile</scope>
+		</dependency>
 	</dependencies>
 </project>

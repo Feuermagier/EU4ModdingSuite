@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:id="rootPane">
+    <MenuBar>
+        <Menu text="Datei">
+            <MenuItem text="Speichern" fx:id="saveMenuItem" onAction="#save"/>
+        </Menu>
+    </MenuBar>
+    <SplitPane dividerPositions="0.1, 0.9">
+        <items>
+            <VBox>
+                <HBox alignment="BASELINE_CENTER">
+                    <Button text="Up" fx:id="upButton" onAction="#moveLayerUpAction"/>
+                    <Button text="Down" fx:id="downButton" onAction="#moveLayerDownAction"/>
+                </HBox>
+                <ScrollPane>
+                    <ListView fx:id="layerListView"/>
+                </ScrollPane>
+            </VBox>
+            <ScrollPane fx:id="centerScrollPane" hbarPolicy="ALWAYS" vbarPolicy="ALWAYS" fitToWidth="true" fitToHeight="true">
+                <AnchorPane fx:id="centerPane" style="-fx-background-color: white" />
+            </ScrollPane>
+            <ScrollPane fx:id="palettePane"/>
+        </items>
+    </SplitPane>
+</VBox>
