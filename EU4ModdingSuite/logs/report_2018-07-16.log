@@ -1,0 +1,8 @@
+[INFO ] 2018-07-16 17:20:48,696 Main.main() - Application started at 2018-07-16T17:20:48.696786600
+[DEBUG] 2018-07-16 17:20:50,429 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-16 17:20:50,434 EU4Preloader.changeState() - loading...
+[DEBUG] 2018-07-16 17:20:50,453 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-07-16 17:20:50,791 FileProvider.loadTerrrain() - reading terrain map image from D:\Programme\SteamLibrary\steamapps\common\Europa Universalis IV\map\terrain.bmp
+[DEBUG] 2018-07-16 17:20:51,094 MapProvider.updateProvinceMap() - updating map
+[DEBUG] 2018-07-16 17:20:58,243 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-16 17:20:58,244 EU4Preloader.changeState() - loaded

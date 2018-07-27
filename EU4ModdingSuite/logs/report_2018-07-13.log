@@ -1,0 +1,8 @@
+[INFO ] 2018-07-13 19:35:00,884 Main.main() - Application started at 2018-07-13T19:35:00.880539400
+[DEBUG] 2018-07-13 19:35:09,071 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-13 19:35:09,073 EU4Preloader.changeState() - go work
+[DEBUG] 2018-07-13 19:35:09,076 EU4Preloader.changeState() - working
+[DEBUG] 2018-07-13 19:35:09,096 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-07-13 19:35:09,152 FileProvider.loadProvinces() - getting pixels
+[DEBUG] 2018-07-13 19:35:15,997 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-13 19:35:15,998 EU4Preloader.changeState() - hiding

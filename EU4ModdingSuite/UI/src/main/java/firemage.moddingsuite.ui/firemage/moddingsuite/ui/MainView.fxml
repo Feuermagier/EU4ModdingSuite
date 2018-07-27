@@ -7,9 +7,18 @@
         <Menu text="Datei">
             <MenuItem text="Speichern" fx:id="saveMenuItem" onAction="#save"/>
         </Menu>
+        <Menu text="Werkzeuge">
+            <MenuItem text="Heightmap" onAction="#createHeightmap"/>
+            <MenuItem text="Flusskarte" onAction="#createRivermap"/>
+        </Menu>
     </MenuBar>
-    <SplitPane dividerPositions="0.1, 0.9">
-        <items>
+    <StackPane>
+        <BorderPane fx:id="waitPane" style="-fx-background-color:rgba(0,0,0,0.7);">
+            <center>
+                <ProgressIndicator/>
+            </center>
+        </BorderPane>
+        <SplitPane dividerPositions="0.1, 0.9">
             <VBox>
                 <HBox alignment="BASELINE_CENTER">
                     <Button text="Up" fx:id="upButton" onAction="#moveLayerUpAction"/>
@@ -19,10 +28,11 @@
                     <ListView fx:id="layerListView"/>
                 </ScrollPane>
             </VBox>
-            <ScrollPane fx:id="centerScrollPane" hbarPolicy="ALWAYS" vbarPolicy="ALWAYS" fitToWidth="true" fitToHeight="true">
-                <AnchorPane fx:id="centerPane" style="-fx-background-color: white" />
+            <ScrollPane fx:id="centerScrollPane" hbarPolicy="ALWAYS" vbarPolicy="ALWAYS" fitToWidth="true"
+                        fitToHeight="true">
+                <AnchorPane fx:id="centerPane" style="-fx-background-color: white"/>
             </ScrollPane>
             <ScrollPane fx:id="palettePane"/>
-        </items>
-    </SplitPane>
+        </SplitPane>
+    </StackPane>
 </VBox>

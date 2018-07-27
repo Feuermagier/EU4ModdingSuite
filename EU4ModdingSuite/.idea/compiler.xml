@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Main" />
         <module name="Model" />
+        <module name="Preloader" />
+        <module name="Starter" />
         <module name="UI" />
       </profile>
     </annotationProcessing>
@@ -15,12 +17,19 @@
       <module name="EU4ModdingSuite" target="10" />
       <module name="Main" target="10" />
       <module name="Model" target="10" />
+      <module name="Preloader" target="10" />
+      <module name="Starter" target="10" />
       <module name="UI" target="10" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="--add-exports javafx.graphics/com.sun.javafx.sg.prism=firemage.moddingsuite.ui" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="EU4ModdingSuite" options="" />
+      <module name="Main" options="" />
+      <module name="Model" options="" />
+      <module name="Preloader" options="" />
+      <module name="Starter" options="" />
       <module name="UI" options="" />
     </option>
   </component>

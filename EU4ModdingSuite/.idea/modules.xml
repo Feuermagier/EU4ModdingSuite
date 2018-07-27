@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite.iml" />
       <module fileurl="file://$PROJECT_DIR$/Main/Main.iml" filepath="$PROJECT_DIR$/Main/Main.iml" />
       <module fileurl="file://$PROJECT_DIR$/Model/Model.iml" filepath="$PROJECT_DIR$/Model/Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preloader/Preloader.iml" filepath="$PROJECT_DIR$/Preloader/Preloader.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starter/Starter.iml" filepath="$PROJECT_DIR$/Starter/Starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/UI/UI.iml" filepath="$PROJECT_DIR$/UI/UI.iml" />
     </modules>
   </component>

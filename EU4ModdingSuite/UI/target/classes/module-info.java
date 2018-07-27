@@ -7,8 +7,10 @@ module firemage.moddingsuite.ui {
 			requires java.desktop;
 			requires javafx.swing;
     requires firemage.moddingsuite.model;
+    requires org.apache.logging.log4j;
 
     opens firemage.moddingsuite.ui;
 
 			exports firemage.moddingsuite.ui;
+    exports firemage.moddingsuite.ui.layers;
 }

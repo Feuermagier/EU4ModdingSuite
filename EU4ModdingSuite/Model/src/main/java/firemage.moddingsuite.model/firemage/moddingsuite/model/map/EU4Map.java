@@ -1,35 +1,21 @@
 package firemage.moddingsuite.model.map;
 
-import javafx.embed.swing.SwingFXUtils;
+import javafx.beans.property.ObjectProperty;
 import javafx.scene.image.Image;
 import javafx.scene.image.WritableImage;
-import javafx.stage.FileChooser;
-
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.awt.image.IndexColorModel;
 
 public abstract class EU4Map {
 
-    private WritableImage imageData;
-    private IndexColorModel colorModel;
+    private ObjectProperty<WritableImage> imageData;
 
-    public EU4Map(WritableImage imageData, IndexColorModel colorModel) {
+    EU4Map(ObjectProperty<WritableImage> imageData) {
         this.imageData = imageData;
-        this.colorModel = colorModel;
     }
 
-    public double getWidth() { return imageData.getWidth(); }
-    public double getHeight() { return  imageData.getHeight(); }
+    public double getWidth() { return imageData.get().getWidth(); }
+    public double getHeight() { return  imageData.get().getHeight(); }
 
-    public void writeImageData(WritableImage image) { this.imageData = image; }
-    public Image getImageData() { return imageData; }
-
-    public IndexColorModel getColorModel() { return colorModel; }
-
-    public BufferedImage convertToSaveableImage() throws Exception {
-        BufferedImage writeImage = new BufferedImage((int)getWidth(), (int)getHeight(), BufferedImage.TYPE_BYTE_INDEXED, getColorModel());
-        writeImage.createGraphics().drawImage(SwingFXUtils.fromFXImage(getImageData(), null), 0, 0, null);
-        return writeImage;
-    }
+    public void writeImageData(WritableImage image) { this.imageData.set(image); }
+    public Image getImageData() { return imageData.get(); }
+    public ObjectProperty<WritableImage> imageDataProperty() { return imageData; }
 }

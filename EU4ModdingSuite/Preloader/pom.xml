@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>firemage.moddingsuite</groupId>
+		<artifactId>EU4ModdingSuite</artifactId>
+		<version>0.1</version>
+	</parent>
+	<groupId>firemage.moddingsuite</groupId>
+	<artifactId>Preloader</artifactId>
+	<version>0.1</version>
+	<name>Preloader</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
+		<sourceDirectory>src/main/java/firemage.moddingsuite.preloader</sourceDirectory>
+		<testSourceDirectory>src/test/java/firemage.moddingsuite.preloader</testSourceDirectory>
+	</build>
+	<dependencies>
+        <dependency>
+            <groupId>firemage.moddingsuite</groupId>
+            <artifactId>Model</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>firemage.moddingsuite</groupId>
+            <artifactId>Starter</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+</project>

@@ -8,8 +8,7 @@
 		<artifactId>EU4ModdingSuite</artifactId>
 		<version>0.1</version>
 	</parent>
-	<groupId>firemage.moddingsuite</groupId>
-	<artifactId>Model</artifactId>
+    <artifactId>Model</artifactId>
 	<version>0.1</version>
 	<name>Model</name>
 	<url>http://maven.apache.org</url>
@@ -21,11 +20,5 @@
 		<testSourceDirectory>src/test/java/firemage.moddingsuite.model</testSourceDirectory>
 	</build>
 	<dependencies>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter-api</artifactId>
-            <version>5.0.1assertj</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
+	</dependencies>
 </project>

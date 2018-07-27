@@ -1,0 +1,7 @@
+[INFO ] 2018-07-15 22:18:17,391 Main.main() - Application started at 2018-07-15T22:18:17.387518500
+[DEBUG] 2018-07-15 22:18:21,109 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-15 22:18:21,112 EU4Preloader.changeState() - loading...
+[DEBUG] 2018-07-15 22:18:21,178 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-07-15 22:18:21,488 MapProvider.updateProvinceMap() - updating map
+[DEBUG] 2018-07-15 22:18:28,187 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-15 22:18:28,188 EU4Preloader.changeState() - loaded

@@ -6,4 +6,6 @@ module firemage.moddingsuite.model {
     requires java.desktop;
     requires javafx.graphics;
     requires javafx.swing;
+    requires org.apache.logging.log4j;
+    requires opencvjar;
 }

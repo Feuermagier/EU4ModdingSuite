@@ -1,0 +1,11 @@
+[INFO ] 2018-07-24 17:54:02,538 Main.main() - Application started at 2018-07-24T17:54:02.522725900
+[DEBUG] 2018-07-24 17:54:08,886 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-24 17:54:08,891 EU4Preloader.changeState() - loading...
+[DEBUG] 2018-07-24 17:54:08,899 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-07-24 17:54:09,349 FileProvider.loadTerrain() - reading terrain map image from D:\Programme\SteamLibrary\steamapps\common\Europa Universalis IV\map\terrain.bmp
+[DEBUG] 2018-07-24 17:54:09,648 FileProvider.loadRivers() - reading river map image from D:\Programme\SteamLibrary\steamapps\common\Europa Universalis IV\map\rivers.bmp
+[DEBUG] 2018-07-24 17:54:09,908 FileProvider.loadHeightmap() - reading heightmap image from D:\Programme\SteamLibrary\steamapps\common\Europa Universalis IV\map\heightmap.bmp
+[DEBUG] 2018-07-24 17:54:10,168 MapProvider.updateProvinceMap() - updating map
+[DEBUG] 2018-07-24 17:54:12,686 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-07-24 17:54:12,686 EU4Preloader.changeState() - loaded
+[DEBUG] 2018-07-24 17:54:17,643 MainViewModel.save() - Saving to C:\map

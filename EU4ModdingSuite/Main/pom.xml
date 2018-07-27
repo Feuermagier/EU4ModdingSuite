@@ -23,14 +23,15 @@
 	<dependencies>
 		<dependency>
 			<groupId>firemage.moddingsuite</groupId>
-			<artifactId>UI</artifactId>
-            <version>0.1</version>
+			<artifactId>Starter</artifactId>
+			<version>0.1</version>
+			<scope>compile</scope>
 		</dependency>
-        <dependency>
-            <groupId>firemage.moddingsuite</groupId>
-            <artifactId>Model</artifactId>
-            <version>0.1</version>
-            <scope>compile</scope>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>firemage.moddingsuite</groupId>
+			<artifactId>Preloader</artifactId>
+			<version>0.1</version>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
 </project>

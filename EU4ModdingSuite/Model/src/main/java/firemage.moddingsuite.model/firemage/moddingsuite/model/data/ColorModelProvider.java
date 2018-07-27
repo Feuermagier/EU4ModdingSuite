@@ -1,29 +1,34 @@
 package firemage.moddingsuite.model.data;
 
-import firemage.moddingsuite.model.util.FileUtil;
+import javafx.application.Platform;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+import javax.imageio.ImageIO;
 import java.awt.image.IndexColorModel;
 import java.io.File;
 
 public class ColorModelProvider {
 
+    private static final Logger logger = LogManager.getLogger(ColorModelProvider.class);
+
     private static IndexColorModel terrainColorModel;
+    private static IndexColorModel riverColorModel;
 
     static {
-        System.out.println(new File("terrain_color.txt").getAbsolutePath());
         try {
-            int[] data = FileUtil.readIntegerCSVFile(new File("terrain_colors.txt"), 0);
-            byte[] reds = FileUtil.readByteCSVFile(new File("terrain_colors.txt"), 1);
-            byte[] blues = FileUtil.readByteCSVFile(new File("terrain_colors.txt"), 2);
-            byte[] greens = FileUtil.readByteCSVFile(new File("terrain_colors.txt"), 3);
 
-            terrainColorModel = new IndexColorModel(data[0], data[1], reds, greens, blues);
+            terrainColorModel = (IndexColorModel)ImageIO.read(new File("terrain.bmp")).getColorModel();
+            riverColorModel = (IndexColorModel)ImageIO.read(new File("rivers.bmp")).getColorModel();
         }catch(Exception ex) {
-            ex.printStackTrace();
+            logger.fatal(ex.getMessage());
+            Platform.exit();
         }
     }
 
     public static IndexColorModel getTerrainColorModel() {
         return terrainColorModel;
     }
+
+    public static IndexColorModel getRiverColorModel() { return riverColorModel; }
 }

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>EU4ModdingSuite</artifactId>
+        <groupId>firemage.moddingsuite</groupId>
+        <version>0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>Starter</artifactId>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <sourceDirectory>src/main/java/firemage.moddingsuite.starter</sourceDirectory>
+        <testSourceDirectory>src/test/java/firemage.moddingsuite.starter</testSourceDirectory>
+        <resources>
+            <resource>
+                <directory>src/main/java/firemage.moddingsuite.starter</directory>
+            </resource>
+        </resources>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>firemage.moddingsuite</groupId>
+            <artifactId>Model</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>firemage.moddingsuite</groupId>
+            <artifactId>UI</artifactId>
+            <version>0.1</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+</project>

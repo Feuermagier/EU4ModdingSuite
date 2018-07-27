@@ -3,6 +3,7 @@ package firemage.moddingsuite.ui;
 import de.saxsys.mvvmfx.InjectViewModel;
 import de.saxsys.mvvmfx.JavaView;
 import firemage.moddingsuite.ui.layers.Layer;
+import firemage.moddingsuite.ui.layers.LayerProvider;
 import javafx.collections.ListChangeListener;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -30,13 +31,10 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
     private VBox rootPane;
 
     @FXML
-    private ListView layerListView;
+    private ListView<Layer> layerListView;
 
     @FXML
     private Pane centerPane;
-
-    @FXML
-    private ScrollPane centerScrollPane;
 
     @FXML
     private ScrollPane palettePane;
@@ -64,7 +62,7 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
         centerPane.setSnapToPixel(true);
         updateLayers();
 
-        viewModel.getLayers().addListener((ListChangeListener<Layer>) c -> {
+        LayerProvider.getLayers().addListener((ListChangeListener<Layer>) c -> {
             updateLayers();
         });
 
@@ -72,21 +70,21 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
 
         viewModel.layerSelectionIndexProperty().bind(layerListView.getSelectionModel().selectedIndexProperty());
 
-        layerListView.setCellFactory(new Callback<ListView<Layer>, ListCell<Layer>>() {
+        layerListView.setCellFactory(new Callback<>() {
             @Override
-            public ListCell call(ListView<Layer> param) {
+            public ListCell<Layer> call(ListView<Layer> param) {
                 ListCell<Layer> cell = new ListCell<>() {
                     @Override
                     protected void updateItem(Layer t, boolean empty) {
                         super.updateItem(t, empty);
-                        if(t != null) setText(t.getName());
+                        if (t != null) setText(t.getName());
                     }
                 };
                 return cell;
             }
         });
 
-        layerListView.setItems(viewModel.getLayers());
+        layerListView.setItems(LayerProvider.getLayers());
         layerListView.getSelectionModel().selectFirst();
     }
 
@@ -94,10 +92,14 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
         if(viewModel.getLayerSelectionIndex() < 0) return;
 
         centerPane.getChildren().clear();
-        for(int i=viewModel.getLayers().size()-1; i>=viewModel.getLayerSelectionIndex(); i--) {
-            centerPane.getChildren().add(viewModel.getLayers().get(i));
+        for(int i=LayerProvider.getLayers().size()-1; i>=viewModel.getLayerSelectionIndex(); i--) {
+            try {
+                centerPane.getChildren().add(LayerProvider.getLayers().get(i));
+            } catch(IllegalArgumentException ex) {
+                //ignore duplicate children exception
+            }
         }
-        palettePane.setContent(viewModel.getLayers().get(viewModel.getLayerSelectionIndex()).getPalette());
+        palettePane.setContent(LayerProvider.getLayers().get(viewModel.getLayerSelectionIndex()).getPalette());
     }
 
     @FXML
@@ -112,6 +114,12 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
 
     @FXML
     public void save() { viewModel.getSaveCommand().execute(); }
+
+    @FXML
+    public void createHeightmap() { viewModel.getProduceHeightmapCommand().execute(); }
+
+    @FXML
+    public void createRivermap() {viewModel.getProduceRivermapCommand().execute(); }
 
 
     public void fitToScreen() {
