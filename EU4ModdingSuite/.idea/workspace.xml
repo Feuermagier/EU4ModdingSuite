@@ -2,113 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="605664e3-6974-4e5b-a2e4-885df512b31d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../ColorTableWriter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javaopencvbook_opencvjar_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javaopencvbook_opencvjar_runtime_natives_windows_x86_64_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Main/src/main/java/firemage.moddingsuite.main/firemage/moddingsuite/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/RiverType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/RivermapProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/TerrainType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/FileProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/WrongLocationException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/ConstructedMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/Heightmap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/IndexedRealMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/RealMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/RiverMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/util/PaintUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preloader/Preloader.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starter/Starter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starter/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Starter/src/main/java/firemage.moddingsuite.starter/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/ConstructedMapLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/EmptyPalette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/LayerProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/ProvinceMapLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/ProvincePalette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/RealMapLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/RiverPalette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ColorTableWriter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ColorTableWriter/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ColorTableWriter/ColorTableWriter.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ColorTableWriter/ColorTableWriter.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ColorTableWriter/out/production/ColorTableWriter/firemage/colortablewriter/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ColorTableWriter/out/production/ColorTableWriter/firemage/colortablewriter/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ColorTableWriter/src/firemage/colortablewriter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ColorTableWriter/src/firemage/colortablewriter/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_0_1assertj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/CreateNewModWizard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/LoadModWizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EU4ModdingSuite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EU4ModdingSuite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/Main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Main/Main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/main/java/firemage.moddingsuite.main/MainView.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/main/java/firemage.moddingsuite.main/firemage/moddingsuite/main/Starter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Starter/src/main/java/firemage.moddingsuite.starter/firemage/moddingsuite/starter/Starter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/src/main/java/firemage.moddingsuite.main/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main/src/main/java/firemage.moddingsuite.main/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/target/Main-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Main/target/Main-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/target/classes/firemage/moddingsuite/main/Starter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Model/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/HeightmapProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/HeightmapProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/Province.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/Province.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/ColorModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/ColorModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/MapProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/MapProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/EU4Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/EU4Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/ProvinceMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/ProvinceMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/TerrainMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/TerrainMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/VisualMap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/Model-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/Model-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/HeightmapProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/HeightmapProducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/Province.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/Province.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/data/ColorModelProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/data/ColorModelProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/data/MapProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/data/MapProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/EU4Map.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/EU4Map.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/ProvinceMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/ProvinceMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/TerrainMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/TerrainMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/firemage/moddingsuite/model/map/VisualMap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/Model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/UI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UI/UI.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/UI/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/Layer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/TerrainPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/TerrainPalette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/UI-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/UI-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/MainViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/Layer.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/Layer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/Layer.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/Layer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette$TerrainType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/firemage/moddingsuite/ui/layers/TerrainPalette.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/module-info.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/classes/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/classes/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/UI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preloader/target/classes/firemage/moddingsuite/preloader/EU4Preloader.class" beforeDir="false" afterPath="$PROJECT_DIR$/Preloader/target/classes/firemage/moddingsuite/preloader/EU4Preloader.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/report.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/report.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/report_2018-07-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/report_2018-07-12.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Main-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Main-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/Model-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/modules/Model-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/UI-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/modules/UI-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/dependency-jars/UI-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/modules/dependency-jars/UI-0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/terrain_colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/terrain_colors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/report_2018-07-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/report_2018-07-27.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Model/target/" />
@@ -126,32 +26,33 @@
     <session id="1469218589">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="fxml" value="1" />
-          <entry key="java" value="15" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="15" />
+          <entry key="JAVA" value="17" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="698" />
+          <entry key="java" value="2016" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="698" />
+          <entry key="JAVA" value="2016" />
         </counts>
       </usages-collector>
     </session>
@@ -159,32 +60,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/IndexedRealMap.java">
+        <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            <state relative-caret-position="1792">
+              <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java">
+        <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/LoadModWizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="143">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/RealMap.java">
+        <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/CreateNewModWizard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="40" selection-start-column="40" selection-end-column="40" />
+            <state relative-caret-position="228">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,7 +95,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
+            <state relative-caret-position="1326">
               <caret line="108" selection-start-line="108" selection-end-line="108" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -223,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/MapProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-731">
+            <state relative-caret-position="544">
               <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -237,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/FileProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="106" column="11" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="11" />
+            <state relative-caret-position="1207">
+              <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -306,8 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/module-info.java" />
-        <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/WrongLocationException.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/VisualMap.java" />
         <option value="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/ConsturctedMapLayer.java" />
         <option value="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/layers/RealMapLayer.java" />
@@ -349,14 +249,16 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/ColorModelProvider.java" />
         <option value="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainView.java" />
-        <option value="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java" />
-        <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/FileProvider.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/RealMap.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/Heightmap.java" />
         <option value="$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/IndexedRealMap.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/TerrainMap.java" />
         <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/RiverMap.java" />
+        <option value="$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/FileProvider.java" />
+        <option value="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java" />
+        <option value="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/CreateNewModWizard.java" />
+        <option value="$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/LoadModWizard.java" />
       </list>
     </option>
   </component>
@@ -387,6 +289,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -611,7 +514,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -642,7 +544,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.Maven_Run">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="firemage.moddingsuite.main.Main" />
       <module name="Main" />
@@ -748,7 +650,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80233794" visible="true" weight="0.17377399" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.80233794" visible="true" weight="0.17697228" />
       <window_info id="Structure" order="1" sideWeight="0.19766206" side_tool="true" weight="0.20833333" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -802,14 +704,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/util/blur/GaussianFilter.java" />
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Starter/src/main/java/firemage.moddingsuite.starter/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1020,9 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="80" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1048,10 +939,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/ProvinceMap.java">
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/imageio/ImageWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="572" column="25" selection-start-line="572" selection-start-column="25" selection-end-line="572" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/IndexedRealMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1067,6 +965,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/Heightmap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1074,9 +982,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/ProvinceMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/MapProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-731">
+        <state relative-caret-position="544">
           <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1088,35 +1003,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/data/FileProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="106" column="11" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="11" />
+        <state relative-caret-position="1207">
+          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.desktop/javax/imageio/ImageWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="572" column="25" selection-start-line="572" selection-start-column="25" selection-end-line="572" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/src/main/java/firemage.moddingsuite.ui/firemage/moddingsuite/ui/MainViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/src/main/java/firemage.moddingsuite.model/firemage/moddingsuite/model/map/IndexedRealMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1136,8 +1027,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/EU4Preloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1792">
+          <caret line="132" column="51" lean-forward="true" selection-start-line="132" selection-start-column="51" selection-end-line="132" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/CreateNewModWizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage/moddingsuite/preloader/LoadModWizard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,6 +6,8 @@ import javafx.application.Platform;
 import javafx.application.Preloader;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
+import javafx.beans.value.ChangeListener;
+import javafx.beans.value.ObservableValue;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
@@ -19,22 +21,27 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.File;
+import java.util.concurrent.Callable;
+import java.util.concurrent.FutureTask;
 
 public class EU4Preloader extends Preloader {
 
     private static Logger logger = LogManager.getLogger(EU4Preloader.class);
 
     private Stage stage;
-    private StringProperty workingPath = new SimpleStringProperty("C:\\Users\\Jakob\\Documents\\Paradox Interactive\\Europa Universalis IV\\mod\\dwarf_test");
+    //private StringProperty workingPath = new SimpleStringProperty("C:\\Users\\Jakob\\Documents\\Paradox Interactive\\Europa Universalis IV\\mod\\dwarf_test");
     private StringProperty steamPath = new SimpleStringProperty("D:\\Steam\\steamapps\\common\\Europa Universalis IV");
     private BorderPane progressPane;
 
     private Starter starter;
 
     private boolean isLoading = false;
+    private boolean shouldCreateNewMod = false;
+
+    final FutureTask<File> loadModTask = new FutureTask<>(() -> new LoadModWizard().show());
+    final FutureTask<File> createNewModTask = new FutureTask<>(() -> new CreateNewModWizard().show());
 
     private Scene createPreloaderScene() {
-
 
         StackPane stack = new StackPane();
 
@@ -52,22 +59,6 @@ public class EU4Preloader extends Preloader {
         box.setPadding(new Insets(20));
         box.setStyle("-fx-background-color: lightgrey");
 
-        HBox workingBox = new HBox();
-        workingBox.setSpacing(5);
-        TextField workingPathField = new TextField();
-        workingPathField.setEditable(false);
-        workingPathField.setPromptText("Mod-Speicherort");
-        workingPathField.textProperty().bind(workingPath);
-        Button workingFileChooserButton = new Button("Durchsuchen");
-        workingBox.getChildren().addAll(workingPathField, workingFileChooserButton);
-        workingFileChooserButton.setOnAction(event -> {
-            DirectoryChooser chooser = new DirectoryChooser();
-            chooser.setTitle("Mod-Speicherort wählen");
-            File file = chooser.showDialog(stage);
-            if(file != null) workingPath.set(file.getAbsolutePath());
-        });
-        box.getChildren().add(workingBox);
-
         HBox steamBox = new HBox();
         steamBox.setSpacing(5);
         TextField steamPathField = new TextField();
@@ -84,9 +75,18 @@ public class EU4Preloader extends Preloader {
         });
         box.getChildren().add(steamBox);
 
-        Button startButton = new Button("Ok");
-        startButton.setOnAction(event -> changeState());
-        box.getChildren().add(startButton);
+        HBox buttonBox = new HBox();
+
+        Button loadModButton = new Button("Mod laden");
+        loadModButton.setOnAction(event -> {
+            Platform.runLater(loadModTask);
+            shouldCreateNewMod = false;
+            changeState();
+        });
+        Button createNewModButton = new Button("Neue Mod erstellen");
+        buttonBox.getChildren().addAll(loadModButton, createNewModButton);
+
+        box.getChildren().add(buttonBox);
 
 
         stack.getChildren().add(box);
@@ -120,9 +120,18 @@ public class EU4Preloader extends Preloader {
 
         logger.debug("changeState");
 
-        if(workingPath.get() != null && steamPath.get() != null &! isLoading && starter != null) {
+        if(steamPath.get() != null &! isLoading && starter != null) {
             FileProvider.getInstance().setSteamLocation(new File(steamPath.get()));
-            FileProvider.getInstance().setWorkingLocation(new File(workingPath.get()));
+
+            try {
+                if (shouldCreateNewMod) {
+                    FileProvider.getInstance().setWorkingLocation(createNewModTask.get());
+                } else {
+                    FileProvider.getInstance().setWorkingLocation(loadModTask.get());
+                }
+            } catch(Exception ex) {
+                logger.fatal("Wizard failure", ex);
+            }
 
             Platform.runLater(() -> progressPane.toFront());
             isLoading = true;
