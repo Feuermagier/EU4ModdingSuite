@@ -2,7 +2,7 @@
 
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
-<VBox xmlns:fx="http://javafx.com/fxml" fx:id="rootPane">
+<VBox xmlns:fx="http://javafx.com/fxml" fx:id="rootPane" stylesheets="@MainView.css, @modena_dark.css">
     <MenuBar>
         <Menu text="Datei">
             <MenuItem text="Speichern" fx:id="saveMenuItem" onAction="#save"/>
@@ -10,6 +10,9 @@
         <Menu text="Werkzeuge">
             <MenuItem text="Heightmap" onAction="#createHeightmap"/>
             <MenuItem text="Flusskarte" onAction="#createRivermap"/>
+            <Menu text="Dummy">
+                <MenuItem text="Provinzkarte" onAction="#createDummyProvincemap" />
+            </Menu>
         </Menu>
     </MenuBar>
     <StackPane>

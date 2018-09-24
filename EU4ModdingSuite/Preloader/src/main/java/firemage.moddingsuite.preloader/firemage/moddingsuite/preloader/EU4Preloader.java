@@ -1,6 +1,9 @@
 package firemage.moddingsuite.preloader;
 
+import firemage.moddingsuite.model.config.ConfigParam;
+import firemage.moddingsuite.model.config.GlobalConfiguration;
 import firemage.moddingsuite.model.data.FileProvider;
+import firemage.moddingsuite.preloader.wizards.CreateNewModWizardManager;
 import firemage.moddingsuite.starter.Starter;
 import javafx.application.Platform;
 import javafx.application.Preloader;
@@ -21,6 +24,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 
@@ -29,17 +33,13 @@ public class EU4Preloader extends Preloader {
     private static Logger logger = LogManager.getLogger(EU4Preloader.class);
 
     private Stage stage;
-    //private StringProperty workingPath = new SimpleStringProperty("C:\\Users\\Jakob\\Documents\\Paradox Interactive\\Europa Universalis IV\\mod\\dwarf_test");
-    private StringProperty steamPath = new SimpleStringProperty("D:\\Steam\\steamapps\\common\\Europa Universalis IV");
+    private String workingPath = null;
+    private StringProperty steamPath = new SimpleStringProperty("");
     private BorderPane progressPane;
 
     private Starter starter;
 
     private boolean isLoading = false;
-    private boolean shouldCreateNewMod = false;
-
-    final FutureTask<File> loadModTask = new FutureTask<>(() -> new LoadModWizard().show());
-    final FutureTask<File> createNewModTask = new FutureTask<>(() -> new CreateNewModWizard().show());
 
     private Scene createPreloaderScene() {
 
@@ -59,12 +59,25 @@ public class EU4Preloader extends Preloader {
         box.setPadding(new Insets(20));
         box.setStyle("-fx-background-color: lightgrey");
 
+        box.getChildren().add(new Label("Pfad zur EU4-Installation (z.B. C:\\Program Files\\Steam\\steamapps\\common\\Europa Universalis IV)"));
+
         HBox steamBox = new HBox();
         steamBox.setSpacing(5);
         TextField steamPathField = new TextField();
         steamPathField.setEditable(false);
         steamPathField.setPromptText("EU4-Speicherort");
         steamPathField.textProperty().bind(steamPath);
+        //property
+        if(GlobalConfiguration.getInstance().getProperty(ConfigParam.EU4_INSTALL_DIR) != null)
+            steamPath.set(GlobalConfiguration.getInstance().getProperty(ConfigParam.EU4_INSTALL_DIR));
+        steamPath.addListener((observable, oldValue, newValue) -> {
+            GlobalConfiguration.getInstance().setProperty(ConfigParam.EU4_INSTALL_DIR, newValue);
+            try {
+                GlobalConfiguration.getInstance().save();
+            } catch (IOException e) {
+                logger.error("Cannot save config file", e);
+            }
+        });
         Button steamFileChooserButton = new Button("Durchsuchen");
         steamBox.getChildren().addAll(steamPathField, steamFileChooserButton);
         steamFileChooserButton.setOnAction(event -> {
@@ -79,11 +92,18 @@ public class EU4Preloader extends Preloader {
 
         Button loadModButton = new Button("Mod laden");
         loadModButton.setOnAction(event -> {
-            Platform.runLater(loadModTask);
-            shouldCreateNewMod = false;
-            changeState();
+            workingPath = new LoadModWizard().show();
+            if(workingPath != null &! workingPath.equals(""))
+                changeState();
         });
         Button createNewModButton = new Button("Neue Mod erstellen");
+        createNewModButton.setOnAction(event -> {
+            File file = new CreateNewModWizardManager().showAndWait();
+            if(file != null) {
+                workingPath = file.getAbsolutePath();
+                changeState();
+            }
+        });
         buttonBox.getChildren().addAll(loadModButton, createNewModButton);
 
         box.getChildren().add(buttonBox);
@@ -120,19 +140,9 @@ public class EU4Preloader extends Preloader {
 
         logger.debug("changeState");
 
-        if(steamPath.get() != null &! isLoading && starter != null) {
+        if(steamPath.get() != null && workingPath != null &! isLoading && starter != null) {
             FileProvider.getInstance().setSteamLocation(new File(steamPath.get()));
-
-            try {
-                if (shouldCreateNewMod) {
-                    FileProvider.getInstance().setWorkingLocation(createNewModTask.get());
-                } else {
-                    FileProvider.getInstance().setWorkingLocation(loadModTask.get());
-                }
-            } catch(Exception ex) {
-                logger.fatal("Wizard failure", ex);
-            }
-
+            FileProvider.getInstance().setWorkingLocation(new File(workingPath));
             Platform.runLater(() -> progressPane.toFront());
             isLoading = true;
             starter.startLoading();

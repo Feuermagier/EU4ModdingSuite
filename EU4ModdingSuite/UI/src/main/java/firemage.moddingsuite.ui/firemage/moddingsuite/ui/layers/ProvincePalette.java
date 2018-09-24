@@ -62,6 +62,7 @@ public class ProvincePalette extends LayerPalette {
 
 
         selectedProvince.addListener((observable, oldValue, newValue) ->{
+            if(newValue == null) return;
             GraphicsContext g = c.getGraphicsContext2D();
             g.setFill(newValue.getColor());
             g.fillRect(0, 0, COLOR_RECT_SIZE, COLOR_RECT_SIZE);
@@ -71,7 +72,7 @@ public class ProvincePalette extends LayerPalette {
         });
     }
 
-    public void setSelectedProvince(Province selection) {
+    void setSelectedProvince(Province selection) {
         this.selectedProvince.set(selection);
     }
 

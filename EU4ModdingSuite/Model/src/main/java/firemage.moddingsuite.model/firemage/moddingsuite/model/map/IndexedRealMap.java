@@ -34,8 +34,6 @@ public class IndexedRealMap extends RealMap {
         //BufferedImage writeImage = new BufferedImage((int)getWidth(), (int)getHeight(), BufferedImage.TYPE_BYTE_INDEXED, getColorModel());
         //writeImage.createGraphics().drawImage(SwingFXUtils.fromFXImage(getImageData(), null), 0, 0, null);
 
-        BufferedImage fxImage = SwingFXUtils.fromFXImage(getImageData(), null);
-
         BufferedImage writeImage = new BufferedImage((int)getWidth(), (int)getHeight(), BufferedImage.TYPE_BYTE_INDEXED, getColorModel());
 
         PixelReader fxReader = getImageData().getPixelReader();

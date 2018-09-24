@@ -8,7 +8,6 @@
 		<artifactId>EU4ModdingSuite</artifactId>
 		<version>0.1</version>
 	</parent>
-	<groupId>firemage.moddingsuite</groupId>
 	<artifactId>UI</artifactId>
 	<version>0.1</version>
 	<name>UI</name>

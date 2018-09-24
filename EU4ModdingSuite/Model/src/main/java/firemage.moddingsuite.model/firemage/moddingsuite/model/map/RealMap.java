@@ -23,6 +23,13 @@ public abstract class RealMap extends EU4Map {
     public BufferedImage convertToSaveableImage() {
         BufferedImage writeImage = new BufferedImage((int)getWidth(), (int)getHeight(), BufferedImage.TYPE_3BYTE_BGR);      //buffered image type for province map must be BufferedImage.TYPE_3BYTE_BGR (=5)
         writeImage.createGraphics().drawImage(SwingFXUtils.fromFXImage(getImageData(), null), 0, 0, null);
+        for(int x=0; x<writeImage.getWidth(); x++) {
+            for(int y=0; y<writeImage.getHeight(); y++) {
+                if(writeImage.getRGB(x,y) < 0xFF000000) {
+                    writeImage.setRGB(x, y, writeImage.getRGB(x, y) | 0xFF000000);
+                }
+            }
+        }
         return writeImage;
     }
 }

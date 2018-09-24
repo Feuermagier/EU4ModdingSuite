@@ -6,7 +6,6 @@
     <version>0.1</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>firemage.moddingsuite</groupId>
   <artifactId>UI</artifactId>
   <name>UI</name>
   <version>0.1</version>

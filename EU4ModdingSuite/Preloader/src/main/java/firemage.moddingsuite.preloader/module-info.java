@@ -5,5 +5,8 @@ module firemage.moddingsuite.preloader {
     requires firemage.moddingsuite.starter;
     requires org.apache.logging.log4j;
 
+    requires controlsfx;
+    requires java.desktop;
+
     exports firemage.moddingsuite.preloader;
 }

@@ -16,13 +16,14 @@
     <orderEntry type="module" module-name="Preloader" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.0" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.11.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.11.1" level="project" />
     <orderEntry type="library" name="Maven: de.saxsys:mvvmfx:1.7.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.12" level="project" />
     <orderEntry type="library" name="Maven: net.jodah:typetools:0.4.1" level="project" />
     <orderEntry type="library" name="Maven: eu.lestard:doc-annotations:0.2" level="project" />
     <orderEntry type="library" name="Maven: org.javaopencvbook:opencvjar:3.3.0" level="project" />
     <orderEntry type="library" name="Maven: org.javaopencvbook:opencvjar-runtime:natives-windows-x86_64:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: org.controlsfx:controlsfx:9.0.0" level="project" />
   </component>
 </module>

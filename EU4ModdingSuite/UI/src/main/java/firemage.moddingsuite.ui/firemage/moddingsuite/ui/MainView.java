@@ -19,6 +19,7 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Screen;
 import javafx.util.Callback;
 
+import java.io.File;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -48,7 +49,6 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
         loader.setLocation(getClass().getResource("MainView.fxml"));
         loader.setController(this);
         Node rootNode = loader.load();
-
         getChildren().add(rootNode);
     }
 
@@ -56,8 +56,12 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
     public void initialize(URL location, ResourceBundle resources) {
 
         //initialize() is called twice (by FXMLLoader and by the mvvmFX framework) and the first time viewModel is null
-        if(viewModel == null)
+        if(viewModel == null) {
             return;
+        }
+
+        getStylesheets().addAll(getClass().getResource("/css/modena_dark.css").toExternalForm(), this.getClass().getResource("MainView.css").toExternalForm());
+
 
         centerPane.setSnapToPixel(true);
         updateLayers();
@@ -120,6 +124,9 @@ public class MainView extends AnchorPane implements JavaView<MainViewModel>, Ini
 
     @FXML
     public void createRivermap() {viewModel.getProduceRivermapCommand().execute(); }
+
+    @FXML
+    public void createDummyProvincemap() {viewModel.getProduceDummyProvincemapCommand().execute(); }
 
 
     public void fitToScreen() {

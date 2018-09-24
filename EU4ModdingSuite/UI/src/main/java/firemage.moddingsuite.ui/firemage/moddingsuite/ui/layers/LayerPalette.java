@@ -38,6 +38,10 @@ public abstract class LayerPalette extends VBox {
         }
     }
 
+    double snap(double y) {
+        return ((int) y) + .5;
+    }
+
     public String getName() {
         return name;
     }

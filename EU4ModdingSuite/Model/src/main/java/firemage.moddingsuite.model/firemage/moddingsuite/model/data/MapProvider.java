@@ -28,7 +28,7 @@ public class MapProvider {
     public static void setProvinceMapImage(WritableImage image) {
         width = (int)image.getWidth();
         height = (int)image.getHeight();
-        provinceMapImage.set(image);
+        MapProvider.provinceMapImage.set(image);
     }
 
     public static Province findNewUnusedProvince() {
@@ -89,6 +89,11 @@ public class MapProvider {
 
     public static void setRiverMapImage(WritableImage riverMapImage) {
         MapProvider.riverMapImage.set(riverMapImage);
+    }
+
+
+    public static WritableImage getProvinceMapImage() {
+        return provinceMapImage.get();
     }
 
     public static Province findProvince(Color color) {

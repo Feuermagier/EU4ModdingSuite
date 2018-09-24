@@ -15,6 +15,7 @@ public class ProvinceMapLayer extends Layer {
 
         super("Provinzen", new ProvinceMap(), new ProvincePalette());
 
+
         Tooltip tooltip = new Tooltip("");
 
         this.setOnMouseMoved(event -> {
