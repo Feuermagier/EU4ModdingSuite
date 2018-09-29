@@ -1,0 +1,13 @@
+[INFO ] 2018-08-22 19:05:14,004 Main.main() - Application started at 2018-08-22T19:05:13.999434400
+[DEBUG] 2018-08-22 19:05:56,194 CreateNewModWizardManager.showAndWait() - Wizard closed; settings are: {workingPath=C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod, modType=MAP, gameVersion=1.25, modName=Test2, mapWidth=5632, mapHeight=2048}
+[DEBUG] 2018-08-22 19:05:56,205 CreateNewModWizardManager.createModFile() - C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod\Test2.mod
+[DEBUG] 2018-08-22 19:05:56,720 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-08-22 19:05:56,731 EU4Preloader.changeState() - loading...
+[DEBUG] 2018-08-22 19:05:56,796 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-08-22 19:05:56,981 FileProvider.loadTerrain() - reading terrain map image from C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod\Test2\map\terrain.bmp
+[DEBUG] 2018-08-22 19:05:57,135 FileProvider.loadRivers() - reading river map image from C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod\Test2\map\rivers.bmp
+[DEBUG] 2018-08-22 19:05:57,334 FileProvider.loadHeightmap() - reading heightmap image from C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod\Test2\map\heightmap.bmp
+[DEBUG] 2018-08-22 19:05:57,494 MapProvider.updateProvinceMap() - updating map
+[DEBUG] 2018-08-22 19:05:59,453 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-08-22 19:05:59,453 EU4Preloader.changeState() - loaded
+[DEBUG] 2018-08-22 19:06:26,070 MainViewModel.save() - Saving to C:\Users\flose\Documents\Paradox Interactive\Europa Universalis IV\mod\Test2\map

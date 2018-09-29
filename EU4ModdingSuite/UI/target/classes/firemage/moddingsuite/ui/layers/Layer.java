@@ -20,8 +20,6 @@ public abstract class Layer extends Canvas {
     private EU4Map map;
     private int prevX, prevY;
 
-    private boolean hasPainted = false;
-
     private LayerPalette palette;
 
     Layer(String name, EU4Map map, LayerPalette palette) {
@@ -32,15 +30,11 @@ public abstract class Layer extends Canvas {
 
         this.getGraphicsContext2D().drawImage(map.getImageData(), 0, 0);
         map.imageDataProperty().addListener((observable, oldValue, newValue) ->  {
-            if(!hasPainted) {
-                GraphicsContext gc = this.getGraphicsContext2D();
-                //gc.setGlobalBlendMode(BlendMode.SRC_ATOP);
-                gc.clearRect(0, 0, getWidth(), getHeight());
-                //gc.drawImage(PaintUtil.makeImageTransparent(newValue, 0.3), 0, 0);
-                gc.drawImage(newValue, 0, 0);
-            } else {
-                hasPainted = true;
-            }
+            GraphicsContext gc = this.getGraphicsContext2D();
+            //gc.setGlobalBlendMode(BlendMode.SRC_ATOP);
+            gc.clearRect(0, 0, getWidth(), getHeight());
+            //gc.drawImage(PaintUtil.makeImageTransparent(newValue, 0.3), 0, 0);
+            gc.drawImage(newValue, 0, 0);
         });
 
         PixelWriter writer = this.getGraphicsContext2D().getPixelWriter();
@@ -75,7 +69,6 @@ public abstract class Layer extends Canvas {
     //privates
 
     private void saveToMap() {
-        hasPainted = true;
         WritableImage writableImage = new WritableImage(MapProvider.getWidth(), MapProvider.getHeight());
         this.snapshot(null, writableImage);
         map.writeImageData(writableImage);

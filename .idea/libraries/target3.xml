@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="target3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Preloader/target/Preloader-0.1-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Preloader/target/Preloader-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Preloader/target/original-Preloader-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

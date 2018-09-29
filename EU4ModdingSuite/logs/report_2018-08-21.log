@@ -1,0 +1,1436 @@
+[INFO ] 2018-08-21 21:44:37,678 Main.main() - Application started at 2018-08-21T21:44:37.667154200
+[DEBUG] 2018-08-21 21:44:46,633 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-08-21 21:44:46,640 EU4Preloader.changeState() - loading...
+[DEBUG] 2018-08-21 21:44:46,642 FileProvider.loadProvinces() - generating provinces
+[DEBUG] 2018-08-21 21:44:46,923 FileProvider.loadTerrain() - reading terrain map image from C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\map\terrain.bmp
+[DEBUG] 2018-08-21 21:44:47,114 FileProvider.loadRivers() - reading river map image from C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\map\rivers.bmp
+[DEBUG] 2018-08-21 21:44:47,266 FileProvider.loadHeightmap() - reading heightmap image from C:\Program Files (x86)\Steam\steamapps\common\Europa Universalis IV\map\heightmap.bmp
+[DEBUG] 2018-08-21 21:44:47,446 MapProvider.updateProvinceMap() - updating map
+[DEBUG] 2018-08-21 21:44:51,207 EU4Preloader.changeState() - changeState
+[DEBUG] 2018-08-21 21:44:51,208 EU4Preloader.changeState() - loaded
+[DEBUG] 2018-08-21 21:45:08,335 MainViewModel.fillRect() - rect: x0=0 y0=0 width=200 height=200 color=0x802240ff
+[DEBUG] 2018-08-21 21:45:08,358 MainViewModel.produceDummyProvincemap() - 1
+[DEBUG] 2018-08-21 21:45:08,360 MainViewModel.fillRect() - rect: x0=200 y0=0 width=200 height=200 color=0x002480ff
+[DEBUG] 2018-08-21 21:45:08,361 MainViewModel.produceDummyProvincemap() - 2
+[DEBUG] 2018-08-21 21:45:08,366 MainViewModel.fillRect() - rect: x0=400 y0=0 width=200 height=200 color=0x8026c0ff
+[DEBUG] 2018-08-21 21:45:08,367 MainViewModel.produceDummyProvincemap() - 3
+[DEBUG] 2018-08-21 21:45:08,368 MainViewModel.fillRect() - rect: x0=600 y0=0 width=200 height=200 color=0x0028ffff
+[DEBUG] 2018-08-21 21:45:08,369 MainViewModel.produceDummyProvincemap() - 4
+[DEBUG] 2018-08-21 21:45:08,369 MainViewModel.fillRect() - rect: x0=800 y0=0 width=200 height=200 color=0x802a00ff
+[DEBUG] 2018-08-21 21:45:08,370 MainViewModel.produceDummyProvincemap() - 5
+[DEBUG] 2018-08-21 21:45:08,370 MainViewModel.fillRect() - rect: x0=1000 y0=0 width=200 height=200 color=0x002c40ff
+[DEBUG] 2018-08-21 21:45:08,371 MainViewModel.produceDummyProvincemap() - 6
+[DEBUG] 2018-08-21 21:45:08,372 MainViewModel.fillRect() - rect: x0=1200 y0=0 width=200 height=200 color=0x812e80ff
+[DEBUG] 2018-08-21 21:45:08,373 MainViewModel.produceDummyProvincemap() - 7
+[DEBUG] 2018-08-21 21:45:08,373 MainViewModel.fillRect() - rect: x0=1400 y0=0 width=200 height=200 color=0x0130c0ff
+[DEBUG] 2018-08-21 21:45:08,374 MainViewModel.produceDummyProvincemap() - 8
+[DEBUG] 2018-08-21 21:45:08,375 MainViewModel.fillRect() - rect: x0=1600 y0=0 width=200 height=200 color=0x8132ffff
+[DEBUG] 2018-08-21 21:45:08,375 MainViewModel.produceDummyProvincemap() - 9
+[DEBUG] 2018-08-21 21:45:08,376 MainViewModel.fillRect() - rect: x0=1800 y0=0 width=200 height=200 color=0x013400ff
+[DEBUG] 2018-08-21 21:45:08,376 MainViewModel.produceDummyProvincemap() - 10
+[DEBUG] 2018-08-21 21:45:08,377 MainViewModel.fillRect() - rect: x0=2000 y0=0 width=200 height=200 color=0x813640ff
+[DEBUG] 2018-08-21 21:45:08,378 MainViewModel.produceDummyProvincemap() - 11
+[DEBUG] 2018-08-21 21:45:08,378 MainViewModel.fillRect() - rect: x0=2200 y0=0 width=200 height=200 color=0x013880ff
+[DEBUG] 2018-08-21 21:45:08,379 MainViewModel.produceDummyProvincemap() - 12
+[DEBUG] 2018-08-21 21:45:08,379 MainViewModel.fillRect() - rect: x0=2400 y0=0 width=200 height=200 color=0x813ac0ff
+[DEBUG] 2018-08-21 21:45:08,380 MainViewModel.produceDummyProvincemap() - 13
+[DEBUG] 2018-08-21 21:45:08,381 MainViewModel.fillRect() - rect: x0=2600 y0=0 width=200 height=200 color=0x023cffff
+[DEBUG] 2018-08-21 21:45:08,382 MainViewModel.produceDummyProvincemap() - 14
+[DEBUG] 2018-08-21 21:45:08,382 MainViewModel.fillRect() - rect: x0=2800 y0=0 width=200 height=200 color=0x823e00ff
+[DEBUG] 2018-08-21 21:45:08,383 MainViewModel.produceDummyProvincemap() - 15
+[DEBUG] 2018-08-21 21:45:08,384 MainViewModel.fillRect() - rect: x0=3000 y0=0 width=200 height=200 color=0x024040ff
+[DEBUG] 2018-08-21 21:45:08,386 MainViewModel.produceDummyProvincemap() - 16
+[DEBUG] 2018-08-21 21:45:08,387 MainViewModel.fillRect() - rect: x0=3200 y0=0 width=200 height=200 color=0x824280ff
+[DEBUG] 2018-08-21 21:45:08,388 MainViewModel.produceDummyProvincemap() - 17
+[DEBUG] 2018-08-21 21:45:08,389 MainViewModel.fillRect() - rect: x0=3400 y0=0 width=200 height=200 color=0x0244c0ff
+[DEBUG] 2018-08-21 21:45:08,390 MainViewModel.produceDummyProvincemap() - 18
+[DEBUG] 2018-08-21 21:45:08,390 MainViewModel.fillRect() - rect: x0=3600 y0=0 width=200 height=200 color=0x8246ffff
+[DEBUG] 2018-08-21 21:45:08,391 MainViewModel.produceDummyProvincemap() - 19
+[DEBUG] 2018-08-21 21:45:08,392 MainViewModel.fillRect() - rect: x0=3800 y0=0 width=200 height=200 color=0x024800ff
+[DEBUG] 2018-08-21 21:45:08,392 MainViewModel.produceDummyProvincemap() - 20
+[DEBUG] 2018-08-21 21:45:08,393 MainViewModel.fillRect() - rect: x0=4000 y0=0 width=200 height=200 color=0x834a40ff
+[DEBUG] 2018-08-21 21:45:08,394 MainViewModel.produceDummyProvincemap() - 21
+[DEBUG] 2018-08-21 21:45:08,395 MainViewModel.fillRect() - rect: x0=4200 y0=0 width=200 height=200 color=0x034c80ff
+[DEBUG] 2018-08-21 21:45:08,405 MainViewModel.produceDummyProvincemap() - 22
+[DEBUG] 2018-08-21 21:45:08,406 MainViewModel.fillRect() - rect: x0=4400 y0=0 width=200 height=200 color=0x834ec0ff
+[DEBUG] 2018-08-21 21:45:08,407 MainViewModel.produceDummyProvincemap() - 23
+[DEBUG] 2018-08-21 21:45:08,408 MainViewModel.fillRect() - rect: x0=4600 y0=0 width=200 height=200 color=0x0350ffff
+[DEBUG] 2018-08-21 21:45:08,409 MainViewModel.produceDummyProvincemap() - 24
+[DEBUG] 2018-08-21 21:45:08,410 MainViewModel.fillRect() - rect: x0=4800 y0=0 width=200 height=200 color=0x835200ff
+[DEBUG] 2018-08-21 21:45:08,410 MainViewModel.produceDummyProvincemap() - 25
+[DEBUG] 2018-08-21 21:45:08,412 MainViewModel.fillRect() - rect: x0=5000 y0=0 width=200 height=200 color=0x035440ff
+[DEBUG] 2018-08-21 21:45:08,412 MainViewModel.produceDummyProvincemap() - 26
+[DEBUG] 2018-08-21 21:45:08,413 MainViewModel.fillRect() - rect: x0=5200 y0=0 width=200 height=200 color=0x835680ff
+[DEBUG] 2018-08-21 21:45:08,413 MainViewModel.produceDummyProvincemap() - 27
+[DEBUG] 2018-08-21 21:45:08,414 MainViewModel.fillRect() - rect: x0=5400 y0=0 width=200 height=200 color=0x0458c0ff
+[DEBUG] 2018-08-21 21:45:08,415 MainViewModel.produceDummyProvincemap() - 28
+[DEBUG] 2018-08-21 21:45:08,415 MainViewModel.fillRect() - rect: x0=5600 y0=0 width=200 height=200 color=0x845affff
+[DEBUG] 2018-08-21 21:45:08,416 MainViewModel.produceDummyProvincemap() - 29
+[DEBUG] 2018-08-21 21:45:08,416 MainViewModel.fillRect() - rect: x0=0 y0=200 width=200 height=200 color=0x045c00ff
+[DEBUG] 2018-08-21 21:45:08,417 MainViewModel.produceDummyProvincemap() - 30
+[DEBUG] 2018-08-21 21:45:08,417 MainViewModel.fillRect() - rect: x0=200 y0=200 width=200 height=200 color=0x845e40ff
+[DEBUG] 2018-08-21 21:45:08,418 MainViewModel.produceDummyProvincemap() - 31
+[DEBUG] 2018-08-21 21:45:08,418 MainViewModel.fillRect() - rect: x0=400 y0=200 width=200 height=200 color=0x046080ff
+[DEBUG] 2018-08-21 21:45:08,419 MainViewModel.produceDummyProvincemap() - 32
+[DEBUG] 2018-08-21 21:45:08,419 MainViewModel.fillRect() - rect: x0=600 y0=200 width=200 height=200 color=0x8462c0ff
+[DEBUG] 2018-08-21 21:45:08,419 MainViewModel.produceDummyProvincemap() - 33
+[DEBUG] 2018-08-21 21:45:08,420 MainViewModel.fillRect() - rect: x0=800 y0=200 width=200 height=200 color=0x0464ffff
+[DEBUG] 2018-08-21 21:45:08,420 MainViewModel.produceDummyProvincemap() - 34
+[DEBUG] 2018-08-21 21:45:08,421 MainViewModel.fillRect() - rect: x0=1000 y0=200 width=200 height=200 color=0x856600ff
+[DEBUG] 2018-08-21 21:45:08,421 MainViewModel.produceDummyProvincemap() - 35
+[DEBUG] 2018-08-21 21:45:08,422 MainViewModel.fillRect() - rect: x0=1200 y0=200 width=200 height=200 color=0x056840ff
+[DEBUG] 2018-08-21 21:45:08,422 MainViewModel.produceDummyProvincemap() - 36
+[DEBUG] 2018-08-21 21:45:08,422 MainViewModel.fillRect() - rect: x0=1400 y0=200 width=200 height=200 color=0x856a80ff
+[DEBUG] 2018-08-21 21:45:08,423 MainViewModel.produceDummyProvincemap() - 37
+[DEBUG] 2018-08-21 21:45:08,423 MainViewModel.fillRect() - rect: x0=1600 y0=200 width=200 height=200 color=0x056cc0ff
+[DEBUG] 2018-08-21 21:45:08,424 MainViewModel.produceDummyProvincemap() - 38
+[DEBUG] 2018-08-21 21:45:08,424 MainViewModel.fillRect() - rect: x0=1800 y0=200 width=200 height=200 color=0x856effff
+[DEBUG] 2018-08-21 21:45:08,425 MainViewModel.produceDummyProvincemap() - 39
+[DEBUG] 2018-08-21 21:45:08,426 MainViewModel.fillRect() - rect: x0=2000 y0=200 width=200 height=200 color=0x057000ff
+[DEBUG] 2018-08-21 21:45:08,427 MainViewModel.produceDummyProvincemap() - 40
+[DEBUG] 2018-08-21 21:45:08,427 MainViewModel.fillRect() - rect: x0=2200 y0=200 width=200 height=200 color=0x857240ff
+[DEBUG] 2018-08-21 21:45:08,428 MainViewModel.produceDummyProvincemap() - 41
+[DEBUG] 2018-08-21 21:45:08,428 MainViewModel.fillRect() - rect: x0=2400 y0=200 width=200 height=200 color=0x067480ff
+[DEBUG] 2018-08-21 21:45:08,429 MainViewModel.produceDummyProvincemap() - 42
+[DEBUG] 2018-08-21 21:45:08,431 MainViewModel.fillRect() - rect: x0=2600 y0=200 width=200 height=200 color=0x8676c0ff
+[DEBUG] 2018-08-21 21:45:08,432 MainViewModel.produceDummyProvincemap() - 43
+[DEBUG] 2018-08-21 21:45:08,439 MainViewModel.fillRect() - rect: x0=2800 y0=200 width=200 height=200 color=0x0678ffff
+[DEBUG] 2018-08-21 21:45:08,439 MainViewModel.produceDummyProvincemap() - 44
+[DEBUG] 2018-08-21 21:45:08,441 MainViewModel.fillRect() - rect: x0=3000 y0=200 width=200 height=200 color=0x867a00ff
+[DEBUG] 2018-08-21 21:45:08,442 MainViewModel.produceDummyProvincemap() - 45
+[DEBUG] 2018-08-21 21:45:08,442 MainViewModel.fillRect() - rect: x0=3200 y0=200 width=200 height=200 color=0x067c40ff
+[DEBUG] 2018-08-21 21:45:08,443 MainViewModel.produceDummyProvincemap() - 46
+[DEBUG] 2018-08-21 21:45:08,444 MainViewModel.fillRect() - rect: x0=3400 y0=200 width=200 height=200 color=0x867e80ff
+[DEBUG] 2018-08-21 21:45:08,445 MainViewModel.produceDummyProvincemap() - 47
+[DEBUG] 2018-08-21 21:45:08,449 MainViewModel.fillRect() - rect: x0=3600 y0=200 width=200 height=200 color=0x0680c0ff
+[DEBUG] 2018-08-21 21:45:08,449 MainViewModel.produceDummyProvincemap() - 48
+[DEBUG] 2018-08-21 21:45:08,450 MainViewModel.fillRect() - rect: x0=3800 y0=200 width=200 height=200 color=0x8782ffff
+[DEBUG] 2018-08-21 21:45:08,450 MainViewModel.produceDummyProvincemap() - 49
+[DEBUG] 2018-08-21 21:45:08,451 MainViewModel.fillRect() - rect: x0=4000 y0=200 width=200 height=200 color=0x078400ff
+[DEBUG] 2018-08-21 21:45:08,452 MainViewModel.produceDummyProvincemap() - 50
+[DEBUG] 2018-08-21 21:45:08,453 MainViewModel.fillRect() - rect: x0=4200 y0=200 width=200 height=200 color=0x878640ff
+[DEBUG] 2018-08-21 21:45:08,454 MainViewModel.produceDummyProvincemap() - 51
+[DEBUG] 2018-08-21 21:45:08,454 MainViewModel.fillRect() - rect: x0=4400 y0=200 width=200 height=200 color=0x078880ff
+[DEBUG] 2018-08-21 21:45:08,454 MainViewModel.produceDummyProvincemap() - 52
+[DEBUG] 2018-08-21 21:45:08,455 MainViewModel.fillRect() - rect: x0=4600 y0=200 width=200 height=200 color=0x878ac0ff
+[DEBUG] 2018-08-21 21:45:08,455 MainViewModel.produceDummyProvincemap() - 53
+[DEBUG] 2018-08-21 21:45:08,456 MainViewModel.fillRect() - rect: x0=4800 y0=200 width=200 height=200 color=0x078cffff
+[DEBUG] 2018-08-21 21:45:08,456 MainViewModel.produceDummyProvincemap() - 54
+[DEBUG] 2018-08-21 21:45:08,457 MainViewModel.fillRect() - rect: x0=5000 y0=200 width=200 height=200 color=0x878e00ff
+[DEBUG] 2018-08-21 21:45:08,457 MainViewModel.produceDummyProvincemap() - 55
+[DEBUG] 2018-08-21 21:45:08,458 MainViewModel.fillRect() - rect: x0=5200 y0=200 width=200 height=200 color=0x089040ff
+[DEBUG] 2018-08-21 21:45:08,458 MainViewModel.produceDummyProvincemap() - 56
+[DEBUG] 2018-08-21 21:45:08,459 MainViewModel.fillRect() - rect: x0=5400 y0=200 width=200 height=200 color=0x889280ff
+[DEBUG] 2018-08-21 21:45:08,459 MainViewModel.produceDummyProvincemap() - 57
+[DEBUG] 2018-08-21 21:45:08,460 MainViewModel.fillRect() - rect: x0=5600 y0=200 width=200 height=200 color=0x0894c0ff
+[DEBUG] 2018-08-21 21:45:08,460 MainViewModel.produceDummyProvincemap() - 58
+[DEBUG] 2018-08-21 21:45:08,461 MainViewModel.fillRect() - rect: x0=0 y0=400 width=200 height=200 color=0x8896ffff
+[DEBUG] 2018-08-21 21:45:08,461 MainViewModel.produceDummyProvincemap() - 59
+[DEBUG] 2018-08-21 21:45:08,462 MainViewModel.fillRect() - rect: x0=200 y0=400 width=200 height=200 color=0x089800ff
+[DEBUG] 2018-08-21 21:45:08,465 MainViewModel.produceDummyProvincemap() - 60
+[DEBUG] 2018-08-21 21:45:08,466 MainViewModel.fillRect() - rect: x0=400 y0=400 width=200 height=200 color=0x889a40ff
+[DEBUG] 2018-08-21 21:45:08,466 MainViewModel.produceDummyProvincemap() - 61
+[DEBUG] 2018-08-21 21:45:08,467 MainViewModel.fillRect() - rect: x0=600 y0=400 width=200 height=200 color=0x089c80ff
+[DEBUG] 2018-08-21 21:45:08,467 MainViewModel.produceDummyProvincemap() - 62
+[DEBUG] 2018-08-21 21:45:08,468 MainViewModel.fillRect() - rect: x0=800 y0=400 width=200 height=200 color=0x899ec0ff
+[DEBUG] 2018-08-21 21:45:08,468 MainViewModel.produceDummyProvincemap() - 63
+[DEBUG] 2018-08-21 21:45:08,468 MainViewModel.fillRect() - rect: x0=1000 y0=400 width=200 height=200 color=0x0920ffff
+[DEBUG] 2018-08-21 21:45:08,469 MainViewModel.produceDummyProvincemap() - 64
+[DEBUG] 2018-08-21 21:45:08,469 MainViewModel.fillRect() - rect: x0=1200 y0=400 width=200 height=200 color=0x892200ff
+[DEBUG] 2018-08-21 21:45:08,469 MainViewModel.produceDummyProvincemap() - 65
+[DEBUG] 2018-08-21 21:45:08,470 MainViewModel.fillRect() - rect: x0=1400 y0=400 width=200 height=200 color=0x092440ff
+[DEBUG] 2018-08-21 21:45:08,470 MainViewModel.produceDummyProvincemap() - 66
+[DEBUG] 2018-08-21 21:45:08,470 MainViewModel.fillRect() - rect: x0=1600 y0=400 width=200 height=200 color=0x892680ff
+[DEBUG] 2018-08-21 21:45:08,471 MainViewModel.produceDummyProvincemap() - 67
+[DEBUG] 2018-08-21 21:45:08,471 MainViewModel.fillRect() - rect: x0=1800 y0=400 width=200 height=200 color=0x0928c0ff
+[DEBUG] 2018-08-21 21:45:08,471 MainViewModel.produceDummyProvincemap() - 68
+[DEBUG] 2018-08-21 21:45:08,472 MainViewModel.fillRect() - rect: x0=2000 y0=400 width=200 height=200 color=0x892affff
+[DEBUG] 2018-08-21 21:45:08,472 MainViewModel.produceDummyProvincemap() - 69
+[DEBUG] 2018-08-21 21:45:08,472 MainViewModel.fillRect() - rect: x0=2200 y0=400 width=200 height=200 color=0x0a2c00ff
+[DEBUG] 2018-08-21 21:45:08,473 MainViewModel.produceDummyProvincemap() - 70
+[DEBUG] 2018-08-21 21:45:08,473 MainViewModel.fillRect() - rect: x0=2400 y0=400 width=200 height=200 color=0x8a2e40ff
+[DEBUG] 2018-08-21 21:45:08,474 MainViewModel.produceDummyProvincemap() - 71
+[DEBUG] 2018-08-21 21:45:08,474 MainViewModel.fillRect() - rect: x0=2600 y0=400 width=200 height=200 color=0x0a3080ff
+[DEBUG] 2018-08-21 21:45:08,475 MainViewModel.produceDummyProvincemap() - 72
+[DEBUG] 2018-08-21 21:45:08,475 MainViewModel.fillRect() - rect: x0=2800 y0=400 width=200 height=200 color=0x8a32c0ff
+[DEBUG] 2018-08-21 21:45:08,475 MainViewModel.produceDummyProvincemap() - 73
+[DEBUG] 2018-08-21 21:45:08,476 MainViewModel.fillRect() - rect: x0=3000 y0=400 width=200 height=200 color=0x0a34ffff
+[DEBUG] 2018-08-21 21:45:08,476 MainViewModel.produceDummyProvincemap() - 74
+[DEBUG] 2018-08-21 21:45:08,476 MainViewModel.fillRect() - rect: x0=3200 y0=400 width=200 height=200 color=0x8a3600ff
+[DEBUG] 2018-08-21 21:45:08,477 MainViewModel.produceDummyProvincemap() - 75
+[DEBUG] 2018-08-21 21:45:08,477 MainViewModel.fillRect() - rect: x0=3400 y0=400 width=200 height=200 color=0x0a3840ff
+[DEBUG] 2018-08-21 21:45:08,477 MainViewModel.produceDummyProvincemap() - 76
+[DEBUG] 2018-08-21 21:45:08,478 MainViewModel.fillRect() - rect: x0=3600 y0=400 width=200 height=200 color=0x8b3a80ff
+[DEBUG] 2018-08-21 21:45:08,478 MainViewModel.produceDummyProvincemap() - 77
+[DEBUG] 2018-08-21 21:45:08,478 MainViewModel.fillRect() - rect: x0=3800 y0=400 width=200 height=200 color=0x0b3cc0ff
+[DEBUG] 2018-08-21 21:45:08,479 MainViewModel.produceDummyProvincemap() - 78
+[DEBUG] 2018-08-21 21:45:08,479 MainViewModel.fillRect() - rect: x0=4000 y0=400 width=200 height=200 color=0x8b3effff
+[DEBUG] 2018-08-21 21:45:08,479 MainViewModel.produceDummyProvincemap() - 79
+[DEBUG] 2018-08-21 21:45:08,480 MainViewModel.fillRect() - rect: x0=4200 y0=400 width=200 height=200 color=0x0b4000ff
+[DEBUG] 2018-08-21 21:45:08,480 MainViewModel.produceDummyProvincemap() - 80
+[DEBUG] 2018-08-21 21:45:08,481 MainViewModel.fillRect() - rect: x0=4400 y0=400 width=200 height=200 color=0x8b4240ff
+[DEBUG] 2018-08-21 21:45:08,482 MainViewModel.produceDummyProvincemap() - 81
+[DEBUG] 2018-08-21 21:45:08,482 MainViewModel.fillRect() - rect: x0=4600 y0=400 width=200 height=200 color=0x0b4480ff
+[DEBUG] 2018-08-21 21:45:08,483 MainViewModel.produceDummyProvincemap() - 82
+[DEBUG] 2018-08-21 21:45:08,483 MainViewModel.fillRect() - rect: x0=4800 y0=400 width=200 height=200 color=0x8b46c0ff
+[DEBUG] 2018-08-21 21:45:08,484 MainViewModel.produceDummyProvincemap() - 83
+[DEBUG] 2018-08-21 21:45:08,484 MainViewModel.fillRect() - rect: x0=5000 y0=400 width=200 height=200 color=0x0c48ffff
+[DEBUG] 2018-08-21 21:45:08,484 MainViewModel.produceDummyProvincemap() - 84
+[DEBUG] 2018-08-21 21:45:08,485 MainViewModel.fillRect() - rect: x0=5200 y0=400 width=200 height=200 color=0x8c4a00ff
+[DEBUG] 2018-08-21 21:45:08,485 MainViewModel.produceDummyProvincemap() - 85
+[DEBUG] 2018-08-21 21:45:08,486 MainViewModel.fillRect() - rect: x0=5400 y0=400 width=200 height=200 color=0x0c4c40ff
+[DEBUG] 2018-08-21 21:45:08,486 MainViewModel.produceDummyProvincemap() - 86
+[DEBUG] 2018-08-21 21:45:08,487 MainViewModel.fillRect() - rect: x0=5600 y0=400 width=200 height=200 color=0x8c4e80ff
+[DEBUG] 2018-08-21 21:45:08,487 MainViewModel.produceDummyProvincemap() - 87
+[DEBUG] 2018-08-21 21:45:08,487 MainViewModel.fillRect() - rect: x0=0 y0=600 width=200 height=200 color=0x0c50c0ff
+[DEBUG] 2018-08-21 21:45:08,487 MainViewModel.produceDummyProvincemap() - 88
+[DEBUG] 2018-08-21 21:45:08,488 MainViewModel.fillRect() - rect: x0=200 y0=600 width=200 height=200 color=0x8c52ffff
+[DEBUG] 2018-08-21 21:45:08,488 MainViewModel.produceDummyProvincemap() - 89
+[DEBUG] 2018-08-21 21:45:08,489 MainViewModel.fillRect() - rect: x0=400 y0=600 width=200 height=200 color=0x0c5400ff
+[DEBUG] 2018-08-21 21:45:08,489 MainViewModel.produceDummyProvincemap() - 90
+[DEBUG] 2018-08-21 21:45:08,490 MainViewModel.fillRect() - rect: x0=600 y0=600 width=200 height=200 color=0x8d5640ff
+[DEBUG] 2018-08-21 21:45:08,498 MainViewModel.produceDummyProvincemap() - 91
+[DEBUG] 2018-08-21 21:45:08,499 MainViewModel.fillRect() - rect: x0=800 y0=600 width=200 height=200 color=0x0d5880ff
+[DEBUG] 2018-08-21 21:45:08,499 MainViewModel.produceDummyProvincemap() - 92
+[DEBUG] 2018-08-21 21:45:08,500 MainViewModel.fillRect() - rect: x0=1000 y0=600 width=200 height=200 color=0x8d5ac0ff
+[DEBUG] 2018-08-21 21:45:08,500 MainViewModel.produceDummyProvincemap() - 93
+[DEBUG] 2018-08-21 21:45:08,500 MainViewModel.fillRect() - rect: x0=1200 y0=600 width=200 height=200 color=0x0d5cffff
+[DEBUG] 2018-08-21 21:45:08,501 MainViewModel.produceDummyProvincemap() - 94
+[DEBUG] 2018-08-21 21:45:08,501 MainViewModel.fillRect() - rect: x0=1400 y0=600 width=200 height=200 color=0x8d5e00ff
+[DEBUG] 2018-08-21 21:45:08,501 MainViewModel.produceDummyProvincemap() - 95
+[DEBUG] 2018-08-21 21:45:08,502 MainViewModel.fillRect() - rect: x0=1600 y0=600 width=200 height=200 color=0x0d6040ff
+[DEBUG] 2018-08-21 21:45:08,502 MainViewModel.produceDummyProvincemap() - 96
+[DEBUG] 2018-08-21 21:45:08,502 MainViewModel.fillRect() - rect: x0=1800 y0=600 width=200 height=200 color=0x8d6280ff
+[DEBUG] 2018-08-21 21:45:08,503 MainViewModel.produceDummyProvincemap() - 97
+[DEBUG] 2018-08-21 21:45:08,503 MainViewModel.fillRect() - rect: x0=2000 y0=600 width=200 height=200 color=0x0e64c0ff
+[DEBUG] 2018-08-21 21:45:08,503 MainViewModel.produceDummyProvincemap() - 98
+[DEBUG] 2018-08-21 21:45:08,504 MainViewModel.fillRect() - rect: x0=2200 y0=600 width=200 height=200 color=0x8e66ffff
+[DEBUG] 2018-08-21 21:45:08,504 MainViewModel.produceDummyProvincemap() - 99
+[DEBUG] 2018-08-21 21:45:08,505 MainViewModel.fillRect() - rect: x0=2400 y0=600 width=200 height=200 color=0x0e6800ff
+[DEBUG] 2018-08-21 21:45:08,505 MainViewModel.produceDummyProvincemap() - 100
+[DEBUG] 2018-08-21 21:45:08,506 MainViewModel.fillRect() - rect: x0=2600 y0=600 width=200 height=200 color=0x8e6a40ff
+[DEBUG] 2018-08-21 21:45:08,506 MainViewModel.produceDummyProvincemap() - 101
+[DEBUG] 2018-08-21 21:45:08,506 MainViewModel.fillRect() - rect: x0=2800 y0=600 width=200 height=200 color=0x0e6c80ff
+[DEBUG] 2018-08-21 21:45:08,507 MainViewModel.produceDummyProvincemap() - 102
+[DEBUG] 2018-08-21 21:45:08,507 MainViewModel.fillRect() - rect: x0=3000 y0=600 width=200 height=200 color=0x555020ff
+[DEBUG] 2018-08-21 21:45:08,507 MainViewModel.produceDummyProvincemap() - 103
+[DEBUG] 2018-08-21 21:45:08,508 MainViewModel.fillRect() - rect: x0=3200 y0=600 width=200 height=200 color=0x0e70ffff
+[DEBUG] 2018-08-21 21:45:08,508 MainViewModel.produceDummyProvincemap() - 104
+[DEBUG] 2018-08-21 21:45:08,508 MainViewModel.fillRect() - rect: x0=3400 y0=600 width=200 height=200 color=0x8f7200ff
+[DEBUG] 2018-08-21 21:45:08,508 MainViewModel.produceDummyProvincemap() - 105
+[DEBUG] 2018-08-21 21:45:08,509 MainViewModel.fillRect() - rect: x0=3600 y0=600 width=200 height=200 color=0x0f7440ff
+[DEBUG] 2018-08-21 21:45:08,509 MainViewModel.produceDummyProvincemap() - 106
+[DEBUG] 2018-08-21 21:45:08,509 MainViewModel.fillRect() - rect: x0=3800 y0=600 width=200 height=200 color=0x8f7680ff
+[DEBUG] 2018-08-21 21:45:08,510 MainViewModel.produceDummyProvincemap() - 107
+[DEBUG] 2018-08-21 21:45:08,510 MainViewModel.fillRect() - rect: x0=4000 y0=600 width=200 height=200 color=0x0f78c0ff
+[DEBUG] 2018-08-21 21:45:08,510 MainViewModel.produceDummyProvincemap() - 108
+[DEBUG] 2018-08-21 21:45:08,511 MainViewModel.fillRect() - rect: x0=4200 y0=600 width=200 height=200 color=0x8f7affff
+[DEBUG] 2018-08-21 21:45:08,512 MainViewModel.produceDummyProvincemap() - 109
+[DEBUG] 2018-08-21 21:45:08,512 MainViewModel.fillRect() - rect: x0=4400 y0=600 width=200 height=200 color=0x0f7c00ff
+[DEBUG] 2018-08-21 21:45:08,512 MainViewModel.produceDummyProvincemap() - 110
+[DEBUG] 2018-08-21 21:45:08,513 MainViewModel.fillRect() - rect: x0=4600 y0=600 width=200 height=200 color=0x8f7e40ff
+[DEBUG] 2018-08-21 21:45:08,513 MainViewModel.produceDummyProvincemap() - 111
+[DEBUG] 2018-08-21 21:45:08,515 MainViewModel.fillRect() - rect: x0=4800 y0=600 width=200 height=200 color=0x108080ff
+[DEBUG] 2018-08-21 21:45:08,520 MainViewModel.produceDummyProvincemap() - 112
+[DEBUG] 2018-08-21 21:45:08,520 MainViewModel.fillRect() - rect: x0=5000 y0=600 width=200 height=200 color=0x9082c0ff
+[DEBUG] 2018-08-21 21:45:08,520 MainViewModel.produceDummyProvincemap() - 113
+[DEBUG] 2018-08-21 21:45:08,521 MainViewModel.fillRect() - rect: x0=5200 y0=600 width=200 height=200 color=0x1084ffff
+[DEBUG] 2018-08-21 21:45:08,522 MainViewModel.produceDummyProvincemap() - 114
+[DEBUG] 2018-08-21 21:45:08,523 MainViewModel.fillRect() - rect: x0=5400 y0=600 width=200 height=200 color=0x908600ff
+[DEBUG] 2018-08-21 21:45:08,523 MainViewModel.produceDummyProvincemap() - 115
+[DEBUG] 2018-08-21 21:45:08,523 MainViewModel.fillRect() - rect: x0=5600 y0=600 width=200 height=200 color=0x108840ff
+[DEBUG] 2018-08-21 21:45:08,524 MainViewModel.produceDummyProvincemap() - 116
+[DEBUG] 2018-08-21 21:45:08,524 MainViewModel.fillRect() - rect: x0=0 y0=800 width=200 height=200 color=0x908a80ff
+[DEBUG] 2018-08-21 21:45:08,524 MainViewModel.produceDummyProvincemap() - 117
+[DEBUG] 2018-08-21 21:45:08,525 MainViewModel.fillRect() - rect: x0=200 y0=800 width=200 height=200 color=0x108cc0ff
+[DEBUG] 2018-08-21 21:45:08,525 MainViewModel.produceDummyProvincemap() - 118
+[DEBUG] 2018-08-21 21:45:08,526 MainViewModel.fillRect() - rect: x0=400 y0=800 width=200 height=200 color=0x918effff
+[DEBUG] 2018-08-21 21:45:08,526 MainViewModel.produceDummyProvincemap() - 119
+[DEBUG] 2018-08-21 21:45:08,526 MainViewModel.fillRect() - rect: x0=600 y0=800 width=200 height=200 color=0x119000ff
+[DEBUG] 2018-08-21 21:45:08,527 MainViewModel.produceDummyProvincemap() - 120
+[DEBUG] 2018-08-21 21:45:08,527 MainViewModel.fillRect() - rect: x0=800 y0=800 width=200 height=200 color=0x919240ff
+[DEBUG] 2018-08-21 21:45:08,527 MainViewModel.produceDummyProvincemap() - 121
+[DEBUG] 2018-08-21 21:45:08,528 MainViewModel.fillRect() - rect: x0=1000 y0=800 width=200 height=200 color=0x119480ff
+[DEBUG] 2018-08-21 21:45:08,528 MainViewModel.produceDummyProvincemap() - 122
+[DEBUG] 2018-08-21 21:45:08,528 MainViewModel.fillRect() - rect: x0=1200 y0=800 width=200 height=200 color=0x9196c0ff
+[DEBUG] 2018-08-21 21:45:08,529 MainViewModel.produceDummyProvincemap() - 123
+[DEBUG] 2018-08-21 21:45:08,531 MainViewModel.fillRect() - rect: x0=1400 y0=800 width=200 height=200 color=0x1198ffff
+[DEBUG] 2018-08-21 21:45:08,531 MainViewModel.produceDummyProvincemap() - 124
+[DEBUG] 2018-08-21 21:45:08,532 MainViewModel.fillRect() - rect: x0=1600 y0=800 width=200 height=200 color=0x919a00ff
+[DEBUG] 2018-08-21 21:45:08,532 MainViewModel.produceDummyProvincemap() - 125
+[DEBUG] 2018-08-21 21:45:08,532 MainViewModel.fillRect() - rect: x0=1800 y0=800 width=200 height=200 color=0x129c40ff
+[DEBUG] 2018-08-21 21:45:08,533 MainViewModel.produceDummyProvincemap() - 126
+[DEBUG] 2018-08-21 21:45:08,533 MainViewModel.fillRect() - rect: x0=2000 y0=800 width=200 height=200 color=0x929e80ff
+[DEBUG] 2018-08-21 21:45:08,533 MainViewModel.produceDummyProvincemap() - 127
+[DEBUG] 2018-08-21 21:45:08,534 MainViewModel.fillRect() - rect: x0=2200 y0=800 width=200 height=200 color=0x1220c0ff
+[DEBUG] 2018-08-21 21:45:08,534 MainViewModel.produceDummyProvincemap() - 128
+[DEBUG] 2018-08-21 21:45:08,535 MainViewModel.fillRect() - rect: x0=2400 y0=800 width=200 height=200 color=0x9222ffff
+[DEBUG] 2018-08-21 21:45:08,535 MainViewModel.produceDummyProvincemap() - 129
+[DEBUG] 2018-08-21 21:45:08,535 MainViewModel.fillRect() - rect: x0=2600 y0=800 width=200 height=200 color=0x122400ff
+[DEBUG] 2018-08-21 21:45:08,535 MainViewModel.produceDummyProvincemap() - 130
+[DEBUG] 2018-08-21 21:45:08,536 MainViewModel.fillRect() - rect: x0=2800 y0=800 width=200 height=200 color=0x922640ff
+[DEBUG] 2018-08-21 21:45:08,536 MainViewModel.produceDummyProvincemap() - 131
+[DEBUG] 2018-08-21 21:45:08,537 MainViewModel.fillRect() - rect: x0=3000 y0=800 width=200 height=200 color=0x122880ff
+[DEBUG] 2018-08-21 21:45:08,537 MainViewModel.produceDummyProvincemap() - 132
+[DEBUG] 2018-08-21 21:45:08,538 MainViewModel.fillRect() - rect: x0=3200 y0=800 width=200 height=200 color=0x932ac0ff
+[DEBUG] 2018-08-21 21:45:08,543 MainViewModel.produceDummyProvincemap() - 133
+[DEBUG] 2018-08-21 21:45:08,543 MainViewModel.fillRect() - rect: x0=3400 y0=800 width=200 height=200 color=0x132cffff
+[DEBUG] 2018-08-21 21:45:08,544 MainViewModel.produceDummyProvincemap() - 134
+[DEBUG] 2018-08-21 21:45:08,544 MainViewModel.fillRect() - rect: x0=3600 y0=800 width=200 height=200 color=0x932e00ff
+[DEBUG] 2018-08-21 21:45:08,544 MainViewModel.produceDummyProvincemap() - 135
+[DEBUG] 2018-08-21 21:45:08,545 MainViewModel.fillRect() - rect: x0=3800 y0=800 width=200 height=200 color=0x133040ff
+[DEBUG] 2018-08-21 21:45:08,545 MainViewModel.produceDummyProvincemap() - 136
+[DEBUG] 2018-08-21 21:45:08,545 MainViewModel.fillRect() - rect: x0=4000 y0=800 width=200 height=200 color=0x933280ff
+[DEBUG] 2018-08-21 21:45:08,545 MainViewModel.produceDummyProvincemap() - 137
+[DEBUG] 2018-08-21 21:45:08,546 MainViewModel.fillRect() - rect: x0=4200 y0=800 width=200 height=200 color=0x1334c0ff
+[DEBUG] 2018-08-21 21:45:08,546 MainViewModel.produceDummyProvincemap() - 138
+[DEBUG] 2018-08-21 21:45:08,546 MainViewModel.fillRect() - rect: x0=4400 y0=800 width=200 height=200 color=0x9336ffff
+[DEBUG] 2018-08-21 21:45:08,546 MainViewModel.produceDummyProvincemap() - 139
+[DEBUG] 2018-08-21 21:45:08,547 MainViewModel.fillRect() - rect: x0=4600 y0=800 width=200 height=200 color=0x143800ff
+[DEBUG] 2018-08-21 21:45:08,547 MainViewModel.produceDummyProvincemap() - 140
+[DEBUG] 2018-08-21 21:45:08,547 MainViewModel.fillRect() - rect: x0=4800 y0=800 width=200 height=200 color=0x943a40ff
+[DEBUG] 2018-08-21 21:45:08,548 MainViewModel.produceDummyProvincemap() - 141
+[DEBUG] 2018-08-21 21:45:08,548 MainViewModel.fillRect() - rect: x0=5000 y0=800 width=200 height=200 color=0x143c80ff
+[DEBUG] 2018-08-21 21:45:08,548 MainViewModel.produceDummyProvincemap() - 142
+[DEBUG] 2018-08-21 21:45:08,549 MainViewModel.fillRect() - rect: x0=5200 y0=800 width=200 height=200 color=0x943ec0ff
+[DEBUG] 2018-08-21 21:45:08,549 MainViewModel.produceDummyProvincemap() - 143
+[DEBUG] 2018-08-21 21:45:08,549 MainViewModel.fillRect() - rect: x0=5400 y0=800 width=200 height=200 color=0x1440ffff
+[DEBUG] 2018-08-21 21:45:08,549 MainViewModel.produceDummyProvincemap() - 144
+[DEBUG] 2018-08-21 21:45:08,549 MainViewModel.fillRect() - rect: x0=5600 y0=800 width=200 height=200 color=0x944200ff
+[DEBUG] 2018-08-21 21:45:08,550 MainViewModel.produceDummyProvincemap() - 145
+[DEBUG] 2018-08-21 21:45:08,550 MainViewModel.fillRect() - rect: x0=0 y0=1000 width=200 height=200 color=0x144440ff
+[DEBUG] 2018-08-21 21:45:08,550 MainViewModel.produceDummyProvincemap() - 146
+[DEBUG] 2018-08-21 21:45:08,550 MainViewModel.fillRect() - rect: x0=200 y0=1000 width=200 height=200 color=0x954680ff
+[DEBUG] 2018-08-21 21:45:08,551 MainViewModel.produceDummyProvincemap() - 147
+[DEBUG] 2018-08-21 21:45:08,551 MainViewModel.fillRect() - rect: x0=400 y0=1000 width=200 height=200 color=0x1548c0ff
+[DEBUG] 2018-08-21 21:45:08,551 MainViewModel.produceDummyProvincemap() - 148
+[DEBUG] 2018-08-21 21:45:08,551 MainViewModel.fillRect() - rect: x0=600 y0=1000 width=200 height=200 color=0x954affff
+[DEBUG] 2018-08-21 21:45:08,552 MainViewModel.produceDummyProvincemap() - 149
+[DEBUG] 2018-08-21 21:45:08,552 MainViewModel.fillRect() - rect: x0=800 y0=1000 width=200 height=200 color=0x154c00ff
+[DEBUG] 2018-08-21 21:45:08,552 MainViewModel.produceDummyProvincemap() - 150
+[DEBUG] 2018-08-21 21:45:08,552 MainViewModel.fillRect() - rect: x0=1000 y0=1000 width=200 height=200 color=0x954e40ff
+[DEBUG] 2018-08-21 21:45:08,552 MainViewModel.produceDummyProvincemap() - 151
+[DEBUG] 2018-08-21 21:45:08,553 MainViewModel.fillRect() - rect: x0=1200 y0=1000 width=200 height=200 color=0x155080ff
+[DEBUG] 2018-08-21 21:45:08,553 MainViewModel.produceDummyProvincemap() - 152
+[DEBUG] 2018-08-21 21:45:08,554 MainViewModel.fillRect() - rect: x0=1400 y0=1000 width=200 height=200 color=0x9552c0ff
+[DEBUG] 2018-08-21 21:45:08,554 MainViewModel.produceDummyProvincemap() - 153
+[DEBUG] 2018-08-21 21:45:08,554 MainViewModel.fillRect() - rect: x0=1600 y0=1000 width=200 height=200 color=0x1654ffff
+[DEBUG] 2018-08-21 21:45:08,557 MainViewModel.produceDummyProvincemap() - 154
+[DEBUG] 2018-08-21 21:45:08,557 MainViewModel.fillRect() - rect: x0=1800 y0=1000 width=200 height=200 color=0x965600ff
+[DEBUG] 2018-08-21 21:45:08,558 MainViewModel.produceDummyProvincemap() - 155
+[DEBUG] 2018-08-21 21:45:08,565 MainViewModel.fillRect() - rect: x0=2000 y0=1000 width=200 height=200 color=0x165840ff
+[DEBUG] 2018-08-21 21:45:08,565 MainViewModel.produceDummyProvincemap() - 156
+[DEBUG] 2018-08-21 21:45:08,566 MainViewModel.fillRect() - rect: x0=2200 y0=1000 width=200 height=200 color=0x965a80ff
+[DEBUG] 2018-08-21 21:45:08,566 MainViewModel.produceDummyProvincemap() - 157
+[DEBUG] 2018-08-21 21:45:08,566 MainViewModel.fillRect() - rect: x0=2400 y0=1000 width=200 height=200 color=0x165cc0ff
+[DEBUG] 2018-08-21 21:45:08,566 MainViewModel.produceDummyProvincemap() - 158
+[DEBUG] 2018-08-21 21:45:08,567 MainViewModel.fillRect() - rect: x0=2600 y0=1000 width=200 height=200 color=0x965effff
+[DEBUG] 2018-08-21 21:45:08,567 MainViewModel.produceDummyProvincemap() - 159
+[DEBUG] 2018-08-21 21:45:08,575 MainViewModel.fillRect() - rect: x0=2800 y0=1000 width=200 height=200 color=0x166000ff
+[DEBUG] 2018-08-21 21:45:08,575 MainViewModel.produceDummyProvincemap() - 160
+[DEBUG] 2018-08-21 21:45:08,576 MainViewModel.fillRect() - rect: x0=3000 y0=1000 width=200 height=200 color=0x976240ff
+[DEBUG] 2018-08-21 21:45:08,576 MainViewModel.produceDummyProvincemap() - 161
+[DEBUG] 2018-08-21 21:45:08,576 MainViewModel.fillRect() - rect: x0=3200 y0=1000 width=200 height=200 color=0x176480ff
+[DEBUG] 2018-08-21 21:45:08,577 MainViewModel.produceDummyProvincemap() - 162
+[DEBUG] 2018-08-21 21:45:08,577 MainViewModel.fillRect() - rect: x0=3400 y0=1000 width=200 height=200 color=0x9766c0ff
+[DEBUG] 2018-08-21 21:45:08,578 MainViewModel.produceDummyProvincemap() - 163
+[DEBUG] 2018-08-21 21:45:08,578 MainViewModel.fillRect() - rect: x0=3600 y0=1000 width=200 height=200 color=0x1768ffff
+[DEBUG] 2018-08-21 21:45:08,578 MainViewModel.produceDummyProvincemap() - 164
+[DEBUG] 2018-08-21 21:45:08,579 MainViewModel.fillRect() - rect: x0=3800 y0=1000 width=200 height=200 color=0x976a00ff
+[DEBUG] 2018-08-21 21:45:08,579 MainViewModel.produceDummyProvincemap() - 165
+[DEBUG] 2018-08-21 21:45:08,579 MainViewModel.fillRect() - rect: x0=4000 y0=1000 width=200 height=200 color=0x176c40ff
+[DEBUG] 2018-08-21 21:45:08,579 MainViewModel.produceDummyProvincemap() - 166
+[DEBUG] 2018-08-21 21:45:08,580 MainViewModel.fillRect() - rect: x0=4200 y0=1000 width=200 height=200 color=0x976e80ff
+[DEBUG] 2018-08-21 21:45:08,582 MainViewModel.produceDummyProvincemap() - 167
+[DEBUG] 2018-08-21 21:45:08,582 MainViewModel.fillRect() - rect: x0=4400 y0=1000 width=200 height=200 color=0x1870c0ff
+[DEBUG] 2018-08-21 21:45:08,582 MainViewModel.produceDummyProvincemap() - 168
+[DEBUG] 2018-08-21 21:45:08,582 MainViewModel.fillRect() - rect: x0=4600 y0=1000 width=200 height=200 color=0x9872ffff
+[DEBUG] 2018-08-21 21:45:08,583 MainViewModel.produceDummyProvincemap() - 169
+[DEBUG] 2018-08-21 21:45:08,583 MainViewModel.fillRect() - rect: x0=4800 y0=1000 width=200 height=200 color=0x187400ff
+[DEBUG] 2018-08-21 21:45:08,583 MainViewModel.produceDummyProvincemap() - 170
+[DEBUG] 2018-08-21 21:45:08,583 MainViewModel.fillRect() - rect: x0=5000 y0=1000 width=200 height=200 color=0x987640ff
+[DEBUG] 2018-08-21 21:45:08,583 MainViewModel.produceDummyProvincemap() - 171
+[DEBUG] 2018-08-21 21:45:08,584 MainViewModel.fillRect() - rect: x0=5200 y0=1000 width=200 height=200 color=0x187880ff
+[DEBUG] 2018-08-21 21:45:08,584 MainViewModel.produceDummyProvincemap() - 172
+[DEBUG] 2018-08-21 21:45:08,584 MainViewModel.fillRect() - rect: x0=5400 y0=1000 width=200 height=200 color=0x987ac0ff
+[DEBUG] 2018-08-21 21:45:08,584 MainViewModel.produceDummyProvincemap() - 173
+[DEBUG] 2018-08-21 21:45:08,584 MainViewModel.fillRect() - rect: x0=5600 y0=1000 width=200 height=200 color=0x187cffff
+[DEBUG] 2018-08-21 21:45:08,585 MainViewModel.produceDummyProvincemap() - 174
+[DEBUG] 2018-08-21 21:45:08,585 MainViewModel.fillRect() - rect: x0=0 y0=1200 width=200 height=200 color=0x997e00ff
+[DEBUG] 2018-08-21 21:45:08,585 MainViewModel.produceDummyProvincemap() - 175
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.fillRect() - rect: x0=200 y0=1200 width=200 height=200 color=0x198040ff
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.produceDummyProvincemap() - 176
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.fillRect() - rect: x0=400 y0=1200 width=200 height=200 color=0x998280ff
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.produceDummyProvincemap() - 177
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.fillRect() - rect: x0=600 y0=1200 width=200 height=200 color=0x1984c0ff
+[DEBUG] 2018-08-21 21:45:08,586 MainViewModel.produceDummyProvincemap() - 178
+[DEBUG] 2018-08-21 21:45:08,587 MainViewModel.fillRect() - rect: x0=800 y0=1200 width=200 height=200 color=0x9986ffff
+[DEBUG] 2018-08-21 21:45:08,587 MainViewModel.produceDummyProvincemap() - 179
+[DEBUG] 2018-08-21 21:45:08,587 MainViewModel.fillRect() - rect: x0=1000 y0=1200 width=200 height=200 color=0x198800ff
+[DEBUG] 2018-08-21 21:45:08,587 MainViewModel.produceDummyProvincemap() - 180
+[DEBUG] 2018-08-21 21:45:08,587 MainViewModel.fillRect() - rect: x0=1200 y0=1200 width=200 height=200 color=0x998a40ff
+[DEBUG] 2018-08-21 21:45:08,588 MainViewModel.produceDummyProvincemap() - 181
+[DEBUG] 2018-08-21 21:45:08,588 MainViewModel.fillRect() - rect: x0=1400 y0=1200 width=200 height=200 color=0x1a8c80ff
+[DEBUG] 2018-08-21 21:45:08,588 MainViewModel.produceDummyProvincemap() - 182
+[DEBUG] 2018-08-21 21:45:08,589 MainViewModel.fillRect() - rect: x0=1600 y0=1200 width=200 height=200 color=0x9a8ec0ff
+[DEBUG] 2018-08-21 21:45:08,590 MainViewModel.produceDummyProvincemap() - 183
+[DEBUG] 2018-08-21 21:45:08,590 MainViewModel.fillRect() - rect: x0=1800 y0=1200 width=200 height=200 color=0x1a90ffff
+[DEBUG] 2018-08-21 21:45:08,590 MainViewModel.produceDummyProvincemap() - 184
+[DEBUG] 2018-08-21 21:45:08,592 MainViewModel.fillRect() - rect: x0=2000 y0=1200 width=200 height=200 color=0x93dedaff
+[DEBUG] 2018-08-21 21:45:08,592 MainViewModel.produceDummyProvincemap() - 185
+[DEBUG] 2018-08-21 21:45:08,593 MainViewModel.fillRect() - rect: x0=2200 y0=1200 width=200 height=200 color=0x1a9440ff
+[DEBUG] 2018-08-21 21:45:08,595 MainViewModel.produceDummyProvincemap() - 186
+[DEBUG] 2018-08-21 21:45:08,601 MainViewModel.fillRect() - rect: x0=2400 y0=1200 width=200 height=200 color=0x9a9680ff
+[DEBUG] 2018-08-21 21:45:08,601 MainViewModel.produceDummyProvincemap() - 187
+[DEBUG] 2018-08-21 21:45:08,602 MainViewModel.fillRect() - rect: x0=2600 y0=1200 width=200 height=200 color=0x1a98c0ff
+[DEBUG] 2018-08-21 21:45:08,602 MainViewModel.produceDummyProvincemap() - 188
+[DEBUG] 2018-08-21 21:45:08,602 MainViewModel.fillRect() - rect: x0=2800 y0=1200 width=200 height=200 color=0x9b9affff
+[DEBUG] 2018-08-21 21:45:08,603 MainViewModel.produceDummyProvincemap() - 189
+[DEBUG] 2018-08-21 21:45:08,603 MainViewModel.fillRect() - rect: x0=3000 y0=1200 width=200 height=200 color=0x1b9c00ff
+[DEBUG] 2018-08-21 21:45:08,603 MainViewModel.produceDummyProvincemap() - 190
+[DEBUG] 2018-08-21 21:45:08,604 MainViewModel.fillRect() - rect: x0=3200 y0=1200 width=200 height=200 color=0x9b9e40ff
+[DEBUG] 2018-08-21 21:45:08,604 MainViewModel.produceDummyProvincemap() - 191
+[DEBUG] 2018-08-21 21:45:08,604 MainViewModel.fillRect() - rect: x0=3400 y0=1200 width=200 height=200 color=0x1b2080ff
+[DEBUG] 2018-08-21 21:45:08,605 MainViewModel.produceDummyProvincemap() - 192
+[DEBUG] 2018-08-21 21:45:08,605 MainViewModel.fillRect() - rect: x0=3600 y0=1200 width=200 height=200 color=0x9b22c0ff
+[DEBUG] 2018-08-21 21:45:08,606 MainViewModel.produceDummyProvincemap() - 193
+[DEBUG] 2018-08-21 21:45:08,607 MainViewModel.fillRect() - rect: x0=3800 y0=1200 width=200 height=200 color=0x1b24ffff
+[DEBUG] 2018-08-21 21:45:08,607 MainViewModel.produceDummyProvincemap() - 194
+[DEBUG] 2018-08-21 21:45:08,608 MainViewModel.fillRect() - rect: x0=4000 y0=1200 width=200 height=200 color=0x9b2600ff
+[DEBUG] 2018-08-21 21:45:08,608 MainViewModel.produceDummyProvincemap() - 195
+[DEBUG] 2018-08-21 21:45:08,608 MainViewModel.fillRect() - rect: x0=4200 y0=1200 width=200 height=200 color=0x1c2840ff
+[DEBUG] 2018-08-21 21:45:08,609 MainViewModel.produceDummyProvincemap() - 196
+[DEBUG] 2018-08-21 21:45:08,610 MainViewModel.fillRect() - rect: x0=4400 y0=1200 width=200 height=200 color=0x9c2a80ff
+[DEBUG] 2018-08-21 21:45:08,610 MainViewModel.produceDummyProvincemap() - 197
+[DEBUG] 2018-08-21 21:45:08,610 MainViewModel.fillRect() - rect: x0=4600 y0=1200 width=200 height=200 color=0x1c2cc0ff
+[DEBUG] 2018-08-21 21:45:08,610 MainViewModel.produceDummyProvincemap() - 198
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.fillRect() - rect: x0=4800 y0=1200 width=200 height=200 color=0x9c2effff
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.produceDummyProvincemap() - 199
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.fillRect() - rect: x0=5000 y0=1200 width=200 height=200 color=0x1cf800ff
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.produceDummyProvincemap() - 200
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.fillRect() - rect: x0=5200 y0=1200 width=200 height=200 color=0x9c3240ff
+[DEBUG] 2018-08-21 21:45:08,611 MainViewModel.produceDummyProvincemap() - 201
+[DEBUG] 2018-08-21 21:45:08,612 MainViewModel.fillRect() - rect: x0=5400 y0=1200 width=200 height=200 color=0x1c3480ff
+[DEBUG] 2018-08-21 21:45:08,612 MainViewModel.produceDummyProvincemap() - 202
+[DEBUG] 2018-08-21 21:45:08,612 MainViewModel.fillRect() - rect: x0=5600 y0=1200 width=200 height=200 color=0x9d36c0ff
+[DEBUG] 2018-08-21 21:45:08,612 MainViewModel.produceDummyProvincemap() - 203
+[DEBUG] 2018-08-21 21:45:08,612 MainViewModel.fillRect() - rect: x0=0 y0=1400 width=200 height=200 color=0x1d38ffff
+[DEBUG] 2018-08-21 21:45:08,613 MainViewModel.produceDummyProvincemap() - 204
+[DEBUG] 2018-08-21 21:45:08,615 MainViewModel.fillRect() - rect: x0=200 y0=1400 width=200 height=200 color=0x9d3a00ff
+[DEBUG] 2018-08-21 21:45:08,615 MainViewModel.produceDummyProvincemap() - 205
+[DEBUG] 2018-08-21 21:45:08,616 MainViewModel.fillRect() - rect: x0=400 y0=1400 width=200 height=200 color=0x1d3c40ff
+[DEBUG] 2018-08-21 21:45:08,616 MainViewModel.produceDummyProvincemap() - 206
+[DEBUG] 2018-08-21 21:45:08,616 MainViewModel.fillRect() - rect: x0=600 y0=1400 width=200 height=200 color=0x9d3e80ff
+[DEBUG] 2018-08-21 21:45:08,616 MainViewModel.produceDummyProvincemap() - 207
+[DEBUG] 2018-08-21 21:45:08,616 MainViewModel.fillRect() - rect: x0=800 y0=1400 width=200 height=200 color=0x1d40c0ff
+[DEBUG] 2018-08-21 21:45:08,617 MainViewModel.produceDummyProvincemap() - 208
+[DEBUG] 2018-08-21 21:45:08,617 MainViewModel.fillRect() - rect: x0=1000 y0=1400 width=200 height=200 color=0x9d42ffff
+[DEBUG] 2018-08-21 21:45:08,617 MainViewModel.produceDummyProvincemap() - 209
+[DEBUG] 2018-08-21 21:45:08,617 MainViewModel.fillRect() - rect: x0=1200 y0=1400 width=200 height=200 color=0x1e4400ff
+[DEBUG] 2018-08-21 21:45:08,617 MainViewModel.produceDummyProvincemap() - 210
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.fillRect() - rect: x0=1400 y0=1400 width=200 height=200 color=0x9e4640ff
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.produceDummyProvincemap() - 211
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.fillRect() - rect: x0=1600 y0=1400 width=200 height=200 color=0x1e4880ff
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.produceDummyProvincemap() - 212
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.fillRect() - rect: x0=1800 y0=1400 width=200 height=200 color=0x9e4ac0ff
+[DEBUG] 2018-08-21 21:45:08,618 MainViewModel.produceDummyProvincemap() - 213
+[DEBUG] 2018-08-21 21:45:08,619 MainViewModel.fillRect() - rect: x0=2000 y0=1400 width=200 height=200 color=0x1e4cffff
+[DEBUG] 2018-08-21 21:45:08,619 MainViewModel.produceDummyProvincemap() - 214
+[DEBUG] 2018-08-21 21:45:08,620 MainViewModel.fillRect() - rect: x0=2200 y0=1400 width=200 height=200 color=0x9e4e00ff
+[DEBUG] 2018-08-21 21:45:08,620 MainViewModel.produceDummyProvincemap() - 215
+[DEBUG] 2018-08-21 21:45:08,620 MainViewModel.fillRect() - rect: x0=2400 y0=1400 width=200 height=200 color=0x1e5040ff
+[DEBUG] 2018-08-21 21:45:08,620 MainViewModel.produceDummyProvincemap() - 216
+[DEBUG] 2018-08-21 21:45:08,620 MainViewModel.fillRect() - rect: x0=2600 y0=1400 width=200 height=200 color=0x9f5280ff
+[DEBUG] 2018-08-21 21:45:08,621 MainViewModel.produceDummyProvincemap() - 217
+[DEBUG] 2018-08-21 21:45:08,621 MainViewModel.fillRect() - rect: x0=2800 y0=1400 width=200 height=200 color=0x1f54c0ff
+[DEBUG] 2018-08-21 21:45:08,621 MainViewModel.produceDummyProvincemap() - 218
+[DEBUG] 2018-08-21 21:45:08,621 MainViewModel.fillRect() - rect: x0=3000 y0=1400 width=200 height=200 color=0x9f56ffff
+[DEBUG] 2018-08-21 21:45:08,621 MainViewModel.produceDummyProvincemap() - 219
+[DEBUG] 2018-08-21 21:45:08,625 MainViewModel.fillRect() - rect: x0=3200 y0=1400 width=200 height=200 color=0x1f5800ff
+[DEBUG] 2018-08-21 21:45:08,626 MainViewModel.produceDummyProvincemap() - 220
+[DEBUG] 2018-08-21 21:45:08,626 MainViewModel.fillRect() - rect: x0=3400 y0=1400 width=200 height=200 color=0x9f5a40ff
+[DEBUG] 2018-08-21 21:45:08,626 MainViewModel.produceDummyProvincemap() - 221
+[DEBUG] 2018-08-21 21:45:08,627 MainViewModel.fillRect() - rect: x0=3600 y0=1400 width=200 height=200 color=0x1f5c80ff
+[DEBUG] 2018-08-21 21:45:08,627 MainViewModel.produceDummyProvincemap() - 222
+[DEBUG] 2018-08-21 21:45:08,628 MainViewModel.fillRect() - rect: x0=3800 y0=1400 width=200 height=200 color=0x9f5ec0ff
+[DEBUG] 2018-08-21 21:45:08,628 MainViewModel.produceDummyProvincemap() - 223
+[DEBUG] 2018-08-21 21:45:08,628 MainViewModel.fillRect() - rect: x0=4000 y0=1400 width=200 height=200 color=0x2060ffff
+[DEBUG] 2018-08-21 21:45:08,628 MainViewModel.produceDummyProvincemap() - 224
+[DEBUG] 2018-08-21 21:45:08,629 MainViewModel.fillRect() - rect: x0=4200 y0=1400 width=200 height=200 color=0xa06200ff
+[DEBUG] 2018-08-21 21:45:08,629 MainViewModel.produceDummyProvincemap() - 225
+[DEBUG] 2018-08-21 21:45:08,629 MainViewModel.fillRect() - rect: x0=4400 y0=1400 width=200 height=200 color=0x206440ff
+[DEBUG] 2018-08-21 21:45:08,629 MainViewModel.produceDummyProvincemap() - 226
+[DEBUG] 2018-08-21 21:45:08,630 MainViewModel.fillRect() - rect: x0=4600 y0=1400 width=200 height=200 color=0xa06680ff
+[DEBUG] 2018-08-21 21:45:08,630 MainViewModel.produceDummyProvincemap() - 227
+[DEBUG] 2018-08-21 21:45:08,631 MainViewModel.fillRect() - rect: x0=4800 y0=1400 width=200 height=200 color=0x2068c0ff
+[DEBUG] 2018-08-21 21:45:08,631 MainViewModel.produceDummyProvincemap() - 228
+[DEBUG] 2018-08-21 21:45:08,631 MainViewModel.fillRect() - rect: x0=5000 y0=1400 width=200 height=200 color=0xa06affff
+[DEBUG] 2018-08-21 21:45:08,631 MainViewModel.produceDummyProvincemap() - 229
+[DEBUG] 2018-08-21 21:45:08,632 MainViewModel.fillRect() - rect: x0=5200 y0=1400 width=200 height=200 color=0x206c00ff
+[DEBUG] 2018-08-21 21:45:08,632 MainViewModel.produceDummyProvincemap() - 230
+[DEBUG] 2018-08-21 21:45:08,633 MainViewModel.fillRect() - rect: x0=5400 y0=1400 width=200 height=200 color=0xa16e40ff
+[DEBUG] 2018-08-21 21:45:08,633 MainViewModel.produceDummyProvincemap() - 231
+[DEBUG] 2018-08-21 21:45:08,634 MainViewModel.fillRect() - rect: x0=5600 y0=1400 width=200 height=200 color=0x217080ff
+[DEBUG] 2018-08-21 21:45:08,634 MainViewModel.produceDummyProvincemap() - 232
+[DEBUG] 2018-08-21 21:45:08,634 MainViewModel.fillRect() - rect: x0=0 y0=1600 width=200 height=200 color=0xa6cb5dff
+[DEBUG] 2018-08-21 21:45:08,634 MainViewModel.produceDummyProvincemap() - 233
+[DEBUG] 2018-08-21 21:45:08,635 MainViewModel.fillRect() - rect: x0=200 y0=1600 width=200 height=200 color=0x2174ffff
+[DEBUG] 2018-08-21 21:45:08,635 MainViewModel.produceDummyProvincemap() - 234
+[DEBUG] 2018-08-21 21:45:08,635 MainViewModel.fillRect() - rect: x0=400 y0=1600 width=200 height=200 color=0xa17600ff
+[DEBUG] 2018-08-21 21:45:08,636 MainViewModel.produceDummyProvincemap() - 235
+[DEBUG] 2018-08-21 21:45:08,636 MainViewModel.fillRect() - rect: x0=600 y0=1600 width=200 height=200 color=0x217840ff
+[DEBUG] 2018-08-21 21:45:08,636 MainViewModel.produceDummyProvincemap() - 236
+[DEBUG] 2018-08-21 21:45:08,637 MainViewModel.fillRect() - rect: x0=800 y0=1600 width=200 height=200 color=0xa17a80ff
+[DEBUG] 2018-08-21 21:45:08,637 MainViewModel.produceDummyProvincemap() - 237
+[DEBUG] 2018-08-21 21:45:08,637 MainViewModel.fillRect() - rect: x0=1000 y0=1600 width=200 height=200 color=0x227cc0ff
+[DEBUG] 2018-08-21 21:45:08,637 MainViewModel.produceDummyProvincemap() - 238
+[DEBUG] 2018-08-21 21:45:08,638 MainViewModel.fillRect() - rect: x0=1200 y0=1600 width=200 height=200 color=0xa27effff
+[DEBUG] 2018-08-21 21:45:08,638 MainViewModel.produceDummyProvincemap() - 239
+[DEBUG] 2018-08-21 21:45:08,647 MainViewModel.fillRect() - rect: x0=1400 y0=1600 width=200 height=200 color=0x228000ff
+[DEBUG] 2018-08-21 21:45:08,647 MainViewModel.produceDummyProvincemap() - 240
+[DEBUG] 2018-08-21 21:45:08,647 MainViewModel.fillRect() - rect: x0=1600 y0=1600 width=200 height=200 color=0xa28240ff
+[DEBUG] 2018-08-21 21:45:08,647 MainViewModel.produceDummyProvincemap() - 241
+[DEBUG] 2018-08-21 21:45:08,648 MainViewModel.fillRect() - rect: x0=1800 y0=1600 width=200 height=200 color=0x228480ff
+[DEBUG] 2018-08-21 21:45:08,648 MainViewModel.produceDummyProvincemap() - 242
+[DEBUG] 2018-08-21 21:45:08,648 MainViewModel.fillRect() - rect: x0=2000 y0=1600 width=200 height=200 color=0xa286c0ff
+[DEBUG] 2018-08-21 21:45:08,648 MainViewModel.produceDummyProvincemap() - 243
+[DEBUG] 2018-08-21 21:45:08,649 MainViewModel.fillRect() - rect: x0=2200 y0=1600 width=200 height=200 color=0x2288ffff
+[DEBUG] 2018-08-21 21:45:08,649 MainViewModel.produceDummyProvincemap() - 244
+[DEBUG] 2018-08-21 21:45:08,649 MainViewModel.fillRect() - rect: x0=2400 y0=1600 width=200 height=200 color=0xa38a00ff
+[DEBUG] 2018-08-21 21:45:08,650 MainViewModel.produceDummyProvincemap() - 245
+[DEBUG] 2018-08-21 21:45:08,654 MainViewModel.fillRect() - rect: x0=2600 y0=1600 width=200 height=200 color=0x238c40ff
+[DEBUG] 2018-08-21 21:45:08,654 MainViewModel.produceDummyProvincemap() - 246
+[DEBUG] 2018-08-21 21:45:08,655 MainViewModel.fillRect() - rect: x0=2800 y0=1600 width=200 height=200 color=0xa38e80ff
+[DEBUG] 2018-08-21 21:45:08,655 MainViewModel.produceDummyProvincemap() - 247
+[DEBUG] 2018-08-21 21:45:08,656 MainViewModel.fillRect() - rect: x0=3000 y0=1600 width=200 height=200 color=0x2390c0ff
+[DEBUG] 2018-08-21 21:45:08,657 MainViewModel.produceDummyProvincemap() - 248
+[DEBUG] 2018-08-21 21:45:08,657 MainViewModel.fillRect() - rect: x0=3200 y0=1600 width=200 height=200 color=0xa392ffff
+[DEBUG] 2018-08-21 21:45:08,657 MainViewModel.produceDummyProvincemap() - 249
+[DEBUG] 2018-08-21 21:45:08,658 MainViewModel.fillRect() - rect: x0=3400 y0=1600 width=200 height=200 color=0x239400ff
+[DEBUG] 2018-08-21 21:45:08,658 MainViewModel.produceDummyProvincemap() - 250
+[DEBUG] 2018-08-21 21:45:08,658 MainViewModel.fillRect() - rect: x0=3600 y0=1600 width=200 height=200 color=0xa39640ff
+[DEBUG] 2018-08-21 21:45:08,662 MainViewModel.produceDummyProvincemap() - 251
+[DEBUG] 2018-08-21 21:45:08,663 MainViewModel.fillRect() - rect: x0=3800 y0=1600 width=200 height=200 color=0x249880ff
+[DEBUG] 2018-08-21 21:45:08,664 MainViewModel.produceDummyProvincemap() - 252
+[DEBUG] 2018-08-21 21:45:08,664 MainViewModel.fillRect() - rect: x0=4000 y0=1600 width=200 height=200 color=0xa49ac0ff
+[DEBUG] 2018-08-21 21:45:08,664 MainViewModel.produceDummyProvincemap() - 253
+[DEBUG] 2018-08-21 21:45:08,664 MainViewModel.fillRect() - rect: x0=4200 y0=1600 width=200 height=200 color=0x249cffff
+[DEBUG] 2018-08-21 21:45:08,665 MainViewModel.produceDummyProvincemap() - 254
+[DEBUG] 2018-08-21 21:45:08,665 MainViewModel.fillRect() - rect: x0=4400 y0=1600 width=200 height=200 color=0xa49e00ff
+[DEBUG] 2018-08-21 21:45:08,665 MainViewModel.produceDummyProvincemap() - 255
+[DEBUG] 2018-08-21 21:45:08,665 MainViewModel.fillRect() - rect: x0=4600 y0=1600 width=200 height=200 color=0x242040ff
+[DEBUG] 2018-08-21 21:45:08,666 MainViewModel.produceDummyProvincemap() - 256
+[DEBUG] 2018-08-21 21:45:08,666 MainViewModel.fillRect() - rect: x0=4800 y0=1600 width=200 height=200 color=0xa42280ff
+[DEBUG] 2018-08-21 21:45:08,666 MainViewModel.produceDummyProvincemap() - 257
+[DEBUG] 2018-08-21 21:45:08,666 MainViewModel.fillRect() - rect: x0=5000 y0=1600 width=200 height=200 color=0x2424c0ff
+[DEBUG] 2018-08-21 21:45:08,666 MainViewModel.produceDummyProvincemap() - 258
+[DEBUG] 2018-08-21 21:45:08,667 MainViewModel.fillRect() - rect: x0=5200 y0=1600 width=200 height=200 color=0xa526ffff
+[DEBUG] 2018-08-21 21:45:08,667 MainViewModel.produceDummyProvincemap() - 259
+[DEBUG] 2018-08-21 21:45:08,667 MainViewModel.fillRect() - rect: x0=5400 y0=1600 width=200 height=200 color=0x252800ff
+[DEBUG] 2018-08-21 21:45:08,667 MainViewModel.produceDummyProvincemap() - 260
+[DEBUG] 2018-08-21 21:45:08,677 MainViewModel.fillRect() - rect: x0=5600 y0=1600 width=200 height=200 color=0xa52a40ff
+[DEBUG] 2018-08-21 21:45:08,677 MainViewModel.produceDummyProvincemap() - 261
+[DEBUG] 2018-08-21 21:45:08,677 MainViewModel.fillRect() - rect: x0=0 y0=1800 width=200 height=200 color=0x252c80ff
+[DEBUG] 2018-08-21 21:45:08,678 MainViewModel.produceDummyProvincemap() - 262
+[DEBUG] 2018-08-21 21:45:08,679 MainViewModel.fillRect() - rect: x0=200 y0=1800 width=200 height=200 color=0xa52ec0ff
+[DEBUG] 2018-08-21 21:45:08,679 MainViewModel.produceDummyProvincemap() - 263
+[DEBUG] 2018-08-21 21:45:08,679 MainViewModel.fillRect() - rect: x0=400 y0=1800 width=200 height=200 color=0x2530ffff
+[DEBUG] 2018-08-21 21:45:08,679 MainViewModel.produceDummyProvincemap() - 264
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.fillRect() - rect: x0=600 y0=1800 width=200 height=200 color=0xa53200ff
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.produceDummyProvincemap() - 265
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.fillRect() - rect: x0=800 y0=1800 width=200 height=200 color=0x263440ff
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.produceDummyProvincemap() - 266
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.fillRect() - rect: x0=1000 y0=1800 width=200 height=200 color=0xa63680ff
+[DEBUG] 2018-08-21 21:45:08,680 MainViewModel.produceDummyProvincemap() - 267
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.fillRect() - rect: x0=1200 y0=1800 width=200 height=200 color=0x2638c0ff
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.produceDummyProvincemap() - 268
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.fillRect() - rect: x0=1400 y0=1800 width=200 height=200 color=0xa63affff
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.produceDummyProvincemap() - 269
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.fillRect() - rect: x0=1600 y0=1800 width=200 height=200 color=0x263c00ff
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.produceDummyProvincemap() - 270
+[DEBUG] 2018-08-21 21:45:08,681 MainViewModel.fillRect() - rect: x0=1800 y0=1800 width=200 height=200 color=0xa63e40ff
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.produceDummyProvincemap() - 271
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.fillRect() - rect: x0=2000 y0=1800 width=200 height=200 color=0x264080ff
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.produceDummyProvincemap() - 272
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.fillRect() - rect: x0=2200 y0=1800 width=200 height=200 color=0xa742c0ff
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.produceDummyProvincemap() - 273
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.fillRect() - rect: x0=2400 y0=1800 width=200 height=200 color=0x2744ffff
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.produceDummyProvincemap() - 274
+[DEBUG] 2018-08-21 21:45:08,682 MainViewModel.fillRect() - rect: x0=2600 y0=1800 width=200 height=200 color=0xa74600ff
+[DEBUG] 2018-08-21 21:45:08,683 MainViewModel.produceDummyProvincemap() - 275
+[DEBUG] 2018-08-21 21:45:08,683 MainViewModel.fillRect() - rect: x0=2800 y0=1800 width=200 height=200 color=0x274840ff
+[DEBUG] 2018-08-21 21:45:08,683 MainViewModel.produceDummyProvincemap() - 276
+[DEBUG] 2018-08-21 21:45:08,683 MainViewModel.fillRect() - rect: x0=3000 y0=1800 width=200 height=200 color=0xa74a80ff
+[DEBUG] 2018-08-21 21:45:08,683 MainViewModel.produceDummyProvincemap() - 277
+[DEBUG] 2018-08-21 21:45:08,684 MainViewModel.fillRect() - rect: x0=3200 y0=1800 width=200 height=200 color=0x274cc0ff
+[DEBUG] 2018-08-21 21:45:08,684 MainViewModel.produceDummyProvincemap() - 278
+[DEBUG] 2018-08-21 21:45:08,684 MainViewModel.fillRect() - rect: x0=3400 y0=1800 width=200 height=200 color=0xa74effff
+[DEBUG] 2018-08-21 21:45:08,684 MainViewModel.produceDummyProvincemap() - 279
+[DEBUG] 2018-08-21 21:45:08,684 MainViewModel.fillRect() - rect: x0=3600 y0=1800 width=200 height=200 color=0x285000ff
+[DEBUG] 2018-08-21 21:45:08,685 MainViewModel.produceDummyProvincemap() - 280
+[DEBUG] 2018-08-21 21:45:08,685 MainViewModel.fillRect() - rect: x0=3800 y0=1800 width=200 height=200 color=0xa85240ff
+[DEBUG] 2018-08-21 21:45:08,685 MainViewModel.produceDummyProvincemap() - 281
+[DEBUG] 2018-08-21 21:45:08,702 MainViewModel.fillRect() - rect: x0=4000 y0=1800 width=200 height=200 color=0x285480ff
+[DEBUG] 2018-08-21 21:45:08,702 MainViewModel.produceDummyProvincemap() - 282
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.fillRect() - rect: x0=4200 y0=1800 width=200 height=200 color=0xa856c0ff
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.produceDummyProvincemap() - 283
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.fillRect() - rect: x0=4400 y0=1800 width=200 height=200 color=0x2858ffff
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.produceDummyProvincemap() - 284
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.fillRect() - rect: x0=4600 y0=1800 width=200 height=200 color=0xa85a00ff
+[DEBUG] 2018-08-21 21:45:08,703 MainViewModel.produceDummyProvincemap() - 285
+[DEBUG] 2018-08-21 21:45:08,704 MainViewModel.fillRect() - rect: x0=4800 y0=1800 width=200 height=200 color=0x285c40ff
+[DEBUG] 2018-08-21 21:45:08,704 MainViewModel.produceDummyProvincemap() - 286
+[DEBUG] 2018-08-21 21:45:08,704 MainViewModel.fillRect() - rect: x0=5000 y0=1800 width=200 height=200 color=0xa95e80ff
+[DEBUG] 2018-08-21 21:45:08,704 MainViewModel.produceDummyProvincemap() - 287
+[DEBUG] 2018-08-21 21:45:08,705 MainViewModel.fillRect() - rect: x0=5200 y0=1800 width=200 height=200 color=0x2960c0ff
+[DEBUG] 2018-08-21 21:45:08,705 MainViewModel.produceDummyProvincemap() - 288
+[DEBUG] 2018-08-21 21:45:08,705 MainViewModel.fillRect() - rect: x0=5400 y0=1800 width=200 height=200 color=0xa962ffff
+[DEBUG] 2018-08-21 21:45:08,705 MainViewModel.produceDummyProvincemap() - 289
+[DEBUG] 2018-08-21 21:45:08,705 MainViewModel.fillRect() - rect: x0=5600 y0=1800 width=200 height=200 color=0x296400ff
+[DEBUG] 2018-08-21 21:45:08,706 MainViewModel.produceDummyProvincemap() - 290
+[DEBUG] 2018-08-21 21:45:08,706 MainViewModel.fillRect() - rect: x0=0 y0=2000 width=200 height=200 color=0xa96640ff
+[DEBUG] 2018-08-21 21:45:08,706 MainViewModel.produceDummyProvincemap() - 291
+[DEBUG] 2018-08-21 21:45:08,706 MainViewModel.fillRect() - rect: x0=200 y0=2000 width=200 height=200 color=0x296880ff
+[DEBUG] 2018-08-21 21:45:08,706 MainViewModel.produceDummyProvincemap() - 292
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.fillRect() - rect: x0=400 y0=2000 width=200 height=200 color=0xa96ac0ff
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.produceDummyProvincemap() - 293
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.fillRect() - rect: x0=600 y0=2000 width=200 height=200 color=0x2a6cffff
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.produceDummyProvincemap() - 294
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.fillRect() - rect: x0=800 y0=2000 width=200 height=200 color=0xaa6e00ff
+[DEBUG] 2018-08-21 21:45:08,707 MainViewModel.produceDummyProvincemap() - 295
+[DEBUG] 2018-08-21 21:45:08,708 MainViewModel.fillRect() - rect: x0=1000 y0=2000 width=200 height=200 color=0x2a7040ff
+[DEBUG] 2018-08-21 21:45:08,708 MainViewModel.produceDummyProvincemap() - 296
+[DEBUG] 2018-08-21 21:45:08,708 MainViewModel.fillRect() - rect: x0=1200 y0=2000 width=200 height=200 color=0x4ae34dff
+[DEBUG] 2018-08-21 21:45:08,708 MainViewModel.produceDummyProvincemap() - 297
+[DEBUG] 2018-08-21 21:45:08,708 MainViewModel.fillRect() - rect: x0=1400 y0=2000 width=200 height=200 color=0x2a74c0ff
+[DEBUG] 2018-08-21 21:45:08,709 MainViewModel.produceDummyProvincemap() - 298
+[DEBUG] 2018-08-21 21:45:08,709 MainViewModel.fillRect() - rect: x0=1600 y0=2000 width=200 height=200 color=0xaa76ffff
+[DEBUG] 2018-08-21 21:45:08,709 MainViewModel.produceDummyProvincemap() - 299
+[DEBUG] 2018-08-21 21:45:08,709 MainViewModel.fillRect() - rect: x0=1800 y0=2000 width=200 height=200 color=0x2a7800ff
+[DEBUG] 2018-08-21 21:45:08,710 MainViewModel.produceDummyProvincemap() - 300
+[DEBUG] 2018-08-21 21:45:08,710 MainViewModel.fillRect() - rect: x0=2000 y0=2000 width=200 height=200 color=0xab7a40ff
+[DEBUG] 2018-08-21 21:45:08,710 MainViewModel.produceDummyProvincemap() - 301
+[DEBUG] 2018-08-21 21:45:08,710 MainViewModel.fillRect() - rect: x0=2200 y0=2000 width=200 height=200 color=0x2b7c80ff
+[DEBUG] 2018-08-21 21:45:08,710 MainViewModel.produceDummyProvincemap() - 302
+[DEBUG] 2018-08-21 21:45:08,711 MainViewModel.fillRect() - rect: x0=2400 y0=2000 width=200 height=200 color=0xab7ec0ff
+[DEBUG] 2018-08-21 21:45:08,711 MainViewModel.produceDummyProvincemap() - 303
+[DEBUG] 2018-08-21 21:45:08,711 MainViewModel.fillRect() - rect: x0=2600 y0=2000 width=200 height=200 color=0x2b80ffff
+[DEBUG] 2018-08-21 21:45:08,712 MainViewModel.produceDummyProvincemap() - 304
+[DEBUG] 2018-08-21 21:45:08,712 MainViewModel.fillRect() - rect: x0=2800 y0=2000 width=200 height=200 color=0xab8200ff
+[DEBUG] 2018-08-21 21:45:08,712 MainViewModel.produceDummyProvincemap() - 305
+[DEBUG] 2018-08-21 21:45:08,712 MainViewModel.fillRect() - rect: x0=3000 y0=2000 width=200 height=200 color=0x2b8440ff
+[DEBUG] 2018-08-21 21:45:08,712 MainViewModel.produceDummyProvincemap() - 306
+[DEBUG] 2018-08-21 21:45:08,713 MainViewModel.fillRect() - rect: x0=3200 y0=2000 width=200 height=200 color=0xab8680ff
+[DEBUG] 2018-08-21 21:45:08,713 MainViewModel.produceDummyProvincemap() - 307
+[DEBUG] 2018-08-21 21:45:08,713 MainViewModel.fillRect() - rect: x0=3400 y0=2000 width=200 height=200 color=0x2c88c0ff
+[DEBUG] 2018-08-21 21:45:08,713 MainViewModel.produceDummyProvincemap() - 308
+[DEBUG] 2018-08-21 21:45:08,714 MainViewModel.fillRect() - rect: x0=3600 y0=2000 width=200 height=200 color=0xac8affff
+[DEBUG] 2018-08-21 21:45:08,714 MainViewModel.produceDummyProvincemap() - 309
+[DEBUG] 2018-08-21 21:45:08,714 MainViewModel.fillRect() - rect: x0=3800 y0=2000 width=200 height=200 color=0x2c8c00ff
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.produceDummyProvincemap() - 310
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.fillRect() - rect: x0=4000 y0=2000 width=200 height=200 color=0xac8e40ff
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.produceDummyProvincemap() - 311
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.fillRect() - rect: x0=4200 y0=2000 width=200 height=200 color=0x2c9080ff
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.produceDummyProvincemap() - 312
+[DEBUG] 2018-08-21 21:45:08,715 MainViewModel.fillRect() - rect: x0=4400 y0=2000 width=200 height=200 color=0x4800f0ff
+[DEBUG] 2018-08-21 21:45:08,716 MainViewModel.produceDummyProvincemap() - 313
+[DEBUG] 2018-08-21 21:45:08,716 MainViewModel.fillRect() - rect: x0=4600 y0=2000 width=200 height=200 color=0x2c94ffff
+[DEBUG] 2018-08-21 21:45:08,716 MainViewModel.produceDummyProvincemap() - 314
+[DEBUG] 2018-08-21 21:45:08,716 MainViewModel.fillRect() - rect: x0=4800 y0=2000 width=200 height=200 color=0xad9600ff
+[DEBUG] 2018-08-21 21:45:08,717 MainViewModel.produceDummyProvincemap() - 315
+[DEBUG] 2018-08-21 21:45:08,717 MainViewModel.fillRect() - rect: x0=5000 y0=2000 width=200 height=200 color=0x2d9840ff
+[DEBUG] 2018-08-21 21:45:08,717 MainViewModel.produceDummyProvincemap() - 316
+[DEBUG] 2018-08-21 21:45:08,718 MainViewModel.fillRect() - rect: x0=5200 y0=2000 width=200 height=200 color=0xad9a80ff
+[DEBUG] 2018-08-21 21:45:08,718 MainViewModel.produceDummyProvincemap() - 317
+[DEBUG] 2018-08-21 21:45:08,718 MainViewModel.fillRect() - rect: x0=5400 y0=2000 width=200 height=200 color=0x2d9cc0ff
+[DEBUG] 2018-08-21 21:45:08,719 MainViewModel.produceDummyProvincemap() - 318
+[DEBUG] 2018-08-21 21:45:08,719 MainViewModel.fillRect() - rect: x0=5600 y0=2000 width=200 height=200 color=0xad9effff
+[DEBUG] 2018-08-21 21:45:08,719 MainViewModel.produceDummyProvincemap() - 319
+[ERROR] 2018-08-21 21:45:08,727 ProvinceMapLayer.lambda$new$0() - null MouseX: 640.6666666666666 MouseY: 278.6666666666667
+[ERROR] 2018-08-21 21:45:09,944 ProvinceMapLayer.lambda$new$0() - null MouseX: 900.6666666666667 MouseY: 171.33333333333331
+[ERROR] 2018-08-21 21:45:09,949 ProvinceMapLayer.lambda$new$0() - null MouseX: 892.6666666666667 MouseY: 175.99999999999997
+[ERROR] 2018-08-21 21:45:09,954 ProvinceMapLayer.lambda$new$0() - null MouseX: 884.6666666666666 MouseY: 178.66666666666666
+[ERROR] 2018-08-21 21:45:09,968 ProvinceMapLayer.lambda$new$0() - null MouseX: 881.3333333333334 MouseY: 180.66666666666666
+[ERROR] 2018-08-21 21:45:09,975 ProvinceMapLayer.lambda$new$0() - null MouseX: 880.0 MouseY: 180.66666666666666
+[ERROR] 2018-08-21 21:45:09,988 ProvinceMapLayer.lambda$new$0() - null MouseX: 880.6666666666666 MouseY: 177.99999999999997
+[ERROR] 2018-08-21 21:45:10,002 ProvinceMapLayer.lambda$new$0() - null MouseX: 884.0 MouseY: 171.99999999999997
+[ERROR] 2018-08-21 21:45:10,009 ProvinceMapLayer.lambda$new$0() - null MouseX: 888.0 MouseY: 164.66666666666666
+[ERROR] 2018-08-21 21:45:10,023 ProvinceMapLayer.lambda$new$0() - null MouseX: 892.0 MouseY: 157.33333333333331
+[ERROR] 2018-08-21 21:45:10,031 ProvinceMapLayer.lambda$new$0() - null MouseX: 900.0 MouseY: 148.66666666666666
+[ERROR] 2018-08-21 21:45:10,044 ProvinceMapLayer.lambda$new$0() - null MouseX: 908.6666666666667 MouseY: 139.99999999999997
+[ERROR] 2018-08-21 21:45:10,051 ProvinceMapLayer.lambda$new$0() - null MouseX: 917.3333333333333 MouseY: 129.99999999999997
+[ERROR] 2018-08-21 21:45:10,058 ProvinceMapLayer.lambda$new$0() - null MouseX: 927.3333333333333 MouseY: 121.33333333333334
+[ERROR] 2018-08-21 21:45:10,071 ProvinceMapLayer.lambda$new$0() - null MouseX: 937.3333333333333 MouseY: 112.0
+[ERROR] 2018-08-21 21:45:10,079 ProvinceMapLayer.lambda$new$0() - null MouseX: 946.6666666666667 MouseY: 103.33333333333334
+[ERROR] 2018-08-21 21:45:10,092 ProvinceMapLayer.lambda$new$0() - null MouseX: 955.3333333333333 MouseY: 95.33333333333334
+[ERROR] 2018-08-21 21:45:10,099 ProvinceMapLayer.lambda$new$0() - null MouseX: 964.0 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:10,106 ProvinceMapLayer.lambda$new$0() - null MouseX: 972.6666666666667 MouseY: 84.66666666666667
+[ERROR] 2018-08-21 21:45:10,119 ProvinceMapLayer.lambda$new$0() - null MouseX: 979.3333333333333 MouseY: 82.00000000000001
+[ERROR] 2018-08-21 21:45:10,126 ProvinceMapLayer.lambda$new$0() - null MouseX: 988.0 MouseY: 78.66666666666667
+[ERROR] 2018-08-21 21:45:10,140 ProvinceMapLayer.lambda$new$0() - null MouseX: 995.3333333333333 MouseY: 75.33333333333334
+[ERROR] 2018-08-21 21:45:10,148 ProvinceMapLayer.lambda$new$0() - null MouseX: 999.3333333333333 MouseY: 74.00000000000001
+[ERROR] 2018-08-21 21:45:11,117 ProvinceMapLayer.lambda$new$0() - null MouseX: 1000.6666666666667 MouseY: 87.33333333333334
+[ERROR] 2018-08-21 21:45:11,144 ProvinceMapLayer.lambda$new$0() - null MouseX: 998.0 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:11,151 ProvinceMapLayer.lambda$new$0() - null MouseX: 996.0 MouseY: 90.00000000000001
+[ERROR] 2018-08-21 21:45:11,161 ProvinceMapLayer.lambda$new$0() - null MouseX: 993.3333333333333 MouseY: 91.33333333333334
+[ERROR] 2018-08-21 21:45:11,170 ProvinceMapLayer.lambda$new$0() - null MouseX: 992.0 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:11,181 ProvinceMapLayer.lambda$new$0() - null MouseX: 990.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:11,185 ProvinceMapLayer.lambda$new$0() - null MouseX: 988.6666666666667 MouseY: 94.66666666666667
+[ERROR] 2018-08-21 21:45:11,205 ProvinceMapLayer.lambda$new$0() - null MouseX: 986.6666666666667 MouseY: 95.33333333333334
+[ERROR] 2018-08-21 21:45:11,209 ProvinceMapLayer.lambda$new$0() - null MouseX: 985.3333333333333 MouseY: 96.00000000000001
+[ERROR] 2018-08-21 21:45:11,220 ProvinceMapLayer.lambda$new$0() - null MouseX: 983.3333333333333 MouseY: 97.33333333333334
+[ERROR] 2018-08-21 21:45:11,226 ProvinceMapLayer.lambda$new$0() - null MouseX: 982.0 MouseY: 98.00000000000001
+[ERROR] 2018-08-21 21:45:11,240 ProvinceMapLayer.lambda$new$0() - null MouseX: 980.0 MouseY: 98.00000000000001
+[ERROR] 2018-08-21 21:45:11,252 ProvinceMapLayer.lambda$new$0() - null MouseX: 979.3333333333333 MouseY: 99.33333333333334
+[ERROR] 2018-08-21 21:45:11,257 ProvinceMapLayer.lambda$new$0() - null MouseX: 978.0 MouseY: 100.00000000000001
+[ERROR] 2018-08-21 21:45:11,269 ProvinceMapLayer.lambda$new$0() - null MouseX: 976.6666666666667 MouseY: 100.66666666666667
+[ERROR] 2018-08-21 21:45:11,274 ProvinceMapLayer.lambda$new$0() - null MouseX: 976.0 MouseY: 101.33333333333334
+[ERROR] 2018-08-21 21:45:11,289 ProvinceMapLayer.lambda$new$0() - null MouseX: 974.6666666666667 MouseY: 101.33333333333334
+[ERROR] 2018-08-21 21:45:11,297 ProvinceMapLayer.lambda$new$0() - null MouseX: 974.6666666666667 MouseY: 102.0
+[ERROR] 2018-08-21 21:45:11,302 ProvinceMapLayer.lambda$new$0() - null MouseX: 973.3333333333333 MouseY: 102.66666666666669
+[ERROR] 2018-08-21 21:45:11,318 ProvinceMapLayer.lambda$new$0() - null MouseX: 972.6666666666667 MouseY: 102.66666666666669
+[ERROR] 2018-08-21 21:45:11,323 ProvinceMapLayer.lambda$new$0() - null MouseX: 972.0 MouseY: 103.33333333333334
+[ERROR] 2018-08-21 21:45:11,336 ProvinceMapLayer.lambda$new$0() - null MouseX: 970.6666666666667 MouseY: 103.33333333333334
+[ERROR] 2018-08-21 21:45:11,344 ProvinceMapLayer.lambda$new$0() - null MouseX: 970.0 MouseY: 104.0
+[ERROR] 2018-08-21 21:45:11,357 ProvinceMapLayer.lambda$new$0() - null MouseX: 968.6666666666667 MouseY: 104.66666666666669
+[ERROR] 2018-08-21 21:45:11,371 ProvinceMapLayer.lambda$new$0() - null MouseX: 966.6666666666667 MouseY: 104.66666666666669
+[ERROR] 2018-08-21 21:45:11,384 ProvinceMapLayer.lambda$new$0() - null MouseX: 965.3333333333333 MouseY: 106.0
+[ERROR] 2018-08-21 21:45:11,391 ProvinceMapLayer.lambda$new$0() - null MouseX: 962.6666666666667 MouseY: 106.66666666666669
+[ERROR] 2018-08-21 21:45:11,404 ProvinceMapLayer.lambda$new$0() - null MouseX: 960.6666666666667 MouseY: 107.33333333333334
+[ERROR] 2018-08-21 21:45:11,411 ProvinceMapLayer.lambda$new$0() - null MouseX: 957.3333333333333 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:11,425 ProvinceMapLayer.lambda$new$0() - null MouseX: 954.6666666666667 MouseY: 108.66666666666669
+[ERROR] 2018-08-21 21:45:11,431 ProvinceMapLayer.lambda$new$0() - null MouseX: 951.3333333333333 MouseY: 109.33333333333334
+[ERROR] 2018-08-21 21:45:11,438 ProvinceMapLayer.lambda$new$0() - null MouseX: 947.3333333333333 MouseY: 110.0
+[ERROR] 2018-08-21 21:45:11,452 ProvinceMapLayer.lambda$new$0() - null MouseX: 942.6666666666667 MouseY: 111.33333333333334
+[ERROR] 2018-08-21 21:45:11,459 ProvinceMapLayer.lambda$new$0() - null MouseX: 940.0 MouseY: 111.33333333333334
+[ERROR] 2018-08-21 21:45:11,502 ProvinceMapLayer.lambda$new$0() - null MouseX: 928.6666666666667 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,509 ProvinceMapLayer.lambda$new$0() - null MouseX: 927.3333333333333 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,521 ProvinceMapLayer.lambda$new$0() - null MouseX: 926.0 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,529 ProvinceMapLayer.lambda$new$0() - null MouseX: 924.6666666666667 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,542 ProvinceMapLayer.lambda$new$0() - null MouseX: 923.3333333333333 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,549 ProvinceMapLayer.lambda$new$0() - null MouseX: 922.0 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:11,563 ProvinceMapLayer.lambda$new$0() - null MouseX: 921.3333333333333 MouseY: 113.33333333333334
+[ERROR] 2018-08-21 21:45:11,570 ProvinceMapLayer.lambda$new$0() - null MouseX: 920.0 MouseY: 113.33333333333334
+[ERROR] 2018-08-21 21:45:11,576 ProvinceMapLayer.lambda$new$0() - null MouseX: 918.6666666666667 MouseY: 113.33333333333334
+[ERROR] 2018-08-21 21:45:11,590 ProvinceMapLayer.lambda$new$0() - null MouseX: 917.3333333333333 MouseY: 114.0
+[ERROR] 2018-08-21 21:45:11,597 ProvinceMapLayer.lambda$new$0() - null MouseX: 916.0 MouseY: 114.66666666666669
+[ERROR] 2018-08-21 21:45:11,611 ProvinceMapLayer.lambda$new$0() - null MouseX: 914.6666666666667 MouseY: 115.33333333333334
+[ERROR] 2018-08-21 21:45:11,618 ProvinceMapLayer.lambda$new$0() - null MouseX: 912.6666666666667 MouseY: 116.0
+[ERROR] 2018-08-21 21:45:11,631 ProvinceMapLayer.lambda$new$0() - null MouseX: 911.3333333333333 MouseY: 116.66666666666669
+[ERROR] 2018-08-21 21:45:11,638 ProvinceMapLayer.lambda$new$0() - null MouseX: 909.3333333333333 MouseY: 117.33333333333334
+[ERROR] 2018-08-21 21:45:11,646 ProvinceMapLayer.lambda$new$0() - null MouseX: 908.0 MouseY: 118.0
+[ERROR] 2018-08-21 21:45:11,659 ProvinceMapLayer.lambda$new$0() - null MouseX: 906.0 MouseY: 119.33333333333334
+[ERROR] 2018-08-21 21:45:11,666 ProvinceMapLayer.lambda$new$0() - null MouseX: 904.6666666666667 MouseY: 119.33333333333334
+[ERROR] 2018-08-21 21:45:11,681 ProvinceMapLayer.lambda$new$0() - null MouseX: 904.6666666666667 MouseY: 120.0
+[ERROR] 2018-08-21 21:45:11,687 ProvinceMapLayer.lambda$new$0() - null MouseX: 904.0 MouseY: 120.66666666666669
+[ERROR] 2018-08-21 21:45:11,702 ProvinceMapLayer.lambda$new$0() - null MouseX: 903.3333333333333 MouseY: 120.66666666666669
+[ERROR] 2018-08-21 21:45:11,708 ProvinceMapLayer.lambda$new$0() - null MouseX: 903.3333333333333 MouseY: 121.33333333333334
+[ERROR] 2018-08-21 21:45:11,717 ProvinceMapLayer.lambda$new$0() - null MouseX: 902.6666666666667 MouseY: 122.0
+[ERROR] 2018-08-21 21:45:11,733 ProvinceMapLayer.lambda$new$0() - null MouseX: 902.0 MouseY: 122.66666666666669
+[ERROR] 2018-08-21 21:45:11,738 ProvinceMapLayer.lambda$new$0() - null MouseX: 901.3333333333333 MouseY: 122.66666666666669
+[ERROR] 2018-08-21 21:45:12,062 ProvinceMapLayer.lambda$new$0() - null MouseX: 893.3333333333333 MouseY: 124.66666666666669
+[ERROR] 2018-08-21 21:45:12,080 ProvinceMapLayer.lambda$new$0() - null MouseX: 880.0 MouseY: 127.99999999999999
+[ERROR] 2018-08-21 21:45:12,085 ProvinceMapLayer.lambda$new$0() - null MouseX: 858.6666666666666 MouseY: 134.66666666666666
+[ERROR] 2018-08-21 21:45:12,098 ProvinceMapLayer.lambda$new$0() - null MouseX: 836.0 MouseY: 141.99999999999997
+[ERROR] 2018-08-21 21:45:12,103 ProvinceMapLayer.lambda$new$0() - null MouseX: 815.3333333333334 MouseY: 152.66666666666666
+[ERROR] 2018-08-21 21:45:12,118 ProvinceMapLayer.lambda$new$0() - null MouseX: 783.3333333333334 MouseY: 169.99999999999997
+[ERROR] 2018-08-21 21:45:12,123 ProvinceMapLayer.lambda$new$0() - null MouseX: 752.0 MouseY: 187.99999999999997
+[ERROR] 2018-08-21 21:45:12,131 ProvinceMapLayer.lambda$new$0() - null MouseX: 712.6666666666666 MouseY: 206.66666666666666
+[ERROR] 2018-08-21 21:45:12,146 ProvinceMapLayer.lambda$new$0() - null MouseX: 672.6666666666666 MouseY: 227.33333333333331
+[ERROR] 2018-08-21 21:45:12,151 ProvinceMapLayer.lambda$new$0() - null MouseX: 626.0 MouseY: 244.66666666666663
+[ERROR] 2018-08-21 21:45:12,164 ProvinceMapLayer.lambda$new$0() - null MouseX: 582.6666666666666 MouseY: 258.00000000000006
+[ERROR] 2018-08-21 21:45:12,170 ProvinceMapLayer.lambda$new$0() - null MouseX: 541.3333333333334 MouseY: 273.33333333333337
+[ERROR] 2018-08-21 21:45:12,179 ProvinceMapLayer.lambda$new$0() - null MouseX: 500.0 MouseY: 288.00000000000006
+[ERROR] 2018-08-21 21:45:12,191 ProvinceMapLayer.lambda$new$0() - null MouseX: 453.33333333333337 MouseY: 306.00000000000006
+[ERROR] 2018-08-21 21:45:12,199 ProvinceMapLayer.lambda$new$0() - null MouseX: 417.33333333333337 MouseY: 320.00000000000006
+[ERROR] 2018-08-21 21:45:12,214 ProvinceMapLayer.lambda$new$0() - null MouseX: 383.33333333333337 MouseY: 336.00000000000006
+[ERROR] 2018-08-21 21:45:12,219 ProvinceMapLayer.lambda$new$0() - null MouseX: 350.0 MouseY: 348.6666666666667
+[ERROR] 2018-08-21 21:45:12,232 ProvinceMapLayer.lambda$new$0() - null MouseX: 329.3333333333333 MouseY: 358.6666666666667
+[ERROR] 2018-08-21 21:45:12,239 ProvinceMapLayer.lambda$new$0() - null MouseX: 316.6666666666667 MouseY: 364.6666666666667
+[ERROR] 2018-08-21 21:45:12,247 ProvinceMapLayer.lambda$new$0() - null MouseX: 308.6666666666667 MouseY: 368.6666666666667
+[ERROR] 2018-08-21 21:45:12,260 ProvinceMapLayer.lambda$new$0() - null MouseX: 302.6666666666667 MouseY: 369.33333333333337
+[ERROR] 2018-08-21 21:45:12,267 ProvinceMapLayer.lambda$new$0() - null MouseX: 301.3333333333333 MouseY: 369.33333333333337
+[ERROR] 2018-08-21 21:45:12,289 ProvinceMapLayer.lambda$new$0() - null MouseX: 301.3333333333333 MouseY: 368.6666666666667
+[ERROR] 2018-08-21 21:45:12,295 ProvinceMapLayer.lambda$new$0() - null MouseX: 303.3333333333333 MouseY: 368.00000000000006
+[ERROR] 2018-08-21 21:45:12,311 ProvinceMapLayer.lambda$new$0() - null MouseX: 306.0 MouseY: 365.33333333333337
+[ERROR] 2018-08-21 21:45:12,315 ProvinceMapLayer.lambda$new$0() - null MouseX: 306.6666666666667 MouseY: 365.33333333333337
+[ERROR] 2018-08-21 21:45:12,323 ProvinceMapLayer.lambda$new$0() - null MouseX: 306.0 MouseY: 362.6666666666667
+[ERROR] 2018-08-21 21:45:12,615 ProvinceMapLayer.lambda$new$0() - null MouseX: 295.3333333333333 MouseY: 356.6666666666667
+[ERROR] 2018-08-21 21:45:12,620 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 343.33333333333337
+[ERROR] 2018-08-21 21:45:12,634 ProvinceMapLayer.lambda$new$0() - null MouseX: 258.6666666666667 MouseY: 330.6666666666667
+[ERROR] 2018-08-21 21:45:12,642 ProvinceMapLayer.lambda$new$0() - null MouseX: 241.33333333333331 MouseY: 316.00000000000006
+[ERROR] 2018-08-21 21:45:12,655 ProvinceMapLayer.lambda$new$0() - null MouseX: 224.0 MouseY: 300.00000000000006
+[ERROR] 2018-08-21 21:45:12,665 ProvinceMapLayer.lambda$new$0() - null MouseX: 207.33333333333331 MouseY: 282.00000000000006
+[ERROR] 2018-08-21 21:45:12,676 ProvinceMapLayer.lambda$new$0() - null MouseX: 194.0 MouseY: 267.33333333333337
+[ERROR] 2018-08-21 21:45:12,682 ProvinceMapLayer.lambda$new$0() - null MouseX: 178.66666666666669 MouseY: 247.33333333333331
+[ERROR] 2018-08-21 21:45:12,697 ProvinceMapLayer.lambda$new$0() - null MouseX: 166.66666666666669 MouseY: 232.66666666666663
+[ERROR] 2018-08-21 21:45:12,703 ProvinceMapLayer.lambda$new$0() - null MouseX: 158.0 MouseY: 223.99999999999997
+[ERROR] 2018-08-21 21:45:12,717 ProvinceMapLayer.lambda$new$0() - null MouseX: 150.66666666666669 MouseY: 216.66666666666666
+[ERROR] 2018-08-21 21:45:12,724 ProvinceMapLayer.lambda$new$0() - null MouseX: 145.33333333333331 MouseY: 209.99999999999997
+[ERROR] 2018-08-21 21:45:12,732 ProvinceMapLayer.lambda$new$0() - null MouseX: 140.0 MouseY: 203.99999999999997
+[ERROR] 2018-08-21 21:45:13,418 ProvinceMapLayer.lambda$new$0() - null MouseX: 210.0 MouseY: 185.99999999999997
+[ERROR] 2018-08-21 21:45:13,435 ProvinceMapLayer.lambda$new$0() - null MouseX: 218.0 MouseY: 193.99999999999997
+[ERROR] 2018-08-21 21:45:13,456 ProvinceMapLayer.lambda$new$0() - null MouseX: 226.66666666666669 MouseY: 201.99999999999997
+[ERROR] 2018-08-21 21:45:13,479 ProvinceMapLayer.lambda$new$0() - null MouseX: 233.33333333333331 MouseY: 210.66666666666666
+[ERROR] 2018-08-21 21:45:13,500 ProvinceMapLayer.lambda$new$0() - null MouseX: 238.66666666666669 MouseY: 218.66666666666666
+[ERROR] 2018-08-21 21:45:13,515 ProvinceMapLayer.lambda$new$0() - null MouseX: 242.66666666666669 MouseY: 225.33333333333331
+[ERROR] 2018-08-21 21:45:13,535 ProvinceMapLayer.lambda$new$0() - null MouseX: 248.66666666666669 MouseY: 236.0
+[ERROR] 2018-08-21 21:45:13,555 ProvinceMapLayer.lambda$new$0() - null MouseX: 252.66666666666669 MouseY: 246.0
+[ERROR] 2018-08-21 21:45:13,573 ProvinceMapLayer.lambda$new$0() - null MouseX: 256.0 MouseY: 255.33333333333334
+[ERROR] 2018-08-21 21:45:13,600 ProvinceMapLayer.lambda$new$0() - null MouseX: 257.3333333333333 MouseY: 261.33333333333337
+[ERROR] 2018-08-21 21:45:13,616 ProvinceMapLayer.lambda$new$0() - null MouseX: 260.0 MouseY: 265.33333333333337
+[ERROR] 2018-08-21 21:45:13,628 ProvinceMapLayer.lambda$new$0() - null MouseX: 260.6666666666667 MouseY: 267.33333333333337
+[ERROR] 2018-08-21 21:45:13,630 ProvinceMapLayer.lambda$new$0() - null MouseX: 260.6666666666667 MouseY: 268.6666666666667
+[ERROR] 2018-08-21 21:45:13,642 ProvinceMapLayer.lambda$new$0() - null MouseX: 261.3333333333333 MouseY: 270.00000000000006
+[ERROR] 2018-08-21 21:45:13,649 ProvinceMapLayer.lambda$new$0() - null MouseX: 262.0 MouseY: 271.33333333333337
+[ERROR] 2018-08-21 21:45:13,663 ProvinceMapLayer.lambda$new$0() - null MouseX: 263.3333333333333 MouseY: 273.33333333333337
+[ERROR] 2018-08-21 21:45:13,670 ProvinceMapLayer.lambda$new$0() - null MouseX: 264.6666666666667 MouseY: 276.00000000000006
+[ERROR] 2018-08-21 21:45:13,683 ProvinceMapLayer.lambda$new$0() - null MouseX: 266.0 MouseY: 277.33333333333337
+[ERROR] 2018-08-21 21:45:13,690 ProvinceMapLayer.lambda$new$0() - null MouseX: 267.3333333333333 MouseY: 279.33333333333337
+[ERROR] 2018-08-21 21:45:13,697 ProvinceMapLayer.lambda$new$0() - null MouseX: 268.0 MouseY: 280.6666666666667
+[ERROR] 2018-08-21 21:45:13,712 ProvinceMapLayer.lambda$new$0() - null MouseX: 269.3333333333333 MouseY: 282.00000000000006
+[ERROR] 2018-08-21 21:45:13,718 ProvinceMapLayer.lambda$new$0() - null MouseX: 270.0 MouseY: 282.6666666666667
+[ERROR] 2018-08-21 21:45:13,732 ProvinceMapLayer.lambda$new$0() - null MouseX: 270.0 MouseY: 284.00000000000006
+[ERROR] 2018-08-21 21:45:13,738 ProvinceMapLayer.lambda$new$0() - null MouseX: 270.6666666666667 MouseY: 284.6666666666667
+[ERROR] 2018-08-21 21:45:13,752 ProvinceMapLayer.lambda$new$0() - null MouseX: 270.6666666666667 MouseY: 286.00000000000006
+[ERROR] 2018-08-21 21:45:13,760 ProvinceMapLayer.lambda$new$0() - null MouseX: 271.3333333333333 MouseY: 287.33333333333337
+[ERROR] 2018-08-21 21:45:13,766 ProvinceMapLayer.lambda$new$0() - null MouseX: 271.3333333333333 MouseY: 288.00000000000006
+[ERROR] 2018-08-21 21:45:13,780 ProvinceMapLayer.lambda$new$0() - null MouseX: 272.0 MouseY: 289.33333333333337
+[ERROR] 2018-08-21 21:45:13,787 ProvinceMapLayer.lambda$new$0() - null MouseX: 272.6666666666667 MouseY: 289.33333333333337
+[ERROR] 2018-08-21 21:45:13,800 ProvinceMapLayer.lambda$new$0() - null MouseX: 272.6666666666667 MouseY: 290.6666666666667
+[ERROR] 2018-08-21 21:45:13,807 ProvinceMapLayer.lambda$new$0() - null MouseX: 273.3333333333333 MouseY: 292.00000000000006
+[ERROR] 2018-08-21 21:45:13,815 ProvinceMapLayer.lambda$new$0() - null MouseX: 274.0 MouseY: 293.33333333333337
+[ERROR] 2018-08-21 21:45:13,829 ProvinceMapLayer.lambda$new$0() - null MouseX: 274.6666666666667 MouseY: 296.00000000000006
+[ERROR] 2018-08-21 21:45:13,835 ProvinceMapLayer.lambda$new$0() - null MouseX: 275.3333333333333 MouseY: 298.00000000000006
+[ERROR] 2018-08-21 21:45:13,849 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 300.00000000000006
+[ERROR] 2018-08-21 21:45:13,856 ProvinceMapLayer.lambda$new$0() - null MouseX: 277.3333333333333 MouseY: 303.33333333333337
+[ERROR] 2018-08-21 21:45:13,864 ProvinceMapLayer.lambda$new$0() - null MouseX: 278.0 MouseY: 304.6666666666667
+[ERROR] 2018-08-21 21:45:13,880 ProvinceMapLayer.lambda$new$0() - null MouseX: 278.6666666666667 MouseY: 306.6666666666667
+[ERROR] 2018-08-21 21:45:13,883 ProvinceMapLayer.lambda$new$0() - null MouseX: 278.6666666666667 MouseY: 308.6666666666667
+[ERROR] 2018-08-21 21:45:13,897 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 310.00000000000006
+[ERROR] 2018-08-21 21:45:13,905 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 311.33333333333337
+[ERROR] 2018-08-21 21:45:13,918 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 312.00000000000006
+[ERROR] 2018-08-21 21:45:13,925 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 312.6666666666667
+[ERROR] 2018-08-21 21:45:13,946 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 313.33333333333337
+[ERROR] 2018-08-21 21:45:13,994 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 314.00000000000006
+[ERROR] 2018-08-21 21:45:14,092 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 314.6666666666667
+[ERROR] 2018-08-21 21:45:14,127 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 315.33333333333337
+[ERROR] 2018-08-21 21:45:14,133 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 316.00000000000006
+[ERROR] 2018-08-21 21:45:14,140 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 316.6666666666667
+[ERROR] 2018-08-21 21:45:14,155 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 317.33333333333337
+[ERROR] 2018-08-21 21:45:14,161 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 318.00000000000006
+[ERROR] 2018-08-21 21:45:14,177 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 318.6666666666667
+[ERROR] 2018-08-21 21:45:14,197 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 320.00000000000006
+[ERROR] 2018-08-21 21:45:14,202 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 321.33333333333337
+[ERROR] 2018-08-21 21:45:14,216 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 322.6666666666667
+[ERROR] 2018-08-21 21:45:14,225 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 324.00000000000006
+[ERROR] 2018-08-21 21:45:14,232 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 326.00000000000006
+[ERROR] 2018-08-21 21:45:14,245 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 327.33333333333337
+[ERROR] 2018-08-21 21:45:14,251 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.0 MouseY: 329.33333333333337
+[ERROR] 2018-08-21 21:45:14,266 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 330.6666666666667
+[ERROR] 2018-08-21 21:45:14,271 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 333.33333333333337
+[ERROR] 2018-08-21 21:45:14,288 ProvinceMapLayer.lambda$new$0() - null MouseX: 278.0 MouseY: 334.6666666666667
+[ERROR] 2018-08-21 21:45:14,292 ProvinceMapLayer.lambda$new$0() - null MouseX: 277.3333333333333 MouseY: 336.6666666666667
+[ERROR] 2018-08-21 21:45:14,299 ProvinceMapLayer.lambda$new$0() - null MouseX: 277.3333333333333 MouseY: 338.00000000000006
+[ERROR] 2018-08-21 21:45:14,314 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.6666666666667 MouseY: 339.33333333333337
+[ERROR] 2018-08-21 21:45:14,319 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.6666666666667 MouseY: 340.6666666666667
+[ERROR] 2018-08-21 21:45:14,336 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.6666666666667 MouseY: 341.33333333333337
+[ERROR] 2018-08-21 21:45:14,340 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 342.6666666666667
+[ERROR] 2018-08-21 21:45:14,363 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 343.33333333333337
+[ERROR] 2018-08-21 21:45:14,368 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 344.6666666666667
+[ERROR] 2018-08-21 21:45:14,389 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 345.33333333333337
+[ERROR] 2018-08-21 21:45:14,401 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 346.00000000000006
+[ERROR] 2018-08-21 21:45:14,408 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 346.6666666666667
+[ERROR] 2018-08-21 21:45:14,423 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 347.33333333333337
+[ERROR] 2018-08-21 21:45:14,436 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 348.6666666666667
+[ERROR] 2018-08-21 21:45:14,449 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 350.00000000000006
+[ERROR] 2018-08-21 21:45:14,456 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 351.33333333333337
+[ERROR] 2018-08-21 21:45:14,470 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 353.33333333333337
+[ERROR] 2018-08-21 21:45:14,478 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 355.33333333333337
+[ERROR] 2018-08-21 21:45:14,484 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 358.00000000000006
+[ERROR] 2018-08-21 21:45:14,498 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 360.00000000000006
+[ERROR] 2018-08-21 21:45:14,506 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 362.6666666666667
+[ERROR] 2018-08-21 21:45:14,520 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 365.33333333333337
+[ERROR] 2018-08-21 21:45:14,527 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.0 MouseY: 369.33333333333337
+[ERROR] 2018-08-21 21:45:14,540 ProvinceMapLayer.lambda$new$0() - null MouseX: 276.6666666666667 MouseY: 371.33333333333337
+[ERROR] 2018-08-21 21:45:14,548 ProvinceMapLayer.lambda$new$0() - null MouseX: 277.3333333333333 MouseY: 374.6666666666667
+[ERROR] 2018-08-21 21:45:14,563 ProvinceMapLayer.lambda$new$0() - null MouseX: 278.6666666666667 MouseY: 377.33333333333337
+[ERROR] 2018-08-21 21:45:14,571 ProvinceMapLayer.lambda$new$0() - null MouseX: 279.3333333333333 MouseY: 380.00000000000006
+[ERROR] 2018-08-21 21:45:14,575 ProvinceMapLayer.lambda$new$0() - null MouseX: 281.3333333333333 MouseY: 382.00000000000006
+[ERROR] 2018-08-21 21:45:14,589 ProvinceMapLayer.lambda$new$0() - null MouseX: 282.0 MouseY: 385.33333333333337
+[ERROR] 2018-08-21 21:45:14,596 ProvinceMapLayer.lambda$new$0() - null MouseX: 283.3333333333333 MouseY: 387.33333333333337
+[ERROR] 2018-08-21 21:45:14,639 ProvinceMapLayer.lambda$new$0() - null MouseX: 292.0 MouseY: 398.00000000000006
+[ERROR] 2018-08-21 21:45:14,679 ProvinceMapLayer.lambda$new$0() - null MouseX: 298.6666666666667 MouseY: 404.00000000000006
+[ERROR] 2018-08-21 21:45:14,698 ProvinceMapLayer.lambda$new$0() - null MouseX: 308.0 MouseY: 409.33333333333337
+[ERROR] 2018-08-21 21:45:14,721 ProvinceMapLayer.lambda$new$0() - null MouseX: 314.6666666666667 MouseY: 414.00000000000006
+[ERROR] 2018-08-21 21:45:14,743 ProvinceMapLayer.lambda$new$0() - null MouseX: 324.6666666666667 MouseY: 417.33333333333337
+[ERROR] 2018-08-21 21:45:14,760 ProvinceMapLayer.lambda$new$0() - null MouseX: 334.0 MouseY: 422.00000000000006
+[ERROR] 2018-08-21 21:45:14,779 ProvinceMapLayer.lambda$new$0() - null MouseX: 344.0 MouseY: 424.6666666666667
+[ERROR] 2018-08-21 21:45:14,798 ProvinceMapLayer.lambda$new$0() - null MouseX: 358.0 MouseY: 428.00000000000006
+[ERROR] 2018-08-21 21:45:14,815 ProvinceMapLayer.lambda$new$0() - null MouseX: 365.3333333333333 MouseY: 428.6666666666667
+[ERROR] 2018-08-21 21:45:14,837 ProvinceMapLayer.lambda$new$0() - null MouseX: 388.0 MouseY: 430.6666666666667
+[ERROR] 2018-08-21 21:45:14,854 ProvinceMapLayer.lambda$new$0() - null MouseX: 401.33333333333337 MouseY: 430.6666666666667
+[ERROR] 2018-08-21 21:45:14,871 ProvinceMapLayer.lambda$new$0() - null MouseX: 410.0 MouseY: 430.6666666666667
+[ERROR] 2018-08-21 21:45:14,893 ProvinceMapLayer.lambda$new$0() - null MouseX: 411.33333333333337 MouseY: 430.6666666666667
+[ERROR] 2018-08-21 21:45:14,901 ProvinceMapLayer.lambda$new$0() - null MouseX: 411.33333333333337 MouseY: 431.33333333333337
+[ERROR] 2018-08-21 21:45:14,912 ProvinceMapLayer.lambda$new$0() - null MouseX: 412.0 MouseY: 432.6666666666667
+[ERROR] 2018-08-21 21:45:14,921 ProvinceMapLayer.lambda$new$0() - null MouseX: 412.0 MouseY: 433.33333333333337
+[ERROR] 2018-08-21 21:45:15,239 ProvinceMapLayer.lambda$new$0() - null MouseX: 406.66666666666663 MouseY: 433.33333333333337
+[ERROR] 2018-08-21 21:45:15,246 ProvinceMapLayer.lambda$new$0() - null MouseX: 398.0 MouseY: 435.33333333333337
+[ERROR] 2018-08-21 21:45:15,253 ProvinceMapLayer.lambda$new$0() - null MouseX: 390.0 MouseY: 438.6666666666667
+[ERROR] 2018-08-21 21:45:15,267 ProvinceMapLayer.lambda$new$0() - null MouseX: 384.0 MouseY: 440.6666666666667
+[ERROR] 2018-08-21 21:45:15,273 ProvinceMapLayer.lambda$new$0() - null MouseX: 374.6666666666667 MouseY: 441.33333333333337
+[ERROR] 2018-08-21 21:45:15,287 ProvinceMapLayer.lambda$new$0() - null MouseX: 366.0 MouseY: 444.6666666666667
+[ERROR] 2018-08-21 21:45:15,482 ProvinceMapLayer.lambda$new$0() - null MouseX: 366.0 MouseY: 443.33333333333337
+[ERROR] 2018-08-21 21:45:15,496 ProvinceMapLayer.lambda$new$0() - null MouseX: 367.3333333333333 MouseY: 439.33333333333337
+[ERROR] 2018-08-21 21:45:15,502 ProvinceMapLayer.lambda$new$0() - null MouseX: 368.0 MouseY: 436.00000000000006
+[ERROR] 2018-08-21 21:45:15,517 ProvinceMapLayer.lambda$new$0() - null MouseX: 370.6666666666667 MouseY: 431.33333333333337
+[ERROR] 2018-08-21 21:45:15,523 ProvinceMapLayer.lambda$new$0() - null MouseX: 372.6666666666667 MouseY: 425.33333333333337
+[ERROR] 2018-08-21 21:45:15,537 ProvinceMapLayer.lambda$new$0() - null MouseX: 374.6666666666667 MouseY: 421.33333333333337
+[ERROR] 2018-08-21 21:45:15,544 ProvinceMapLayer.lambda$new$0() - null MouseX: 376.6666666666667 MouseY: 415.33333333333337
+[ERROR] 2018-08-21 21:45:15,551 ProvinceMapLayer.lambda$new$0() - null MouseX: 378.6666666666667 MouseY: 409.33333333333337
+[ERROR] 2018-08-21 21:45:15,564 ProvinceMapLayer.lambda$new$0() - null MouseX: 380.66666666666663 MouseY: 402.6666666666667
+[ERROR] 2018-08-21 21:45:15,571 ProvinceMapLayer.lambda$new$0() - null MouseX: 384.0 MouseY: 392.6666666666667
+[ERROR] 2018-08-21 21:45:15,585 ProvinceMapLayer.lambda$new$0() - null MouseX: 386.66666666666663 MouseY: 386.00000000000006
+[ERROR] 2018-08-21 21:45:15,593 ProvinceMapLayer.lambda$new$0() - null MouseX: 390.0 MouseY: 377.33333333333337
+[ERROR] 2018-08-21 21:45:15,606 ProvinceMapLayer.lambda$new$0() - null MouseX: 393.33333333333337 MouseY: 368.6666666666667
+[ERROR] 2018-08-21 21:45:15,612 ProvinceMapLayer.lambda$new$0() - null MouseX: 395.33333333333337 MouseY: 362.00000000000006
+[ERROR] 2018-08-21 21:45:15,620 ProvinceMapLayer.lambda$new$0() - null MouseX: 398.0 MouseY: 356.00000000000006
+[ERROR] 2018-08-21 21:45:15,633 ProvinceMapLayer.lambda$new$0() - null MouseX: 400.66666666666663 MouseY: 350.00000000000006
+[ERROR] 2018-08-21 21:45:15,640 ProvinceMapLayer.lambda$new$0() - null MouseX: 404.0 MouseY: 344.00000000000006
+[ERROR] 2018-08-21 21:45:15,654 ProvinceMapLayer.lambda$new$0() - null MouseX: 406.66666666666663 MouseY: 338.00000000000006
+[ERROR] 2018-08-21 21:45:15,661 ProvinceMapLayer.lambda$new$0() - null MouseX: 410.0 MouseY: 332.6666666666667
+[ERROR] 2018-08-21 21:45:15,676 ProvinceMapLayer.lambda$new$0() - null MouseX: 412.66666666666663 MouseY: 326.6666666666667
+[ERROR] 2018-08-21 21:45:15,681 ProvinceMapLayer.lambda$new$0() - null MouseX: 416.0 MouseY: 320.6666666666667
+[ERROR] 2018-08-21 21:45:15,688 ProvinceMapLayer.lambda$new$0() - null MouseX: 417.33333333333337 MouseY: 314.6666666666667
+[ERROR] 2018-08-21 21:45:15,702 ProvinceMapLayer.lambda$new$0() - null MouseX: 419.33333333333337 MouseY: 310.00000000000006
+[ERROR] 2018-08-21 21:45:15,710 ProvinceMapLayer.lambda$new$0() - null MouseX: 421.33333333333337 MouseY: 306.00000000000006
+[ERROR] 2018-08-21 21:45:15,723 ProvinceMapLayer.lambda$new$0() - null MouseX: 423.33333333333337 MouseY: 300.00000000000006
+[ERROR] 2018-08-21 21:45:15,730 ProvinceMapLayer.lambda$new$0() - null MouseX: 424.66666666666663 MouseY: 296.6666666666667
+[ERROR] 2018-08-21 21:45:15,737 ProvinceMapLayer.lambda$new$0() - null MouseX: 427.33333333333337 MouseY: 292.00000000000006
+[ERROR] 2018-08-21 21:45:15,751 ProvinceMapLayer.lambda$new$0() - null MouseX: 429.33333333333337 MouseY: 287.33333333333337
+[ERROR] 2018-08-21 21:45:15,758 ProvinceMapLayer.lambda$new$0() - null MouseX: 432.0 MouseY: 284.00000000000006
+[ERROR] 2018-08-21 21:45:15,771 ProvinceMapLayer.lambda$new$0() - null MouseX: 434.0 MouseY: 280.6666666666667
+[ERROR] 2018-08-21 21:45:15,778 ProvinceMapLayer.lambda$new$0() - null MouseX: 435.33333333333337 MouseY: 277.33333333333337
+[ERROR] 2018-08-21 21:45:15,793 ProvinceMapLayer.lambda$new$0() - null MouseX: 436.66666666666663 MouseY: 274.00000000000006
+[ERROR] 2018-08-21 21:45:15,799 ProvinceMapLayer.lambda$new$0() - null MouseX: 439.33333333333337 MouseY: 272.00000000000006
+[ERROR] 2018-08-21 21:45:15,806 ProvinceMapLayer.lambda$new$0() - null MouseX: 440.66666666666663 MouseY: 268.6666666666667
+[ERROR] 2018-08-21 21:45:15,820 ProvinceMapLayer.lambda$new$0() - null MouseX: 442.66666666666663 MouseY: 265.33333333333337
+[ERROR] 2018-08-21 21:45:15,828 ProvinceMapLayer.lambda$new$0() - null MouseX: 443.33333333333337 MouseY: 262.00000000000006
+[ERROR] 2018-08-21 21:45:15,841 ProvinceMapLayer.lambda$new$0() - null MouseX: 446.0 MouseY: 257.33333333333337
+[ERROR] 2018-08-21 21:45:15,847 ProvinceMapLayer.lambda$new$0() - null MouseX: 448.0 MouseY: 254.0
+[ERROR] 2018-08-21 21:45:15,854 ProvinceMapLayer.lambda$new$0() - null MouseX: 450.66666666666663 MouseY: 250.66666666666663
+[ERROR] 2018-08-21 21:45:15,868 ProvinceMapLayer.lambda$new$0() - null MouseX: 453.33333333333337 MouseY: 247.33333333333331
+[ERROR] 2018-08-21 21:45:15,876 ProvinceMapLayer.lambda$new$0() - null MouseX: 455.33333333333337 MouseY: 244.0
+[ERROR] 2018-08-21 21:45:15,889 ProvinceMapLayer.lambda$new$0() - null MouseX: 458.0 MouseY: 241.33333333333331
+[ERROR] 2018-08-21 21:45:15,896 ProvinceMapLayer.lambda$new$0() - null MouseX: 461.33333333333337 MouseY: 238.0
+[ERROR] 2018-08-21 21:45:15,910 ProvinceMapLayer.lambda$new$0() - null MouseX: 464.0 MouseY: 235.33333333333331
+[ERROR] 2018-08-21 21:45:15,917 ProvinceMapLayer.lambda$new$0() - null MouseX: 466.0 MouseY: 233.33333333333331
+[ERROR] 2018-08-21 21:45:15,925 ProvinceMapLayer.lambda$new$0() - null MouseX: 470.0 MouseY: 230.66666666666663
+[ERROR] 2018-08-21 21:45:15,937 ProvinceMapLayer.lambda$new$0() - null MouseX: 472.0 MouseY: 227.99999999999997
+[ERROR] 2018-08-21 21:45:15,944 ProvinceMapLayer.lambda$new$0() - null MouseX: 475.33333333333337 MouseY: 225.33333333333331
+[ERROR] 2018-08-21 21:45:15,961 ProvinceMapLayer.lambda$new$0() - null MouseX: 478.0 MouseY: 223.33333333333331
+[ERROR] 2018-08-21 21:45:15,967 ProvinceMapLayer.lambda$new$0() - null MouseX: 480.0 MouseY: 221.99999999999997
+[ERROR] 2018-08-21 21:45:15,980 ProvinceMapLayer.lambda$new$0() - null MouseX: 482.0 MouseY: 219.99999999999997
+[ERROR] 2018-08-21 21:45:15,988 ProvinceMapLayer.lambda$new$0() - null MouseX: 483.33333333333337 MouseY: 219.33333333333331
+[ERROR] 2018-08-21 21:45:15,994 ProvinceMapLayer.lambda$new$0() - null MouseX: 486.0 MouseY: 217.99999999999997
+[ERROR] 2018-08-21 21:45:16,014 ProvinceMapLayer.lambda$new$0() - null MouseX: 486.66666666666663 MouseY: 217.33333333333331
+[ERROR] 2018-08-21 21:45:16,016 ProvinceMapLayer.lambda$new$0() - null MouseX: 487.33333333333337 MouseY: 217.33333333333331
+[ERROR] 2018-08-21 21:45:16,038 ProvinceMapLayer.lambda$new$0() - null MouseX: 487.33333333333337 MouseY: 216.66666666666666
+[ERROR] 2018-08-21 21:45:16,064 ProvinceMapLayer.lambda$new$0() - null MouseX: 488.0 MouseY: 216.66666666666666
+[ERROR] 2018-08-21 21:45:16,304 ProvinceMapLayer.lambda$new$0() - null MouseX: 488.0 MouseY: 215.99999999999997
+[ERROR] 2018-08-21 21:45:16,312 ProvinceMapLayer.lambda$new$0() - null MouseX: 487.33333333333337 MouseY: 215.99999999999997
+[ERROR] 2018-08-21 21:45:16,327 ProvinceMapLayer.lambda$new$0() - null MouseX: 486.66666666666663 MouseY: 215.99999999999997
+[ERROR] 2018-08-21 21:45:16,334 ProvinceMapLayer.lambda$new$0() - null MouseX: 486.0 MouseY: 215.33333333333331
+[ERROR] 2018-08-21 21:45:16,347 ProvinceMapLayer.lambda$new$0() - null MouseX: 485.33333333333337 MouseY: 215.33333333333331
+[ERROR] 2018-08-21 21:45:16,352 ProvinceMapLayer.lambda$new$0() - null MouseX: 484.0 MouseY: 214.66666666666666
+[ERROR] 2018-08-21 21:45:16,361 ProvinceMapLayer.lambda$new$0() - null MouseX: 482.66666666666663 MouseY: 213.99999999999997
+[ERROR] 2018-08-21 21:45:16,374 ProvinceMapLayer.lambda$new$0() - null MouseX: 480.0 MouseY: 213.33333333333331
+[ERROR] 2018-08-21 21:45:16,382 ProvinceMapLayer.lambda$new$0() - null MouseX: 476.66666666666663 MouseY: 211.33333333333331
+[ERROR] 2018-08-21 21:45:16,395 ProvinceMapLayer.lambda$new$0() - null MouseX: 472.0 MouseY: 209.99999999999997
+[ERROR] 2018-08-21 21:45:16,401 ProvinceMapLayer.lambda$new$0() - null MouseX: 466.0 MouseY: 206.66666666666666
+[ERROR] 2018-08-21 21:45:16,416 ProvinceMapLayer.lambda$new$0() - null MouseX: 458.66666666666663 MouseY: 204.66666666666666
+[ERROR] 2018-08-21 21:45:16,421 ProvinceMapLayer.lambda$new$0() - null MouseX: 450.66666666666663 MouseY: 200.66666666666666
+[ERROR] 2018-08-21 21:45:16,436 ProvinceMapLayer.lambda$new$0() - null MouseX: 442.0 MouseY: 197.33333333333331
+[ERROR] 2018-08-21 21:45:16,445 ProvinceMapLayer.lambda$new$0() - null MouseX: 432.66666666666663 MouseY: 193.99999999999997
+[ERROR] 2018-08-21 21:45:16,450 ProvinceMapLayer.lambda$new$0() - null MouseX: 422.66666666666663 MouseY: 189.99999999999997
+[ERROR] 2018-08-21 21:45:16,467 ProvinceMapLayer.lambda$new$0() - null MouseX: 411.33333333333337 MouseY: 185.33333333333331
+[ERROR] 2018-08-21 21:45:16,470 ProvinceMapLayer.lambda$new$0() - null MouseX: 400.66666666666663 MouseY: 181.99999999999997
+[ERROR] 2018-08-21 21:45:16,486 ProvinceMapLayer.lambda$new$0() - null MouseX: 390.0 MouseY: 177.99999999999997
+[ERROR] 2018-08-21 21:45:16,496 ProvinceMapLayer.lambda$new$0() - null MouseX: 378.6666666666667 MouseY: 174.66666666666666
+[ERROR] 2018-08-21 21:45:16,505 ProvinceMapLayer.lambda$new$0() - null MouseX: 366.6666666666667 MouseY: 169.99999999999997
+[ERROR] 2018-08-21 21:45:16,514 ProvinceMapLayer.lambda$new$0() - null MouseX: 352.6666666666667 MouseY: 166.66666666666666
+[ERROR] 2018-08-21 21:45:16,519 ProvinceMapLayer.lambda$new$0() - null MouseX: 340.6666666666667 MouseY: 161.99999999999997
+[ERROR] 2018-08-21 21:45:16,532 ProvinceMapLayer.lambda$new$0() - null MouseX: 325.3333333333333 MouseY: 158.66666666666666
+[ERROR] 2018-08-21 21:45:16,540 ProvinceMapLayer.lambda$new$0() - null MouseX: 311.3333333333333 MouseY: 153.99999999999997
+[ERROR] 2018-08-21 21:45:16,553 ProvinceMapLayer.lambda$new$0() - null MouseX: 296.6666666666667 MouseY: 147.99999999999997
+[ERROR] 2018-08-21 21:45:16,561 ProvinceMapLayer.lambda$new$0() - null MouseX: 280.6666666666667 MouseY: 138.66666666666666
+[ERROR] 2018-08-21 21:45:16,575 ProvinceMapLayer.lambda$new$0() - null MouseX: 262.6666666666667 MouseY: 129.99999999999997
+[ERROR] 2018-08-21 21:45:16,580 ProvinceMapLayer.lambda$new$0() - null MouseX: 246.66666666666669 MouseY: 120.66666666666669
+[ERROR] 2018-08-21 21:45:16,588 ProvinceMapLayer.lambda$new$0() - null MouseX: 233.33333333333331 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:16,603 ProvinceMapLayer.lambda$new$0() - null MouseX: 222.0 MouseY: 104.66666666666669
+[ERROR] 2018-08-21 21:45:16,609 ProvinceMapLayer.lambda$new$0() - null MouseX: 213.33333333333331 MouseY: 98.00000000000001
+[ERROR] 2018-08-21 21:45:16,621 ProvinceMapLayer.lambda$new$0() - null MouseX: 204.66666666666669 MouseY: 91.33333333333334
+[ERROR] 2018-08-21 21:45:17,060 ProvinceMapLayer.lambda$new$0() - null MouseX: 312.6666666666667 MouseY: 114.66666666666669
+[ERROR] 2018-08-21 21:45:17,082 ProvinceMapLayer.lambda$new$0() - null MouseX: 392.66666666666663 MouseY: 129.33333333333331
+[ERROR] 2018-08-21 21:45:17,115 ProvinceMapLayer.lambda$new$0() - null MouseX: 515.3333333333334 MouseY: 165.99999999999997
+[ERROR] 2018-08-21 21:45:17,143 ProvinceMapLayer.lambda$new$0() - null MouseX: 556.0 MouseY: 182.66666666666666
+[ERROR] 2018-08-21 21:45:17,176 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 194.66666666666666
+[ERROR] 2018-08-21 21:45:17,187 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 196.66666666666666
+[ERROR] 2018-08-21 21:45:17,191 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 200.66666666666666
+[ERROR] 2018-08-21 21:45:17,202 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 205.33333333333331
+[ERROR] 2018-08-21 21:45:17,211 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 209.99999999999997
+[ERROR] 2018-08-21 21:45:17,222 ProvinceMapLayer.lambda$new$0() - null MouseX: 556.6666666666666 MouseY: 215.33333333333331
+[ERROR] 2018-08-21 21:45:17,228 ProvinceMapLayer.lambda$new$0() - null MouseX: 552.0 MouseY: 218.66666666666666
+[ERROR] 2018-08-21 21:45:17,243 ProvinceMapLayer.lambda$new$0() - null MouseX: 546.0 MouseY: 223.99999999999997
+[ERROR] 2018-08-21 21:45:17,249 ProvinceMapLayer.lambda$new$0() - null MouseX: 540.0 MouseY: 229.33333333333331
+[ERROR] 2018-08-21 21:45:17,257 ProvinceMapLayer.lambda$new$0() - null MouseX: 534.0 MouseY: 233.33333333333331
+[ERROR] 2018-08-21 21:45:17,273 ProvinceMapLayer.lambda$new$0() - null MouseX: 529.3333333333334 MouseY: 236.66666666666663
+[ERROR] 2018-08-21 21:45:17,278 ProvinceMapLayer.lambda$new$0() - null MouseX: 524.0 MouseY: 242.0
+[ERROR] 2018-08-21 21:45:17,292 ProvinceMapLayer.lambda$new$0() - null MouseX: 520.6666666666666 MouseY: 245.33333333333331
+[ERROR] 2018-08-21 21:45:17,298 ProvinceMapLayer.lambda$new$0() - null MouseX: 518.0 MouseY: 248.0
+[ERROR] 2018-08-21 21:45:17,312 ProvinceMapLayer.lambda$new$0() - null MouseX: 515.3333333333334 MouseY: 252.66666666666663
+[ERROR] 2018-08-21 21:45:17,319 ProvinceMapLayer.lambda$new$0() - null MouseX: 513.3333333333334 MouseY: 257.33333333333337
+[ERROR] 2018-08-21 21:45:17,332 ProvinceMapLayer.lambda$new$0() - null MouseX: 513.3333333333334 MouseY: 261.33333333333337
+[ERROR] 2018-08-21 21:45:17,339 ProvinceMapLayer.lambda$new$0() - null MouseX: 512.6666666666666 MouseY: 268.00000000000006
+[ERROR] 2018-08-21 21:45:17,346 ProvinceMapLayer.lambda$new$0() - null MouseX: 512.6666666666666 MouseY: 278.6666666666667
+[ERROR] 2018-08-21 21:45:17,361 ProvinceMapLayer.lambda$new$0() - null MouseX: 512.6666666666666 MouseY: 290.6666666666667
+[ERROR] 2018-08-21 21:45:17,366 ProvinceMapLayer.lambda$new$0() - null MouseX: 513.3333333333334 MouseY: 302.6666666666667
+[ERROR] 2018-08-21 21:45:17,381 ProvinceMapLayer.lambda$new$0() - null MouseX: 513.3333333333334 MouseY: 314.6666666666667
+[ERROR] 2018-08-21 21:45:17,387 ProvinceMapLayer.lambda$new$0() - null MouseX: 515.3333333333334 MouseY: 329.33333333333337
+[ERROR] 2018-08-21 21:45:17,409 ProvinceMapLayer.lambda$new$0() - null MouseX: 520.6666666666666 MouseY: 370.6666666666667
+[ERROR] 2018-08-21 21:45:17,437 ProvinceMapLayer.lambda$new$0() - null MouseX: 523.3333333333334 MouseY: 414.00000000000006
+[ERROR] 2018-08-21 21:45:17,451 ProvinceMapLayer.lambda$new$0() - null MouseX: 523.3333333333334 MouseY: 424.6666666666667
+[ERROR] 2018-08-21 21:45:17,462 ProvinceMapLayer.lambda$new$0() - null MouseX: 524.0 MouseY: 436.00000000000006
+[ERROR] 2018-08-21 21:45:17,470 ProvinceMapLayer.lambda$new$0() - null MouseX: 524.0 MouseY: 445.33333333333337
+[ERROR] 2018-08-21 21:45:17,478 ProvinceMapLayer.lambda$new$0() - null MouseX: 522.0 MouseY: 452.00000000000006
+[ERROR] 2018-08-21 21:45:17,484 ProvinceMapLayer.lambda$new$0() - null MouseX: 520.6666666666666 MouseY: 459.33333333333337
+[ERROR] 2018-08-21 21:45:17,499 ProvinceMapLayer.lambda$new$0() - null MouseX: 519.3333333333334 MouseY: 462.6666666666667
+[ERROR] 2018-08-21 21:45:17,505 ProvinceMapLayer.lambda$new$0() - null MouseX: 518.6666666666666 MouseY: 465.33333333333337
+[ERROR] 2018-08-21 21:45:17,519 ProvinceMapLayer.lambda$new$0() - null MouseX: 518.0 MouseY: 466.00000000000006
+[ERROR] 2018-08-21 21:45:17,526 ProvinceMapLayer.lambda$new$0() - null MouseX: 517.3333333333334 MouseY: 467.33333333333337
+[ERROR] 2018-08-21 21:45:17,568 ProvinceMapLayer.lambda$new$0() - null MouseX: 518.6666666666666 MouseY: 465.33333333333337
+[ERROR] 2018-08-21 21:45:17,576 ProvinceMapLayer.lambda$new$0() - null MouseX: 521.3333333333334 MouseY: 461.33333333333337
+[ERROR] 2018-08-21 21:45:17,588 ProvinceMapLayer.lambda$new$0() - null MouseX: 527.3333333333334 MouseY: 453.33333333333337
+[ERROR] 2018-08-21 21:45:17,594 ProvinceMapLayer.lambda$new$0() - null MouseX: 537.3333333333334 MouseY: 444.6666666666667
+[ERROR] 2018-08-21 21:45:17,601 ProvinceMapLayer.lambda$new$0() - null MouseX: 551.3333333333334 MouseY: 430.6666666666667
+[ERROR] 2018-08-21 21:45:17,615 ProvinceMapLayer.lambda$new$0() - null MouseX: 574.0 MouseY: 412.6666666666667
+[ERROR] 2018-08-21 21:45:17,624 ProvinceMapLayer.lambda$new$0() - null MouseX: 598.6666666666666 MouseY: 394.6666666666667
+[ERROR] 2018-08-21 21:45:17,636 ProvinceMapLayer.lambda$new$0() - null MouseX: 633.3333333333334 MouseY: 374.6666666666667
+[ERROR] 2018-08-21 21:45:17,643 ProvinceMapLayer.lambda$new$0() - null MouseX: 673.3333333333334 MouseY: 354.00000000000006
+[ERROR] 2018-08-21 21:45:17,650 ProvinceMapLayer.lambda$new$0() - null MouseX: 715.3333333333334 MouseY: 334.6666666666667
+[ERROR] 2018-08-21 21:45:17,664 ProvinceMapLayer.lambda$new$0() - null MouseX: 762.0 MouseY: 317.33333333333337
+[ERROR] 2018-08-21 21:45:17,672 ProvinceMapLayer.lambda$new$0() - null MouseX: 795.3333333333334 MouseY: 305.33333333333337
+[ERROR] 2018-08-21 21:45:17,686 ProvinceMapLayer.lambda$new$0() - null MouseX: 814.0 MouseY: 299.33333333333337
+[ERROR] 2018-08-21 21:45:17,697 ProvinceMapLayer.lambda$new$0() - null MouseX: 822.0 MouseY: 299.33333333333337
+[ERROR] 2018-08-21 21:45:18,042 ProvinceMapLayer.lambda$new$0() - null MouseX: 827.3333333333334 MouseY: 292.00000000000006
+[ERROR] 2018-08-21 21:45:18,047 ProvinceMapLayer.lambda$new$0() - null MouseX: 832.6666666666666 MouseY: 284.6666666666667
+[ERROR] 2018-08-21 21:45:18,062 ProvinceMapLayer.lambda$new$0() - null MouseX: 839.3333333333334 MouseY: 274.6666666666667
+[ERROR] 2018-08-21 21:45:18,069 ProvinceMapLayer.lambda$new$0() - null MouseX: 846.0 MouseY: 265.33333333333337
+[ERROR] 2018-08-21 21:45:18,083 ProvinceMapLayer.lambda$new$0() - null MouseX: 852.6666666666666 MouseY: 255.33333333333334
+[ERROR] 2018-08-21 21:45:18,093 ProvinceMapLayer.lambda$new$0() - null MouseX: 858.0 MouseY: 244.0
+[ERROR] 2018-08-21 21:45:18,100 ProvinceMapLayer.lambda$new$0() - null MouseX: 864.0 MouseY: 232.0
+[ERROR] 2018-08-21 21:45:18,112 ProvinceMapLayer.lambda$new$0() - null MouseX: 867.3333333333334 MouseY: 220.66666666666666
+[ERROR] 2018-08-21 21:45:18,118 ProvinceMapLayer.lambda$new$0() - null MouseX: 869.3333333333334 MouseY: 212.66666666666666
+[ERROR] 2018-08-21 21:45:18,131 ProvinceMapLayer.lambda$new$0() - null MouseX: 870.0 MouseY: 203.99999999999997
+[ERROR] 2018-08-21 21:45:18,142 ProvinceMapLayer.lambda$new$0() - null MouseX: 870.0 MouseY: 195.99999999999997
+[ERROR] 2018-08-21 21:45:18,152 ProvinceMapLayer.lambda$new$0() - null MouseX: 871.3333333333334 MouseY: 189.33333333333331
+[ERROR] 2018-08-21 21:45:18,158 ProvinceMapLayer.lambda$new$0() - null MouseX: 870.6666666666666 MouseY: 183.99999999999997
+[ERROR] 2018-08-21 21:45:18,165 ProvinceMapLayer.lambda$new$0() - null MouseX: 871.3333333333334 MouseY: 176.66666666666666
+[ERROR] 2018-08-21 21:45:18,180 ProvinceMapLayer.lambda$new$0() - null MouseX: 871.3333333333334 MouseY: 168.66666666666666
+[ERROR] 2018-08-21 21:45:18,187 ProvinceMapLayer.lambda$new$0() - null MouseX: 871.3333333333334 MouseY: 160.66666666666666
+[ERROR] 2018-08-21 21:45:18,200 ProvinceMapLayer.lambda$new$0() - null MouseX: 872.0 MouseY: 152.66666666666666
+[ERROR] 2018-08-21 21:45:18,207 ProvinceMapLayer.lambda$new$0() - null MouseX: 872.0 MouseY: 144.66666666666666
+[ERROR] 2018-08-21 21:45:18,223 ProvinceMapLayer.lambda$new$0() - null MouseX: 873.3333333333334 MouseY: 136.66666666666666
+[ERROR] 2018-08-21 21:45:18,228 ProvinceMapLayer.lambda$new$0() - null MouseX: 874.0 MouseY: 127.99999999999999
+[ERROR] 2018-08-21 21:45:18,235 ProvinceMapLayer.lambda$new$0() - null MouseX: 875.3333333333334 MouseY: 121.33333333333334
+[ERROR] 2018-08-21 21:45:18,248 ProvinceMapLayer.lambda$new$0() - null MouseX: 876.0 MouseY: 117.33333333333334
+[ERROR] 2018-08-21 21:45:18,255 ProvinceMapLayer.lambda$new$0() - null MouseX: 876.6666666666666 MouseY: 114.0
+[ERROR] 2018-08-21 21:45:18,270 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.0 MouseY: 109.33333333333334
+[ERROR] 2018-08-21 21:45:18,279 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.0 MouseY: 107.33333333333334
+[ERROR] 2018-08-21 21:45:18,293 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.0 MouseY: 105.33333333333334
+[ERROR] 2018-08-21 21:45:18,299 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.0 MouseY: 104.0
+[ERROR] 2018-08-21 21:45:18,319 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.0 MouseY: 102.0
+[ERROR] 2018-08-21 21:45:18,343 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.6666666666666 MouseY: 101.33333333333334
+[ERROR] 2018-08-21 21:45:18,347 ProvinceMapLayer.lambda$new$0() - null MouseX: 878.6666666666666 MouseY: 100.66666666666667
+[ERROR] 2018-08-21 21:45:18,359 ProvinceMapLayer.lambda$new$0() - null MouseX: 879.3333333333334 MouseY: 100.00000000000001
+[ERROR] 2018-08-21 21:45:18,367 ProvinceMapLayer.lambda$new$0() - null MouseX: 880.6666666666666 MouseY: 98.66666666666667
+[ERROR] 2018-08-21 21:45:18,372 ProvinceMapLayer.lambda$new$0() - null MouseX: 881.3333333333334 MouseY: 98.00000000000001
+[ERROR] 2018-08-21 21:45:18,385 ProvinceMapLayer.lambda$new$0() - null MouseX: 882.6666666666666 MouseY: 97.33333333333334
+[ERROR] 2018-08-21 21:45:18,392 ProvinceMapLayer.lambda$new$0() - null MouseX: 884.0 MouseY: 97.33333333333334
+[ERROR] 2018-08-21 21:45:18,407 ProvinceMapLayer.lambda$new$0() - null MouseX: 885.3333333333334 MouseY: 96.00000000000001
+[ERROR] 2018-08-21 21:45:18,412 ProvinceMapLayer.lambda$new$0() - null MouseX: 886.6666666666666 MouseY: 95.33333333333334
+[ERROR] 2018-08-21 21:45:18,426 ProvinceMapLayer.lambda$new$0() - null MouseX: 888.0 MouseY: 94.66666666666667
+[ERROR] 2018-08-21 21:45:18,434 ProvinceMapLayer.lambda$new$0() - null MouseX: 890.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:18,441 ProvinceMapLayer.lambda$new$0() - null MouseX: 892.6666666666667 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:18,467 ProvinceMapLayer.lambda$new$0() - null MouseX: 898.6666666666667 MouseY: 90.00000000000001
+[ERROR] 2018-08-21 21:45:18,476 ProvinceMapLayer.lambda$new$0() - null MouseX: 902.0 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:18,482 ProvinceMapLayer.lambda$new$0() - null MouseX: 904.6666666666667 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:18,504 ProvinceMapLayer.lambda$new$0() - null MouseX: 912.0 MouseY: 88.66666666666667
+[ERROR] 2018-08-21 21:45:18,526 ProvinceMapLayer.lambda$new$0() - null MouseX: 919.3333333333333 MouseY: 86.66666666666667
+[ERROR] 2018-08-21 21:45:18,558 ProvinceMapLayer.lambda$new$0() - null MouseX: 928.6666666666667 MouseY: 84.66666666666667
+[ERROR] 2018-08-21 21:45:18,579 ProvinceMapLayer.lambda$new$0() - null MouseX: 936.0 MouseY: 84.66666666666667
+[ERROR] 2018-08-21 21:45:18,603 ProvinceMapLayer.lambda$new$0() - null MouseX: 938.0 MouseY: 84.66666666666667
+[ERROR] 2018-08-21 21:45:18,628 ProvinceMapLayer.lambda$new$0() - null MouseX: 942.0 MouseY: 84.66666666666667
+[ERROR] 2018-08-21 21:45:18,651 ProvinceMapLayer.lambda$new$0() - null MouseX: 945.3333333333333 MouseY: 86.00000000000001
+[ERROR] 2018-08-21 21:45:18,664 ProvinceMapLayer.lambda$new$0() - null MouseX: 946.0 MouseY: 86.00000000000001
+[ERROR] 2018-08-21 21:45:18,669 ProvinceMapLayer.lambda$new$0() - null MouseX: 946.6666666666667 MouseY: 86.00000000000001
+[ERROR] 2018-08-21 21:45:18,683 ProvinceMapLayer.lambda$new$0() - null MouseX: 948.0 MouseY: 86.00000000000001
+[ERROR] 2018-08-21 21:45:18,690 ProvinceMapLayer.lambda$new$0() - null MouseX: 949.3333333333333 MouseY: 87.33333333333334
+[ERROR] 2018-08-21 21:45:18,703 ProvinceMapLayer.lambda$new$0() - null MouseX: 950.6666666666667 MouseY: 87.33333333333334
+[ERROR] 2018-08-21 21:45:18,710 ProvinceMapLayer.lambda$new$0() - null MouseX: 952.0 MouseY: 88.00000000000001
+[ERROR] 2018-08-21 21:45:18,717 ProvinceMapLayer.lambda$new$0() - null MouseX: 953.3333333333333 MouseY: 88.66666666666667
+[ERROR] 2018-08-21 21:45:18,730 ProvinceMapLayer.lambda$new$0() - null MouseX: 955.3333333333333 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:18,738 ProvinceMapLayer.lambda$new$0() - null MouseX: 958.0 MouseY: 90.00000000000001
+[ERROR] 2018-08-21 21:45:18,757 ProvinceMapLayer.lambda$new$0() - null MouseX: 960.6666666666667 MouseY: 90.00000000000001
+[ERROR] 2018-08-21 21:45:18,784 ProvinceMapLayer.lambda$new$0() - null MouseX: 968.0 MouseY: 92.00000000000001
+[ERROR] 2018-08-21 21:45:18,807 ProvinceMapLayer.lambda$new$0() - null MouseX: 972.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:18,829 ProvinceMapLayer.lambda$new$0() - null MouseX: 976.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:18,841 ProvinceMapLayer.lambda$new$0() - null MouseX: 976.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,850 ProvinceMapLayer.lambda$new$0() - null MouseX: 977.3333333333333 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,859 ProvinceMapLayer.lambda$new$0() - null MouseX: 978.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,868 ProvinceMapLayer.lambda$new$0() - null MouseX: 979.3333333333333 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,875 ProvinceMapLayer.lambda$new$0() - null MouseX: 980.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,891 ProvinceMapLayer.lambda$new$0() - null MouseX: 981.3333333333333 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,904 ProvinceMapLayer.lambda$new$0() - null MouseX: 982.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,917 ProvinceMapLayer.lambda$new$0() - null MouseX: 982.6666666666667 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,925 ProvinceMapLayer.lambda$new$0() - null MouseX: 984.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,938 ProvinceMapLayer.lambda$new$0() - null MouseX: 984.6666666666667 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,946 ProvinceMapLayer.lambda$new$0() - null MouseX: 985.3333333333333 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,959 ProvinceMapLayer.lambda$new$0() - null MouseX: 986.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,973 ProvinceMapLayer.lambda$new$0() - null MouseX: 987.3333333333333 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,987 ProvinceMapLayer.lambda$new$0() - null MouseX: 988.0 MouseY: 94.00000000000001
+[ERROR] 2018-08-21 21:45:18,994 ProvinceMapLayer.lambda$new$0() - null MouseX: 988.6666666666667 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:19,008 ProvinceMapLayer.lambda$new$0() - null MouseX: 990.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:19,014 ProvinceMapLayer.lambda$new$0() - null MouseX: 990.6666666666667 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:19,034 ProvinceMapLayer.lambda$new$0() - null MouseX: 992.0 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,042 ProvinceMapLayer.lambda$new$0() - null MouseX: 992.6666666666667 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,056 ProvinceMapLayer.lambda$new$0() - null MouseX: 994.0 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,062 ProvinceMapLayer.lambda$new$0() - null MouseX: 994.6666666666667 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,076 ProvinceMapLayer.lambda$new$0() - null MouseX: 995.3333333333333 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,083 ProvinceMapLayer.lambda$new$0() - null MouseX: 996.6666666666667 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,103 ProvinceMapLayer.lambda$new$0() - null MouseX: 997.3333333333333 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,111 ProvinceMapLayer.lambda$new$0() - null MouseX: 998.0 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,125 ProvinceMapLayer.lambda$new$0() - null MouseX: 998.6666666666667 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,131 ProvinceMapLayer.lambda$new$0() - null MouseX: 999.3333333333333 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:19,159 ProvinceMapLayer.lambda$new$0() - null MouseX: 999.3333333333333 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:19,174 ProvinceMapLayer.lambda$new$0() - null MouseX: 999.3333333333333 MouseY: 94.66666666666667
+[ERROR] 2018-08-21 21:45:19,179 ProvinceMapLayer.lambda$new$0() - null MouseX: 998.6666666666667 MouseY: 96.66666666666667
+[ERROR] 2018-08-21 21:45:19,193 ProvinceMapLayer.lambda$new$0() - null MouseX: 995.3333333333333 MouseY: 100.00000000000001
+[ERROR] 2018-08-21 21:45:19,200 ProvinceMapLayer.lambda$new$0() - null MouseX: 990.0 MouseY: 106.66666666666669
+[ERROR] 2018-08-21 21:45:19,214 ProvinceMapLayer.lambda$new$0() - null MouseX: 982.6666666666667 MouseY: 114.0
+[ERROR] 2018-08-21 21:45:19,221 ProvinceMapLayer.lambda$new$0() - null MouseX: 970.6666666666667 MouseY: 126.0
+[ERROR] 2018-08-21 21:45:19,234 ProvinceMapLayer.lambda$new$0() - null MouseX: 950.0 MouseY: 144.66666666666666
+[ERROR] 2018-08-21 21:45:19,241 ProvinceMapLayer.lambda$new$0() - null MouseX: 925.3333333333333 MouseY: 163.33333333333331
+[ERROR] 2018-08-21 21:45:19,256 ProvinceMapLayer.lambda$new$0() - null MouseX: 895.3333333333333 MouseY: 184.66666666666666
+[ERROR] 2018-08-21 21:45:19,263 ProvinceMapLayer.lambda$new$0() - null MouseX: 862.0 MouseY: 207.99999999999997
+[ERROR] 2018-08-21 21:45:19,271 ProvinceMapLayer.lambda$new$0() - null MouseX: 827.3333333333334 MouseY: 230.0
+[ERROR] 2018-08-21 21:45:19,284 ProvinceMapLayer.lambda$new$0() - null MouseX: 789.3333333333334 MouseY: 252.66666666666663
+[ERROR] 2018-08-21 21:45:19,293 ProvinceMapLayer.lambda$new$0() - null MouseX: 752.0 MouseY: 275.33333333333337
+[ERROR] 2018-08-21 21:45:19,306 ProvinceMapLayer.lambda$new$0() - null MouseX: 714.6666666666666 MouseY: 295.33333333333337
+[ERROR] 2018-08-21 21:45:19,312 ProvinceMapLayer.lambda$new$0() - null MouseX: 682.6666666666666 MouseY: 317.33333333333337
+[ERROR] 2018-08-21 21:45:19,326 ProvinceMapLayer.lambda$new$0() - null MouseX: 650.0 MouseY: 338.6666666666667
+[ERROR] 2018-08-21 21:45:19,334 ProvinceMapLayer.lambda$new$0() - null MouseX: 624.6666666666666 MouseY: 361.33333333333337
+[ERROR] 2018-08-21 21:45:19,341 ProvinceMapLayer.lambda$new$0() - null MouseX: 602.6666666666666 MouseY: 384.6666666666667
+[ERROR] 2018-08-21 21:45:19,353 ProvinceMapLayer.lambda$new$0() - null MouseX: 580.6666666666666 MouseY: 410.00000000000006
+[ERROR] 2018-08-21 21:45:19,361 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.6666666666666 MouseY: 434.6666666666667
+[ERROR] 2018-08-21 21:45:19,375 ProvinceMapLayer.lambda$new$0() - null MouseX: 547.3333333333334 MouseY: 464.00000000000006
+[ERROR] 2018-08-21 21:45:19,395 ProvinceMapLayer.lambda$new$0() - null MouseX: 525.3333333333334 MouseY: 519.3333333333333
+[ERROR] 2018-08-21 21:45:19,404 ProvinceMapLayer.lambda$new$0() - null MouseX: 519.3333333333334 MouseY: 546.6666666666666
+[ERROR] 2018-08-21 21:45:19,408 ProvinceMapLayer.lambda$new$0() - null MouseX: 516.6666666666666 MouseY: 566.6666666666666
+[ERROR] 2018-08-21 21:45:19,421 ProvinceMapLayer.lambda$new$0() - null MouseX: 516.6666666666666 MouseY: 583.3333333333333
+[ERROR] 2018-08-21 21:45:23,722 ProvinceMapLayer.lambda$new$0() - null MouseX: 2676.0 MouseY: 540.6666666666666
+[ERROR] 2018-08-21 21:45:23,735 ProvinceMapLayer.lambda$new$0() - null MouseX: 2674.6666666666665 MouseY: 532.6666666666666
+[ERROR] 2018-08-21 21:45:23,742 ProvinceMapLayer.lambda$new$0() - null MouseX: 2672.6666666666665 MouseY: 520.6666666666666
+[ERROR] 2018-08-21 21:45:23,749 ProvinceMapLayer.lambda$new$0() - null MouseX: 2669.333333333333 MouseY: 508.0
+[ERROR] 2018-08-21 21:45:23,763 ProvinceMapLayer.lambda$new$0() - null MouseX: 2666.6666666666665 MouseY: 496.0
+[ERROR] 2018-08-21 21:45:23,771 ProvinceMapLayer.lambda$new$0() - null MouseX: 2662.0 MouseY: 482.00000000000006
+[ERROR] 2018-08-21 21:45:23,777 ProvinceMapLayer.lambda$new$0() - null MouseX: 2656.0 MouseY: 467.33333333333337
+[ERROR] 2018-08-21 21:45:23,790 ProvinceMapLayer.lambda$new$0() - null MouseX: 2650.0 MouseY: 452.6666666666667
+[ERROR] 2018-08-21 21:45:23,797 ProvinceMapLayer.lambda$new$0() - null MouseX: 2645.333333333333 MouseY: 440.6666666666667
+[ERROR] 2018-08-21 21:45:23,812 ProvinceMapLayer.lambda$new$0() - null MouseX: 2640.0 MouseY: 428.00000000000006
+[ERROR] 2018-08-21 21:45:23,819 ProvinceMapLayer.lambda$new$0() - null MouseX: 2635.333333333333 MouseY: 416.6666666666667
+[ERROR] 2018-08-21 21:45:23,825 ProvinceMapLayer.lambda$new$0() - null MouseX: 2630.0 MouseY: 406.00000000000006
+[ERROR] 2018-08-21 21:45:23,839 ProvinceMapLayer.lambda$new$0() - null MouseX: 2626.6666666666665 MouseY: 396.00000000000006
+[ERROR] 2018-08-21 21:45:23,846 ProvinceMapLayer.lambda$new$0() - null MouseX: 2623.333333333333 MouseY: 389.33333333333337
+[ERROR] 2018-08-21 21:45:23,860 ProvinceMapLayer.lambda$new$0() - null MouseX: 2622.0 MouseY: 383.33333333333337
+[ERROR] 2018-08-21 21:45:23,867 ProvinceMapLayer.lambda$new$0() - null MouseX: 2620.0 MouseY: 377.33333333333337
+[ERROR] 2018-08-21 21:45:23,880 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.6666666666665 MouseY: 370.6666666666667
+[ERROR] 2018-08-21 21:45:23,888 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 364.00000000000006
+[ERROR] 2018-08-21 21:45:23,902 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 356.00000000000006
+[ERROR] 2018-08-21 21:45:23,908 ProvinceMapLayer.lambda$new$0() - null MouseX: 2616.6666666666665 MouseY: 346.00000000000006
+[ERROR] 2018-08-21 21:45:23,915 ProvinceMapLayer.lambda$new$0() - null MouseX: 2616.6666666666665 MouseY: 336.00000000000006
+[ERROR] 2018-08-21 21:45:23,929 ProvinceMapLayer.lambda$new$0() - null MouseX: 2617.333333333333 MouseY: 327.33333333333337
+[ERROR] 2018-08-21 21:45:23,937 ProvinceMapLayer.lambda$new$0() - null MouseX: 2617.333333333333 MouseY: 319.33333333333337
+[ERROR] 2018-08-21 21:45:23,949 ProvinceMapLayer.lambda$new$0() - null MouseX: 2617.333333333333 MouseY: 312.6666666666667
+[ERROR] 2018-08-21 21:45:23,957 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 306.00000000000006
+[ERROR] 2018-08-21 21:45:23,971 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 299.33333333333337
+[ERROR] 2018-08-21 21:45:23,985 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 294.00000000000006
+[ERROR] 2018-08-21 21:45:23,998 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 287.33333333333337
+[ERROR] 2018-08-21 21:45:24,012 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 280.00000000000006
+[ERROR] 2018-08-21 21:45:24,033 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 273.33333333333337
+[ERROR] 2018-08-21 21:45:24,046 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 269.33333333333337
+[ERROR] 2018-08-21 21:45:24,060 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 264.6666666666667
+[ERROR] 2018-08-21 21:45:24,082 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.0 MouseY: 260.6666666666667
+[ERROR] 2018-08-21 21:45:24,095 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.6666666666665 MouseY: 255.33333333333334
+[ERROR] 2018-08-21 21:45:24,109 ProvinceMapLayer.lambda$new$0() - null MouseX: 2618.6666666666665 MouseY: 250.0
+[ERROR] 2018-08-21 21:45:24,130 ProvinceMapLayer.lambda$new$0() - null MouseX: 2620.0 MouseY: 244.0
+[ERROR] 2018-08-21 21:45:24,143 ProvinceMapLayer.lambda$new$0() - null MouseX: 2620.6666666666665 MouseY: 236.0
+[ERROR] 2018-08-21 21:45:24,157 ProvinceMapLayer.lambda$new$0() - null MouseX: 2623.333333333333 MouseY: 223.99999999999997
+[ERROR] 2018-08-21 21:45:24,179 ProvinceMapLayer.lambda$new$0() - null MouseX: 2624.0 MouseY: 211.99999999999997
+[ERROR] 2018-08-21 21:45:24,191 ProvinceMapLayer.lambda$new$0() - null MouseX: 2626.6666666666665 MouseY: 201.33333333333331
+[ERROR] 2018-08-21 21:45:24,205 ProvinceMapLayer.lambda$new$0() - null MouseX: 2628.6666666666665 MouseY: 191.33333333333331
+[ERROR] 2018-08-21 21:45:24,228 ProvinceMapLayer.lambda$new$0() - null MouseX: 2629.333333333333 MouseY: 185.99999999999997
+[ERROR] 2018-08-21 21:45:24,240 ProvinceMapLayer.lambda$new$0() - null MouseX: 2632.0 MouseY: 183.33333333333331
+[ERROR] 2018-08-21 21:45:24,254 ProvinceMapLayer.lambda$new$0() - null MouseX: 2632.6666666666665 MouseY: 180.66666666666666
+[ERROR] 2018-08-21 21:45:24,275 ProvinceMapLayer.lambda$new$0() - null MouseX: 2633.333333333333 MouseY: 177.99999999999997
+[ERROR] 2018-08-21 21:45:24,288 ProvinceMapLayer.lambda$new$0() - null MouseX: 2633.333333333333 MouseY: 176.66666666666666
+[ERROR] 2018-08-21 21:45:24,310 ProvinceMapLayer.lambda$new$0() - null MouseX: 2633.333333333333 MouseY: 175.99999999999997
+[ERROR] 2018-08-21 21:45:24,324 ProvinceMapLayer.lambda$new$0() - null MouseX: 2634.0 MouseY: 175.99999999999997
+[ERROR] 2018-08-21 21:45:24,342 ProvinceMapLayer.lambda$new$0() - null MouseX: 2634.0 MouseY: 175.33333333333331
+[ERROR] 2018-08-21 21:45:24,364 ProvinceMapLayer.lambda$new$0() - null MouseX: 2634.6666666666665 MouseY: 174.66666666666666
+[ERROR] 2018-08-21 21:45:24,383 ProvinceMapLayer.lambda$new$0() - null MouseX: 2634.6666666666665 MouseY: 173.33333333333331
+[ERROR] 2018-08-21 21:45:24,393 ProvinceMapLayer.lambda$new$0() - null MouseX: 2634.6666666666665 MouseY: 172.66666666666666
+[ERROR] 2018-08-21 21:45:24,410 ProvinceMapLayer.lambda$new$0() - null MouseX: 2635.333333333333 MouseY: 171.99999999999997
+[ERROR] 2018-08-21 21:45:24,430 ProvinceMapLayer.lambda$new$0() - null MouseX: 2636.0 MouseY: 171.99999999999997
+[ERROR] 2018-08-21 21:45:24,440 ProvinceMapLayer.lambda$new$0() - null MouseX: 2636.6666666666665 MouseY: 171.33333333333331
+[ERROR] 2018-08-21 21:45:24,471 ProvinceMapLayer.lambda$new$0() - null MouseX: 2638.0 MouseY: 171.33333333333331
+[ERROR] 2018-08-21 21:45:24,482 ProvinceMapLayer.lambda$new$0() - null MouseX: 2638.6666666666665 MouseY: 170.66666666666666
+[ERROR] 2018-08-21 21:45:24,496 ProvinceMapLayer.lambda$new$0() - null MouseX: 2640.6666666666665 MouseY: 169.99999999999997
+[ERROR] 2018-08-21 21:45:24,510 ProvinceMapLayer.lambda$new$0() - null MouseX: 2645.333333333333 MouseY: 168.66666666666666
+[ERROR] 2018-08-21 21:45:24,523 ProvinceMapLayer.lambda$new$0() - null MouseX: 2651.333333333333 MouseY: 167.33333333333331
+[ERROR] 2018-08-21 21:45:24,545 ProvinceMapLayer.lambda$new$0() - null MouseX: 2668.0 MouseY: 163.99999999999997
+[ERROR] 2018-08-21 21:45:24,576 ProvinceMapLayer.lambda$new$0() - null MouseX: 2685.333333333333 MouseY: 163.99999999999997
+[ERROR] 2018-08-21 21:45:24,596 ProvinceMapLayer.lambda$new$0() - null MouseX: 2702.6666666666665 MouseY: 162.66666666666666
+[ERROR] 2018-08-21 21:45:24,626 ProvinceMapLayer.lambda$new$0() - null MouseX: 2716.0 MouseY: 163.33333333333331
+[ERROR] 2018-08-21 21:45:24,649 ProvinceMapLayer.lambda$new$0() - null MouseX: 2724.6666666666665 MouseY: 164.66666666666666
+[ERROR] 2018-08-21 21:45:24,675 ProvinceMapLayer.lambda$new$0() - null MouseX: 2728.6666666666665 MouseY: 166.66666666666666
+[ERROR] 2018-08-21 21:45:24,685 ProvinceMapLayer.lambda$new$0() - null MouseX: 2729.333333333333 MouseY: 167.99999999999997
+[ERROR] 2018-08-21 21:45:24,697 ProvinceMapLayer.lambda$new$0() - null MouseX: 2729.333333333333 MouseY: 169.99999999999997
+[ERROR] 2018-08-21 21:45:24,703 ProvinceMapLayer.lambda$new$0() - null MouseX: 2729.333333333333 MouseY: 171.33333333333331
+[ERROR] 2018-08-21 21:45:24,709 ProvinceMapLayer.lambda$new$0() - null MouseX: 2728.6666666666665 MouseY: 171.99999999999997
+[ERROR] 2018-08-21 21:45:25,078 ProvinceMapLayer.lambda$new$0() - null MouseX: 2729.333333333333 MouseY: 171.99999999999997
+[ERROR] 2018-08-21 21:45:25,100 ProvinceMapLayer.lambda$new$0() - null MouseX: 2730.6666666666665 MouseY: 172.66666666666666
+[ERROR] 2018-08-21 21:45:25,114 ProvinceMapLayer.lambda$new$0() - null MouseX: 2733.333333333333 MouseY: 173.33333333333331
+[ERROR] 2018-08-21 21:45:25,149 ProvinceMapLayer.lambda$new$0() - null MouseX: 2756.0 MouseY: 181.33333333333331
+[ERROR] 2018-08-21 21:45:25,217 ProvinceMapLayer.lambda$new$0() - null MouseX: 2798.0 MouseY: 204.66666666666666
+[ERROR] 2018-08-21 21:45:25,251 ProvinceMapLayer.lambda$new$0() - null MouseX: 2807.333333333333 MouseY: 215.33333333333331
+[ERROR] 2018-08-21 21:45:25,286 ProvinceMapLayer.lambda$new$0() - null MouseX: 2810.0 MouseY: 219.33333333333331
+[ERROR] 2018-08-21 21:45:25,324 ProvinceMapLayer.lambda$new$0() - null MouseX: 2811.333333333333 MouseY: 221.33333333333331
+[ERROR] 2018-08-21 21:45:25,345 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.0 MouseY: 221.99999999999997
+[ERROR] 2018-08-21 21:45:25,590 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.0 MouseY: 222.66666666666666
+[ERROR] 2018-08-21 21:45:25,664 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.6666666666665 MouseY: 222.66666666666666
+[ERROR] 2018-08-21 21:45:25,724 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.6666666666665 MouseY: 223.33333333333331
+[ERROR] 2018-08-21 21:45:25,747 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.6666666666665 MouseY: 224.66666666666666
+[ERROR] 2018-08-21 21:45:25,759 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.6666666666665 MouseY: 225.33333333333331
+[ERROR] 2018-08-21 21:45:25,770 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.6666666666665 MouseY: 225.99999999999997
+[ERROR] 2018-08-21 21:45:25,782 ProvinceMapLayer.lambda$new$0() - null MouseX: 2812.0 MouseY: 227.33333333333331
+[ERROR] 2018-08-21 21:45:25,802 ProvinceMapLayer.lambda$new$0() - null MouseX: 2811.333333333333 MouseY: 230.0
+[ERROR] 2018-08-21 21:45:25,812 ProvinceMapLayer.lambda$new$0() - null MouseX: 2807.333333333333 MouseY: 237.33333333333331
+[ERROR] 2018-08-21 21:45:25,821 ProvinceMapLayer.lambda$new$0() - null MouseX: 2802.6666666666665 MouseY: 248.66666666666663
+[ERROR] 2018-08-21 21:45:25,835 ProvinceMapLayer.lambda$new$0() - null MouseX: 2793.333333333333 MouseY: 267.33333333333337
+[ERROR] 2018-08-21 21:45:25,845 ProvinceMapLayer.lambda$new$0() - null MouseX: 2780.6666666666665 MouseY: 290.6666666666667
+[ERROR] 2018-08-21 21:45:25,864 ProvinceMapLayer.lambda$new$0() - null MouseX: 2762.6666666666665 MouseY: 325.33333333333337
+[ERROR] 2018-08-21 21:45:25,877 ProvinceMapLayer.lambda$new$0() - null MouseX: 2740.0 MouseY: 365.33333333333337
+[ERROR] 2018-08-21 21:45:25,897 ProvinceMapLayer.lambda$new$0() - null MouseX: 2712.6666666666665 MouseY: 408.00000000000006
+[ERROR] 2018-08-21 21:45:25,911 ProvinceMapLayer.lambda$new$0() - null MouseX: 2682.0 MouseY: 459.33333333333337
+[ERROR] 2018-08-21 21:45:25,932 ProvinceMapLayer.lambda$new$0() - null MouseX: 2649.333333333333 MouseY: 510.0
+[ERROR] 2018-08-21 21:45:25,945 ProvinceMapLayer.lambda$new$0() - null MouseX: 2614.0 MouseY: 561.3333333333333
+[ERROR] 2018-08-21 21:45:26,425 ProvinceMapLayer.lambda$new$0() - null MouseX: 2445.333333333333 MouseY: 585.9999999999999
+[ERROR] 2018-08-21 21:45:26,480 ProvinceMapLayer.lambda$new$0() - null MouseX: 2475.333333333333 MouseY: 580.6666666666666
+[ERROR] 2018-08-21 21:45:26,508 ProvinceMapLayer.lambda$new$0() - null MouseX: 2483.333333333333 MouseY: 579.9999999999999
+[ERROR] 2018-08-21 21:45:26,545 ProvinceMapLayer.lambda$new$0() - null MouseX: 2510.6666666666665 MouseY: 576.6666666666666
+[ERROR] 2018-08-21 21:45:26,577 ProvinceMapLayer.lambda$new$0() - null MouseX: 2529.333333333333 MouseY: 573.3333333333333
+[ERROR] 2018-08-21 21:45:26,610 ProvinceMapLayer.lambda$new$0() - null MouseX: 2543.333333333333 MouseY: 572.6666666666666
+[ERROR] 2018-08-21 21:45:26,633 ProvinceMapLayer.lambda$new$0() - null MouseX: 2548.6666666666665 MouseY: 570.6666666666666
+[ERROR] 2018-08-21 21:45:26,644 ProvinceMapLayer.lambda$new$0() - null MouseX: 2553.333333333333 MouseY: 568.6666666666666
+[ERROR] 2018-08-21 21:45:26,664 ProvinceMapLayer.lambda$new$0() - null MouseX: 2556.6666666666665 MouseY: 567.3333333333333
+[ERROR] 2018-08-21 21:45:26,680 ProvinceMapLayer.lambda$new$0() - null MouseX: 2560.0 MouseY: 564.6666666666666
+[ERROR] 2018-08-21 21:45:26,692 ProvinceMapLayer.lambda$new$0() - null MouseX: 2561.333333333333 MouseY: 563.9999999999999
+[ERROR] 2018-08-21 21:45:26,713 ProvinceMapLayer.lambda$new$0() - null MouseX: 2563.333333333333 MouseY: 562.6666666666666
+[ERROR] 2018-08-21 21:45:26,726 ProvinceMapLayer.lambda$new$0() - null MouseX: 2563.333333333333 MouseY: 561.9999999999999
+[ERROR] 2018-08-21 21:45:26,747 ProvinceMapLayer.lambda$new$0() - null MouseX: 2563.333333333333 MouseY: 561.3333333333333
+[ERROR] 2018-08-21 21:45:26,796 ProvinceMapLayer.lambda$new$0() - null MouseX: 2564.0 MouseY: 561.3333333333333
+[ERROR] 2018-08-21 21:45:27,037 ProvinceMapLayer.lambda$new$0() - null MouseX: 2564.6666666666665 MouseY: 561.9999999999999
+[ERROR] 2018-08-21 21:45:27,087 ProvinceMapLayer.lambda$new$0() - null MouseX: 2565.333333333333 MouseY: 561.9999999999999
+[ERROR] 2018-08-21 21:45:27,122 ProvinceMapLayer.lambda$new$0() - null MouseX: 2566.0 MouseY: 562.6666666666666
+[ERROR] 2018-08-21 21:45:27,155 ProvinceMapLayer.lambda$new$0() - null MouseX: 2566.6666666666665 MouseY: 562.6666666666666
+[ERROR] 2018-08-21 21:45:27,190 ProvinceMapLayer.lambda$new$0() - null MouseX: 2568.0 MouseY: 563.9999999999999
+[ERROR] 2018-08-21 21:45:27,218 ProvinceMapLayer.lambda$new$0() - null MouseX: 2569.333333333333 MouseY: 564.6666666666666
+[ERROR] 2018-08-21 21:45:27,237 ProvinceMapLayer.lambda$new$0() - null MouseX: 2570.0 MouseY: 565.3333333333333
+[ERROR] 2018-08-21 21:45:27,251 ProvinceMapLayer.lambda$new$0() - null MouseX: 2570.6666666666665 MouseY: 566.6666666666666
+[ERROR] 2018-08-21 21:45:27,276 ProvinceMapLayer.lambda$new$0() - null MouseX: 2573.333333333333 MouseY: 567.9999999999999
+[ERROR] 2018-08-21 21:45:27,288 ProvinceMapLayer.lambda$new$0() - null MouseX: 2576.6666666666665 MouseY: 571.3333333333333
+[ERROR] 2018-08-21 21:45:27,309 ProvinceMapLayer.lambda$new$0() - null MouseX: 2580.0 MouseY: 573.9999999999999
+[ERROR] 2018-08-21 21:45:27,345 ProvinceMapLayer.lambda$new$0() - null MouseX: 2587.333333333333 MouseY: 580.6666666666666
+[ERROR] 2018-08-21 21:45:27,396 ProvinceMapLayer.lambda$new$0() - null MouseX: 2592.6666666666665 MouseY: 585.9999999999999
+[ERROR] 2018-08-21 21:45:27,439 ProvinceMapLayer.lambda$new$0() - null MouseX: 2594.6666666666665 MouseY: 588.6666666666666
+[ERROR] 2018-08-21 21:45:32,389 ProvinceMapLayer.lambda$new$0() - null MouseX: 71.33333333333334 MouseY: 242.66666666666663
+[ERROR] 2018-08-21 21:45:32,424 ProvinceMapLayer.lambda$new$0() - null MouseX: 163.33333333333331 MouseY: 213.33333333333331
+[ERROR] 2018-08-21 21:45:32,429 ProvinceMapLayer.lambda$new$0() - null MouseX: 250.0 MouseY: 189.33333333333331
+[ERROR] 2018-08-21 21:45:32,442 ProvinceMapLayer.lambda$new$0() - null MouseX: 335.3333333333333 MouseY: 171.33333333333331
+[ERROR] 2018-08-21 21:45:32,453 ProvinceMapLayer.lambda$new$0() - null MouseX: 394.0 MouseY: 159.33333333333331
+[ERROR] 2018-08-21 21:45:32,473 ProvinceMapLayer.lambda$new$0() - null MouseX: 450.66666666666663 MouseY: 145.33333333333331
+[ERROR] 2018-08-21 21:45:32,483 ProvinceMapLayer.lambda$new$0() - null MouseX: 483.33333333333337 MouseY: 135.33333333333331
+[ERROR] 2018-08-21 21:45:32,491 ProvinceMapLayer.lambda$new$0() - null MouseX: 496.0 MouseY: 131.99999999999997
+[ERROR] 2018-08-21 21:45:32,509 ProvinceMapLayer.lambda$new$0() - null MouseX: 502.0 MouseY: 129.99999999999997
+[ERROR] 2018-08-21 21:45:32,755 ProvinceMapLayer.lambda$new$0() - null MouseX: 532.0 MouseY: 102.0
+[ERROR] 2018-08-21 21:45:32,770 ProvinceMapLayer.lambda$new$0() - null MouseX: 584.0 MouseY: 60.00000000000001
+[ERROR] 2018-08-21 21:45:32,786 ProvinceMapLayer.lambda$new$0() - null MouseX: 649.3333333333334 MouseY: 12.66666666666667
+[ERROR] 2018-08-21 21:45:39,724 ProvinceMapLayer.lambda$new$0() - null MouseX: 756.6666666666666 MouseY: 1.3333333333333346
+[ERROR] 2018-08-21 21:45:39,757 ProvinceMapLayer.lambda$new$0() - null MouseX: 700.0 MouseY: 35.99999999999999
+[ERROR] 2018-08-21 21:45:39,772 ProvinceMapLayer.lambda$new$0() - null MouseX: 680.6666666666666 MouseY: 51.333333333333336
+[ERROR] 2018-08-21 21:45:39,778 ProvinceMapLayer.lambda$new$0() - null MouseX: 661.3333333333334 MouseY: 62.666666666666664
+[ERROR] 2018-08-21 21:45:39,788 ProvinceMapLayer.lambda$new$0() - null MouseX: 643.3333333333334 MouseY: 72.66666666666667
+[ERROR] 2018-08-21 21:45:39,795 ProvinceMapLayer.lambda$new$0() - null MouseX: 630.0 MouseY: 81.33333333333334
+[ERROR] 2018-08-21 21:45:39,807 ProvinceMapLayer.lambda$new$0() - null MouseX: 616.6666666666666 MouseY: 88.00000000000001
+[ERROR] 2018-08-21 21:45:39,816 ProvinceMapLayer.lambda$new$0() - null MouseX: 606.0 MouseY: 92.66666666666667
+[ERROR] 2018-08-21 21:45:39,821 ProvinceMapLayer.lambda$new$0() - null MouseX: 596.0 MouseY: 94.66666666666667
+[ERROR] 2018-08-21 21:45:39,836 ProvinceMapLayer.lambda$new$0() - null MouseX: 588.0 MouseY: 96.66666666666667
+[ERROR] 2018-08-21 21:45:39,845 ProvinceMapLayer.lambda$new$0() - null MouseX: 582.0 MouseY: 98.00000000000001
+[ERROR] 2018-08-21 21:45:39,848 ProvinceMapLayer.lambda$new$0() - null MouseX: 578.0 MouseY: 98.66666666666667
+[ERROR] 2018-08-21 21:45:39,867 ProvinceMapLayer.lambda$new$0() - null MouseX: 574.6666666666666 MouseY: 99.33333333333334
+[ERROR] 2018-08-21 21:45:39,871 ProvinceMapLayer.lambda$new$0() - null MouseX: 573.3333333333334 MouseY: 99.33333333333334
+[ERROR] 2018-08-21 21:45:39,885 ProvinceMapLayer.lambda$new$0() - null MouseX: 572.0 MouseY: 99.33333333333334
+[ERROR] 2018-08-21 21:45:40,358 ProvinceMapLayer.lambda$new$0() - null MouseX: 570.6666666666666 MouseY: 102.0
+[ERROR] 2018-08-21 21:45:40,364 ProvinceMapLayer.lambda$new$0() - null MouseX: 570.0 MouseY: 104.66666666666669
+[ERROR] 2018-08-21 21:45:40,371 ProvinceMapLayer.lambda$new$0() - null MouseX: 569.3333333333334 MouseY: 107.33333333333334
+[ERROR] 2018-08-21 21:45:40,384 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.6666666666666 MouseY: 110.0
+[ERROR] 2018-08-21 21:45:40,392 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.6666666666666 MouseY: 112.66666666666669
+[ERROR] 2018-08-21 21:45:40,408 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.6666666666666 MouseY: 115.33333333333334
+[ERROR] 2018-08-21 21:45:40,413 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 116.66666666666669
+[ERROR] 2018-08-21 21:45:40,427 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 118.66666666666669
+[ERROR] 2018-08-21 21:45:40,438 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 120.66666666666669
+[ERROR] 2018-08-21 21:45:40,444 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 122.0
+[ERROR] 2018-08-21 21:45:40,456 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 124.66666666666669
+[ERROR] 2018-08-21 21:45:40,463 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 126.0
+[ERROR] 2018-08-21 21:45:40,475 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 126.66666666666667
+[ERROR] 2018-08-21 21:45:40,483 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 129.33333333333331
+[ERROR] 2018-08-21 21:45:40,496 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 131.33333333333331
+[ERROR] 2018-08-21 21:45:40,504 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 133.33333333333331
+[ERROR] 2018-08-21 21:45:40,511 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 135.33333333333331
+[ERROR] 2018-08-21 21:45:40,526 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 136.66666666666666
+[ERROR] 2018-08-21 21:45:40,531 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 139.33333333333331
+[ERROR] 2018-08-21 21:45:40,547 ProvinceMapLayer.lambda$new$0() - null MouseX: 566.6666666666666 MouseY: 140.66666666666666
+[ERROR] 2018-08-21 21:45:40,551 ProvinceMapLayer.lambda$new$0() - null MouseX: 566.6666666666666 MouseY: 141.99999999999997
+[ERROR] 2018-08-21 21:45:40,569 ProvinceMapLayer.lambda$new$0() - null MouseX: 565.3333333333334 MouseY: 143.33333333333331
+[ERROR] 2018-08-21 21:45:40,574 ProvinceMapLayer.lambda$new$0() - null MouseX: 565.3333333333334 MouseY: 144.66666666666666
+[ERROR] 2018-08-21 21:45:40,582 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 145.99999999999997
+[ERROR] 2018-08-21 21:45:40,600 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 147.99999999999997
+[ERROR] 2018-08-21 21:45:40,615 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.0 MouseY: 149.99999999999997
+[ERROR] 2018-08-21 21:45:40,618 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.0 MouseY: 150.66666666666666
+[ERROR] 2018-08-21 21:45:40,632 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.0 MouseY: 151.99999999999997
+[ERROR] 2018-08-21 21:45:40,640 ProvinceMapLayer.lambda$new$0() - null MouseX: 563.3333333333334 MouseY: 153.33333333333331
+[ERROR] 2018-08-21 21:45:40,646 ProvinceMapLayer.lambda$new$0() - null MouseX: 563.3333333333334 MouseY: 155.99999999999997
+[ERROR] 2018-08-21 21:45:40,660 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.6666666666666 MouseY: 157.99999999999997
+[ERROR] 2018-08-21 21:45:40,669 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.6666666666666 MouseY: 159.99999999999997
+[ERROR] 2018-08-21 21:45:40,680 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.0 MouseY: 161.99999999999997
+[ERROR] 2018-08-21 21:45:40,688 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.0 MouseY: 165.33333333333331
+[ERROR] 2018-08-21 21:45:40,701 ProvinceMapLayer.lambda$new$0() - null MouseX: 561.3333333333334 MouseY: 167.33333333333331
+[ERROR] 2018-08-21 21:45:40,708 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 170.66666666666666
+[ERROR] 2018-08-21 21:45:40,715 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 173.33333333333331
+[ERROR] 2018-08-21 21:45:40,729 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 175.33333333333331
+[ERROR] 2018-08-21 21:45:40,740 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 177.99999999999997
+[ERROR] 2018-08-21 21:45:40,751 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 180.66666666666666
+[ERROR] 2018-08-21 21:45:40,761 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 182.66666666666666
+[ERROR] 2018-08-21 21:45:40,777 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 185.99999999999997
+[ERROR] 2018-08-21 21:45:40,780 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 187.99999999999997
+[ERROR] 2018-08-21 21:45:40,787 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.0 MouseY: 191.33333333333331
+[ERROR] 2018-08-21 21:45:40,799 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 193.33333333333331
+[ERROR] 2018-08-21 21:45:40,811 ProvinceMapLayer.lambda$new$0() - null MouseX: 560.6666666666666 MouseY: 195.33333333333331
+[ERROR] 2018-08-21 21:45:40,823 ProvinceMapLayer.lambda$new$0() - null MouseX: 561.3333333333334 MouseY: 197.99999999999997
+[ERROR] 2018-08-21 21:45:40,832 ProvinceMapLayer.lambda$new$0() - null MouseX: 561.3333333333334 MouseY: 199.99999999999997
+[ERROR] 2018-08-21 21:45:40,844 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.0 MouseY: 201.99999999999997
+[ERROR] 2018-08-21 21:45:40,848 ProvinceMapLayer.lambda$new$0() - null MouseX: 562.6666666666666 MouseY: 203.99999999999997
+[ERROR] 2018-08-21 21:45:40,861 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.0 MouseY: 206.66666666666666
+[ERROR] 2018-08-21 21:45:40,869 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 208.66666666666666
+[ERROR] 2018-08-21 21:45:40,876 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 210.66666666666666
+[ERROR] 2018-08-21 21:45:40,888 ProvinceMapLayer.lambda$new$0() - null MouseX: 564.6666666666666 MouseY: 212.66666666666666
+[ERROR] 2018-08-21 21:45:40,896 ProvinceMapLayer.lambda$new$0() - null MouseX: 565.3333333333334 MouseY: 215.33333333333331
+[ERROR] 2018-08-21 21:45:40,908 ProvinceMapLayer.lambda$new$0() - null MouseX: 566.0 MouseY: 217.33333333333331
+[ERROR] 2018-08-21 21:45:40,915 ProvinceMapLayer.lambda$new$0() - null MouseX: 566.0 MouseY: 219.33333333333331
+[ERROR] 2018-08-21 21:45:40,923 ProvinceMapLayer.lambda$new$0() - null MouseX: 566.6666666666666 MouseY: 222.66666666666666
+[ERROR] 2018-08-21 21:45:40,936 ProvinceMapLayer.lambda$new$0() - null MouseX: 567.3333333333334 MouseY: 225.33333333333331
+[ERROR] 2018-08-21 21:45:40,943 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.0 MouseY: 228.66666666666666
+[ERROR] 2018-08-21 21:45:40,959 ProvinceMapLayer.lambda$new$0() - null MouseX: 568.6666666666666 MouseY: 230.66666666666663
+[ERROR] 2018-08-21 21:45:40,965 ProvinceMapLayer.lambda$new$0() - null MouseX: 570.0 MouseY: 234.66666666666663
+[ERROR] 2018-08-21 21:45:40,978 ProvinceMapLayer.lambda$new$0() - null MouseX: 570.6666666666666 MouseY: 237.33333333333331
+[ERROR] 2018-08-21 21:45:40,987 ProvinceMapLayer.lambda$new$0() - null MouseX: 572.0 MouseY: 240.66666666666663
+[ERROR] 2018-08-21 21:45:40,995 ProvinceMapLayer.lambda$new$0() - null MouseX: 572.0 MouseY: 243.33333333333331
+[ERROR] 2018-08-21 21:45:41,009 ProvinceMapLayer.lambda$new$0() - null MouseX: 573.3333333333334 MouseY: 246.66666666666663
+[ERROR] 2018-08-21 21:45:41,020 ProvinceMapLayer.lambda$new$0() - null MouseX: 575.3333333333334 MouseY: 250.0
+[ERROR] 2018-08-21 21:45:41,028 ProvinceMapLayer.lambda$new$0() - null MouseX: 576.6666666666666 MouseY: 252.0
+[ERROR] 2018-08-21 21:45:41,035 ProvinceMapLayer.lambda$new$0() - null MouseX: 577.3333333333334 MouseY: 255.33333333333334
+[ERROR] 2018-08-21 21:45:41,048 ProvinceMapLayer.lambda$new$0() - null MouseX: 579.3333333333334 MouseY: 258.6666666666667
+[ERROR] 2018-08-21 21:45:41,060 ProvinceMapLayer.lambda$new$0() - null MouseX: 580.6666666666666 MouseY: 260.6666666666667
+[ERROR] 2018-08-21 21:45:41,064 ProvinceMapLayer.lambda$new$0() - null MouseX: 583.3333333333334 MouseY: 263.33333333333337
+[ERROR] 2018-08-21 21:45:41,082 ProvinceMapLayer.lambda$new$0() - null MouseX: 584.6666666666666 MouseY: 265.33333333333337
+[ERROR] 2018-08-21 21:45:41,084 ProvinceMapLayer.lambda$new$0() - null MouseX: 586.6666666666666 MouseY: 267.33333333333337
+[ERROR] 2018-08-21 21:45:41,096 ProvinceMapLayer.lambda$new$0() - null MouseX: 590.0 MouseY: 268.00000000000006
+[ERROR] 2018-08-21 21:45:41,114 ProvinceMapLayer.lambda$new$0() - null MouseX: 594.0 MouseY: 269.33333333333337
+[ERROR] 2018-08-21 21:45:41,133 ProvinceMapLayer.lambda$new$0() - null MouseX: 615.3333333333334 MouseY: 264.6666666666667
+[ERROR] 2018-08-21 21:45:41,151 ProvinceMapLayer.lambda$new$0() - null MouseX: 636.0 MouseY: 254.66666666666663
+[ERROR] 2018-08-21 21:45:41,164 ProvinceMapLayer.lambda$new$0() - null MouseX: 650.0 MouseY: 248.66666666666663
+[ERROR] 2018-08-21 21:45:41,172 ProvinceMapLayer.lambda$new$0() - null MouseX: 663.3333333333334 MouseY: 240.0
+[ERROR] 2018-08-21 21:45:41,189 ProvinceMapLayer.lambda$new$0() - null MouseX: 684.6666666666666 MouseY: 230.0
+[ERROR] 2018-08-21 21:45:41,193 ProvinceMapLayer.lambda$new$0() - null MouseX: 700.0 MouseY: 220.66666666666666
+[ERROR] 2018-08-21 21:45:41,200 ProvinceMapLayer.lambda$new$0() - null MouseX: 715.3333333333334 MouseY: 212.66666666666666
+[ERROR] 2018-08-21 21:45:41,214 ProvinceMapLayer.lambda$new$0() - null MouseX: 726.6666666666666 MouseY: 205.99999999999997
+[ERROR] 2018-08-21 21:45:41,224 ProvinceMapLayer.lambda$new$0() - null MouseX: 738.0 MouseY: 200.66666666666666
+[ERROR] 2018-08-21 21:45:41,236 ProvinceMapLayer.lambda$new$0() - null MouseX: 748.6666666666666 MouseY: 197.33333333333331
+[ERROR] 2018-08-21 21:45:41,270 ProvinceMapLayer.lambda$new$0() - null MouseX: 772.0 MouseY: 193.33333333333331
+[ERROR] 2018-08-21 21:45:41,309 ProvinceMapLayer.lambda$new$0() - null MouseX: 784.0 MouseY: 197.33333333333331
+[ERROR] 2018-08-21 21:45:41,327 ProvinceMapLayer.lambda$new$0() - null MouseX: 784.0 MouseY: 198.66666666666666
+[ERROR] 2018-08-21 21:45:41,598 ProvinceMapLayer.lambda$new$0() - null MouseX: 786.0 MouseY: 194.66666666666666
+[ERROR] 2018-08-21 21:45:41,607 ProvinceMapLayer.lambda$new$0() - null MouseX: 791.3333333333334 MouseY: 188.66666666666666
+[ERROR] 2018-08-21 21:45:41,620 ProvinceMapLayer.lambda$new$0() - null MouseX: 796.0 MouseY: 182.66666666666666
+[ERROR] 2018-08-21 21:45:41,626 ProvinceMapLayer.lambda$new$0() - null MouseX: 800.0 MouseY: 176.66666666666666
+[ERROR] 2018-08-21 21:45:41,640 ProvinceMapLayer.lambda$new$0() - null MouseX: 806.6666666666666 MouseY: 167.99999999999997
+[ERROR] 2018-08-21 21:45:41,646 ProvinceMapLayer.lambda$new$0() - null MouseX: 812.0 MouseY: 160.66666666666666
+[ERROR] 2018-08-21 21:45:41,656 ProvinceMapLayer.lambda$new$0() - null MouseX: 816.0 MouseY: 154.66666666666666
+[ERROR] 2018-08-21 21:45:41,668 ProvinceMapLayer.lambda$new$0() - null MouseX: 821.3333333333334 MouseY: 148.66666666666666
+[ERROR] 2018-08-21 21:45:41,675 ProvinceMapLayer.lambda$new$0() - null MouseX: 826.0 MouseY: 142.66666666666666
+[ERROR] 2018-08-21 21:45:41,686 ProvinceMapLayer.lambda$new$0() - null MouseX: 830.0 MouseY: 137.33333333333331
+[ERROR] 2018-08-21 21:45:41,695 ProvinceMapLayer.lambda$new$0() - null MouseX: 834.0 MouseY: 133.99999999999997
+[ERROR] 2018-08-21 21:45:41,706 ProvinceMapLayer.lambda$new$0() - null MouseX: 835.3333333333334 MouseY: 130.66666666666666
+[ERROR] 2018-08-21 21:45:41,721 ProvinceMapLayer.lambda$new$0() - null MouseX: 837.3333333333334 MouseY: 127.33333333333333
+[ERROR] 2018-08-21 21:45:41,724 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.0 MouseY: 125.33333333333334
+[ERROR] 2018-08-21 21:45:41,738 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.0 MouseY: 122.0
+[ERROR] 2018-08-21 21:45:41,745 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 120.0
+[ERROR] 2018-08-21 21:45:41,758 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 118.0
+[ERROR] 2018-08-21 21:45:41,768 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 116.0
+[ERROR] 2018-08-21 21:45:41,778 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 113.33333333333334
+[ERROR] 2018-08-21 21:45:41,784 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 112.0
+[ERROR] 2018-08-21 21:45:41,805 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 111.33333333333334
+[ERROR] 2018-08-21 21:45:41,812 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 110.66666666666669
+[ERROR] 2018-08-21 21:45:41,826 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 110.0
+[ERROR] 2018-08-21 21:45:41,833 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 109.33333333333334
+[ERROR] 2018-08-21 21:45:41,895 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 108.66666666666669
+[ERROR] 2018-08-21 21:45:41,922 ProvinceMapLayer.lambda$new$0() - null MouseX: 838.6666666666666 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:41,972 ProvinceMapLayer.lambda$new$0() - null MouseX: 839.3333333333334 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:41,999 ProvinceMapLayer.lambda$new$0() - null MouseX: 840.0 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:42,027 ProvinceMapLayer.lambda$new$0() - null MouseX: 840.6666666666666 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:42,035 ProvinceMapLayer.lambda$new$0() - null MouseX: 841.3333333333334 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:42,042 ProvinceMapLayer.lambda$new$0() - null MouseX: 842.0 MouseY: 108.0
+[ERROR] 2018-08-21 21:45:42,055 ProvinceMapLayer.lambda$new$0() - null MouseX: 842.0 MouseY: 107.33333333333334
+[ERROR] 2018-08-21 21:45:42,060 ProvinceMapLayer.lambda$new$0() - null MouseX: 842.6666666666666 MouseY: 107.33333333333334
+[ERROR] 2018-08-21 21:45:42,067 ProvinceMapLayer.lambda$new$0() - null MouseX: 844.0 MouseY: 106.66666666666669
+[ERROR] 2018-08-21 21:45:42,081 ProvinceMapLayer.lambda$new$0() - null MouseX: 845.3333333333334 MouseY: 106.0
+[ERROR] 2018-08-21 21:45:42,088 ProvinceMapLayer.lambda$new$0() - null MouseX: 846.6666666666666 MouseY: 104.66666666666669
+[ERROR] 2018-08-21 21:45:42,101 ProvinceMapLayer.lambda$new$0() - null MouseX: 850.0 MouseY: 102.0
+[ERROR] 2018-08-21 21:45:42,108 ProvinceMapLayer.lambda$new$0() - null MouseX: 853.3333333333334 MouseY: 100.00000000000001
+[ERROR] 2018-08-21 21:45:42,115 ProvinceMapLayer.lambda$new$0() - null MouseX: 858.0 MouseY: 97.33333333333334
+[ERROR] 2018-08-21 21:45:42,135 ProvinceMapLayer.lambda$new$0() - null MouseX: 864.0 MouseY: 93.33333333333334
+[ERROR] 2018-08-21 21:45:42,136 ProvinceMapLayer.lambda$new$0() - null MouseX: 871.3333333333334 MouseY: 89.33333333333334
+[ERROR] 2018-08-21 21:45:42,149 ProvinceMapLayer.lambda$new$0() - null MouseX: 880.0 MouseY: 85.33333333333334
+[ERROR] 2018-08-21 21:45:42,156 ProvinceMapLayer.lambda$new$0() - null MouseX: 888.6666666666666 MouseY: 82.00000000000001
+[ERROR] 2018-08-21 21:45:42,171 ProvinceMapLayer.lambda$new$0() - null MouseX: 898.0 MouseY: 77.33333333333334
+[ERROR] 2018-08-21 21:45:42,184 ProvinceMapLayer.lambda$new$0() - null MouseX: 913.3333333333333 MouseY: 72.66666666666667
+[ERROR] 2018-08-21 21:45:42,199 ProvinceMapLayer.lambda$new$0() - null MouseX: 920.6666666666667 MouseY: 70.66666666666667
+[ERROR] 2018-08-21 21:45:42,218 ProvinceMapLayer.lambda$new$0() - null MouseX: 927.3333333333333 MouseY: 70.66666666666667
+[ERROR] 2018-08-21 21:45:42,237 ProvinceMapLayer.lambda$new$0() - null MouseX: 930.6666666666667 MouseY: 70.66666666666667
+[ERROR] 2018-08-21 21:45:42,248 ProvinceMapLayer.lambda$new$0() - null MouseX: 931.3333333333333 MouseY: 72.66666666666667
+[ERROR] 2018-08-21 21:45:42,475 ProvinceMapLayer.lambda$new$0() - null MouseX: 940.0 MouseY: 62.00000000000001
+[ERROR] 2018-08-21 21:45:42,482 ProvinceMapLayer.lambda$new$0() - null MouseX: 956.6666666666667 MouseY: 42.00000000000001
+[ERROR] 2018-08-21 21:45:42,497 ProvinceMapLayer.lambda$new$0() - null MouseX: 973.3333333333333 MouseY: 24.0
+[ERROR] 2018-08-21 21:45:42,503 ProvinceMapLayer.lambda$new$0() - null MouseX: 990.0 MouseY: 4.000000000000003

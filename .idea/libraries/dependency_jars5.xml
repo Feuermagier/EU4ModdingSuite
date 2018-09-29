@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="dependency-jars5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/doc-annotations-0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/Starter-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/log4j-core-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/opencvjar-runtime-3.3.0-natives-windows-x86_64.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/log4j-api-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/UI-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/opencvjar-3.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/Model-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/mvvmfx-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/Preloader-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/typetools-0.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/dependency-jars/slf4j-api-1.7.12.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="modules">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/Starter-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/Main-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/Preloader-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/UI-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/modules/Model-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColorTableWriter/ColorTableWriter.iml" filepath="$PROJECT_DIR$/ColorTableWriter/ColorTableWriter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite1.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite/Main/src/main/java/firemage.moddingsuite.main/firemage.moddingsuite.main.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite/Main/src/main/java/firemage.moddingsuite.main/firemage.moddingsuite.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite/Model/src/main/java/firemage.moddingsuite.model/firemage.moddingsuite.model.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite/Model/src/main/java/firemage.moddingsuite.model/firemage.moddingsuite.model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EU4ModdingSuite/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage.moddingsuite.preloader.iml" filepath="$PROJECT_DIR$/EU4ModdingSuite/Preloader/src/main/java/firemage.moddingsuite.preloader/firemage.moddingsuite.preloader.iml" />
+    </modules>
+  </component>
+</project>

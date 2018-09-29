@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="target1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Main/target/Main-0.1-shaded.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Main/target/Main-0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/EU4ModdingSuite/Main/target/original-Main-0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
